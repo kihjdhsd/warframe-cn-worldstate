@@ -1,57 +1,57 @@
 {
  "syndicateMissions_sample": [
   {
-   "id": "1791569687604CetusSyndicate",
-   "activation": "2026-10-09T15:44:48.731Z",
-   "expiry": "2026-10-09T18:14:47.604Z",
+   "id": "1791578686479CetusSyndicate",
+   "activation": "2026-10-09T18:14:47.605Z",
+   "expiry": "2026-10-09T20:44:46.479Z",
    "syndicate": "Ostrons",
    "syndicateKey": "Ostrons",
    "nodes": [],
    "jobs": [
     {
-     "id": "CaptureBountyCapOne1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierATableARewards",
+     "id": "RescueBountyResc1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierATableCRewards",
      "rewardPool": [
-      "Redirection",
-      "100X Oxium",
+      "Vitality",
+      "200X Plastids",
       "1,500 Credits Cache",
       "50 Endo",
-      "15X Iradite",
-      "Redirection",
-      "100X Oxium",
+      "15X Nistlepod",
+      "Vitality",
+      "200X Plastids",
       "1,500 Credits Cache",
       "50 Endo",
-      "15X Iradite",
+      "15X Nistlepod",
       "Gara Chassis Blueprint",
       "Point Blank",
-      "Streamline",
-      "Redirection",
-      "100X Oxium",
+      "Intensify",
+      "Vitality",
+      "200X Plastids",
       "1,500 Credits Cache",
       "50 Endo",
-      "15X Iradite",
+      "15X Nistlepod",
       "Gara Chassis Blueprint",
       "Point Blank",
-      "Streamline",
-      "2X Morphics",
+      "Intensify",
+      "2X Gallium",
       "Gara Chassis Blueprint",
       "Point Blank",
-      "Streamline",
-      "2X Morphics"
+      "Intensify",
+      "2X Gallium"
      ],
      "rewardPoolDrops": [
       {
-       "item": "Redirection",
+       "item": "Vitality",
        "rarity": "Uncommon",
        "chance": 20,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Plastids",
        "rarity": "Uncommon",
        "chance": 20,
-       "count": 100
+       "count": 200
       },
       {
        "item": "1,500 Credits Cache",
@@ -66,22 +66,22 @@
        "count": 1
       },
       {
-       "item": "Iradite",
+       "item": "Nistlepod",
        "rarity": "Uncommon",
        "chance": 20,
        "count": 15
       },
       {
-       "item": "Redirection",
+       "item": "Vitality",
        "rarity": "Uncommon",
        "chance": 15.49,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Plastids",
        "rarity": "Uncommon",
        "chance": 15.49,
-       "count": 100
+       "count": 200
       },
       {
        "item": "1,500 Credits Cache",
@@ -96,7 +96,7 @@
        "count": 1
       },
       {
-       "item": "Iradite",
+       "item": "Nistlepod",
        "rarity": "Uncommon",
        "chance": 15.49,
        "count": 15
@@ -114,22 +114,22 @@
        "count": 1
       },
       {
-       "item": "Streamline",
+       "item": "Intensify",
        "rarity": "Rare",
        "chance": 7.52,
        "count": 1
       },
       {
-       "item": "Redirection",
+       "item": "Vitality",
        "rarity": "Uncommon",
        "chance": 15.18,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Plastids",
        "rarity": "Uncommon",
        "chance": 15.18,
-       "count": 100
+       "count": 200
       },
       {
        "item": "1,500 Credits Cache",
@@ -144,7 +144,7 @@
        "count": 1
       },
       {
-       "item": "Iradite",
+       "item": "Nistlepod",
        "rarity": "Uncommon",
        "chance": 15.18,
        "count": 15
@@ -162,13 +162,13 @@
        "count": 1
       },
       {
-       "item": "Streamline",
+       "item": "Intensify",
        "rarity": "Rare",
        "chance": 7.37,
        "count": 1
       },
       {
-       "item": "Morphics",
+       "item": "Gallium",
        "rarity": "Rare",
        "chance": 2.01,
        "count": 2
@@ -186,74 +186,74 @@
        "count": 1
       },
       {
-       "item": "Streamline",
+       "item": "Intensify",
        "rarity": "Uncommon",
        "chance": 30.56,
        "count": 1
       },
       {
-       "item": "Morphics",
+       "item": "Gallium",
        "rarity": "Rare",
        "chance": 8.33,
        "count": 2
       }
      ],
-     "type": "Capture the Grineer Commander",
+     "type": "Search and Rescue",
      "enemyLevels": [
       5,
       15
      ],
      "standingStages": [
-      400,
-      400,
-      400
+      420,
+      420,
+      420
      ],
      "minMR": 0
     },
     {
-     "id": "ReclamationBountyCap1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierBTableARewards",
+     "id": "ReclamationBountyTheft1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierBTableCRewards",
      "rewardPool": [
-      "Steel Fiber",
-      "200X Oxium",
+      "Point Strike",
+      "300X Circuits",
       "2,500 Credits Cache",
       "100 Endo",
-      "Steel Fiber",
-      "200X Oxium",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "Gara Systems Blueprint",
-      "Charged Chamber",
-      "Burning Wasp",
-      "Aya",
-      "Steel Fiber",
-      "200X Oxium",
+      "Point Strike",
+      "300X Circuits",
       "2,500 Credits Cache",
       "100 Endo",
       "Gara Systems Blueprint",
-      "Charged Chamber",
-      "Burning Wasp",
+      "Enhanced Durability",
+      "Grim Fury",
       "Aya",
-      "2X Control Module",
+      "Point Strike",
+      "300X Circuits",
+      "2,500 Credits Cache",
+      "100 Endo",
       "Gara Systems Blueprint",
-      "Charged Chamber",
-      "Burning Wasp",
+      "Enhanced Durability",
+      "Grim Fury",
       "Aya",
-      "2X Control Module"
+      "2X Orokin Cell",
+      "Gara Systems Blueprint",
+      "Enhanced Durability",
+      "Grim Fury",
+      "Aya",
+      "2X Orokin Cell"
      ],
      "rewardPoolDrops": [
       {
-       "item": "Steel Fiber",
+       "item": "Point Strike",
        "rarity": "Uncommon",
        "chance": 25,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Circuits",
        "rarity": "Uncommon",
        "chance": 25,
-       "count": 200
+       "count": 300
       },
       {
        "item": "2,500 Credits Cache",
@@ -268,16 +268,16 @@
        "count": 1
       },
       {
-       "item": "Steel Fiber",
+       "item": "Point Strike",
        "rarity": "Uncommon",
        "chance": 15.97,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Circuits",
        "rarity": "Uncommon",
        "chance": 15.97,
-       "count": 200
+       "count": 300
       },
       {
        "item": "2,500 Credits Cache",
@@ -298,13 +298,13 @@
        "count": 1
       },
       {
-       "item": "Charged Chamber",
+       "item": "Enhanced Durability",
        "rarity": "Uncommon",
        "chance": 10.08,
        "count": 1
       },
       {
-       "item": "Burning Wasp",
+       "item": "Grim Fury",
        "rarity": "Uncommon",
        "chance": 10.08,
        "count": 1
@@ -316,16 +316,16 @@
        "count": 1
       },
       {
-       "item": "Steel Fiber",
+       "item": "Point Strike",
        "rarity": "Uncommon",
        "chance": 15.32,
        "count": 1
       },
       {
-       "item": "Oxium",
+       "item": "Circuits",
        "rarity": "Uncommon",
        "chance": 15.32,
-       "count": 200
+       "count": 300
       },
       {
        "item": "2,500 Credits Cache",
@@ -346,13 +346,13 @@
        "count": 1
       },
       {
-       "item": "Charged Chamber",
+       "item": "Enhanced Durability",
        "rarity": "Rare",
        "chance": 9.68,
        "count": 1
       },
       {
-       "item": "Burning Wasp",
+       "item": "Grim Fury",
        "rarity": "Rare",
        "chance": 9.68,
        "count": 1
@@ -364,7 +364,7 @@
        "count": 1
       },
       {
-       "item": "Control Module",
+       "item": "Orokin Cell",
        "rarity": "Rare",
        "chance": 4.03,
        "count": 2
@@ -376,13 +376,13 @@
        "count": 1
       },
       {
-       "item": "Charged Chamber",
+       "item": "Enhanced Durability",
        "rarity": "Uncommon",
        "chance": 25,
        "count": 1
       },
       {
-       "item": "Burning Wasp",
+       "item": "Grim Fury",
        "rarity": "Uncommon",
        "chance": 25,
        "count": 1
@@ -394,113 +394,161 @@
        "count": 1
       },
       {
-       "item": "Control Module",
+       "item": "Orokin Cell",
        "rarity": "Uncommon",
        "chance": 10.42,
        "count": 2
       }
      ],
-     "type": "Capture the Grineer Agent",
+     "type": "Reclaim the Stolen Artifact",
      "enemyLevels": [
       10,
       30
      ],
      "standingStages": [
-      650,
-      650,
-      650
+      700,
+      700,
+      700
      ],
      "minMR": 1
     },
     {
-     "id": "ReclamationBountyCache1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierCTableARewards",
+     "id": "AssassinateBountyCap1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierCTableCRewards",
      "rewardPool": [
-      "Gladiator Aegis",
-      "Madurai Lens",
-      "Cetus Wisp",
+      "Augur Pact",
+      "Naramon Lens",
+      "Zenurik Lens",
       "200 Endo",
-      "Gladiator Aegis",
-      "Madurai Lens",
-      "Cetus Wisp",
-      "200 Endo",
-      "Gara Neuroptics Blueprint",
-      "Augur Accord",
-      "Revenant Systems Blueprint",
-      "Aya",
-      "Gladiator Aegis",
-      "Madurai Lens",
-      "Cetus Wisp",
+      "Augur Pact",
+      "Naramon Lens",
+      "Zenurik Lens",
       "200 Endo",
       "Gara Neuroptics Blueprint",
-      "Augur Accord",
+      "Vigilante Fervor",
       "Revenant Systems Blueprint",
       "Aya",
-      "Vigilante Supplies",
+      "Augur Pact",
+      "Naramon Lens",
+      "Zenurik Lens",
+      "200 Endo",
       "Gara Neuroptics Blueprint",
-      "Augur Accord",
+      "Vigilante Fervor",
       "Revenant Systems Blueprint",
       "Aya",
-      "Vigilante Supplies"
+      "Gladiator Vice",
+      "Gara Neuroptics Blueprint",
+      "Vigilante Fervor",
+      "Revenant Systems Blueprint",
+      "Aya",
+      "Gladiator Vice"
      ],
      "rewardPoolDrops": [
       {
-       "item": "Gladiator Aegis",
-       "rarity": "Uncommon",
-       "chance": 27.59,
+       "item": "Augur Pact",
+       "rarity": "Common",
+       "chance": 35.19,
        "count": 1
       },
       {
-       "item": "Madurai Lens",
+       "item": "Naramon Lens",
        "rarity": "Uncommon",
-       "chance": 13.79,
+       "chance": 14.81,
        "count": 1
       },
       {
-       "item": "Cetus Wisp",
+       "item": "Zenurik Lens",
        "rarity": "Uncommon",
-       "chance": 29.31,
+       "chance": 14.81,
        "count": 1
       },
       {
        "item": "200 Endo",
-       "rarity": "Uncommon",
-       "chance": 29.31,
+       "rarity": "Common",
+       "chance": 35.19,
        "count": 1
       },
       {
-       "item": "Gladiator Aegis",
+       "item": "Augur Pact",
        "rarity": "Uncommon",
-       "chance": 18.08,
+       "chance": 21.97,
        "count": 1
       },
       {
-       "item": "Madurai Lens",
+       "item": "Naramon Lens",
        "rarity": "Rare",
-       "chance": 9.04,
+       "chance": 9.25,
        "count": 1
       },
       {
-       "item": "Cetus Wisp",
-       "rarity": "Uncommon",
-       "chance": 19.21,
+       "item": "Zenurik Lens",
+       "rarity": "Rare",
+       "chance": 9.25,
        "count": 1
       },
       {
        "item": "200 Endo",
        "rarity": "Uncommon",
-       "chance": 19.21,
+       "chance": 21.97,
        "count": 1
       },
       {
        "item": "Gara Neuroptics Blueprint",
+       "rarity": "Uncommon",
+       "chance": 10.4,
+       "count": 1
+      },
+      {
+       "item": "Vigilante Fervor",
+       "rarity": "Rare",
+       "chance": 9.25,
+       "count": 1
+      },
+      {
+       "item": "Revenant Systems Blueprint",
+       "rarity": "Rare",
+       "chance": 9.25,
+       "count": 1
+      },
+      {
+       "item": "Aya",
+       "rarity": "Rare",
+       "chance": 8.67,
+       "count": 1
+      },
+      {
+       "item": "Augur Pact",
+       "rarity": "Uncommon",
+       "chance": 21.47,
+       "count": 1
+      },
+      {
+       "item": "Naramon Lens",
        "rarity": "Rare",
        "chance": 9.04,
        "count": 1
       },
       {
-       "item": "Augur Accord",
+       "item": "Zenurik Lens",
+       "rarity": "Rare",
+       "chance": 9.04,
+       "count": 1
+      },
+      {
+       "item": "200 Endo",
+       "rarity": "Uncommon",
+       "chance": 21.47,
+       "count": 1
+      },
+      {
+       "item": "Gara Neuroptics Blueprint",
+       "rarity": "Uncommon",
+       "chance": 10.17,
+       "count": 1
+      },
+      {
+       "item": "Vigilante Fervor",
        "rarity": "Rare",
        "chance": 9.04,
        "count": 1
@@ -514,315 +562,267 @@
       {
        "item": "Aya",
        "rarity": "Rare",
-       "chance": 7.34,
+       "chance": 8.47,
        "count": 1
       },
       {
-       "item": "Gladiator Aegis",
-       "rarity": "Uncommon",
-       "chance": 17.68,
-       "count": 1
-      },
-      {
-       "item": "Madurai Lens",
+       "item": "Gladiator Vice",
        "rarity": "Rare",
-       "chance": 8.84,
-       "count": 1
-      },
-      {
-       "item": "Cetus Wisp",
-       "rarity": "Uncommon",
-       "chance": 18.78,
-       "count": 1
-      },
-      {
-       "item": "200 Endo",
-       "rarity": "Uncommon",
-       "chance": 18.78,
-       "count": 1
-      },
-      {
-       "item": "Gara Neuroptics Blueprint",
-       "rarity": "Rare",
-       "chance": 8.84,
-       "count": 1
-      },
-      {
-       "item": "Augur Accord",
-       "rarity": "Rare",
-       "chance": 8.84,
-       "count": 1
-      },
-      {
-       "item": "Revenant Systems Blueprint",
-       "rarity": "Rare",
-       "chance": 8.84,
-       "count": 1
-      },
-      {
-       "item": "Aya",
-       "rarity": "Rare",
-       "chance": 7.18,
-       "count": 1
-      },
-      {
-       "item": "Vigilante Supplies",
-       "rarity": "Rare",
-       "chance": 2.21,
+       "chance": 2.26,
        "count": 1
       },
       {
        "item": "Gara Neuroptics Blueprint",
        "rarity": "Uncommon",
-       "chance": 24.62,
+       "chance": 26.09,
        "count": 1
       },
       {
-       "item": "Augur Accord",
+       "item": "Vigilante Fervor",
        "rarity": "Uncommon",
-       "chance": 24.62,
+       "chance": 23.19,
        "count": 1
       },
       {
        "item": "Revenant Systems Blueprint",
        "rarity": "Uncommon",
-       "chance": 24.62,
+       "chance": 23.19,
        "count": 1
       },
       {
        "item": "Aya",
        "rarity": "Uncommon",
-       "chance": 20,
+       "chance": 21.74,
        "count": 1
       },
       {
-       "item": "Vigilante Supplies",
+       "item": "Gladiator Vice",
        "rarity": "Rare",
-       "chance": 6.15,
+       "chance": 5.8,
        "count": 1
       }
      ],
-     "type": "Find the Hidden Artifact",
+     "type": "Capture the New Grineer Commander",
      "enemyLevels": [
       20,
       40
      ],
      "standingStages": [
-      660,
-      660,
-      660,
-      970
+      570,
+      570,
+      570,
+      840
      ],
      "minMR": 2
     },
     {
-     "id": "RescueBountyResc1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierDTableARewards",
+     "id": "AttritionBountyCap1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierDTableCRewards",
      "rewardPool": [
-      "Gladiator Rush",
-      "Unairu Lens",
-      "Madurai Lens",
+      "Augur Message",
+      "100X Kuva",
+      "Naramon Lens",
       "300 Endo",
-      "Gladiator Rush",
-      "Unairu Lens",
-      "Madurai Lens",
-      "300 Endo",
-      "Cetus Wisp",
-      "Augur Reach",
-      "Revenant Chassis Blueprint",
-      "Aya",
-      "Gladiator Rush",
-      "Unairu Lens",
-      "Madurai Lens",
+      "Augur Message",
+      "100X Kuva",
+      "Naramon Lens",
       "300 Endo",
       "Cetus Wisp",
-      "Augur Reach",
+      "Vigilante Pursuit",
       "Revenant Chassis Blueprint",
       "Aya",
-      "Vigilante Offense",
+      "Augur Message",
+      "100X Kuva",
+      "Naramon Lens",
+      "300 Endo",
       "Cetus Wisp",
-      "Augur Reach",
+      "Vigilante Pursuit",
       "Revenant Chassis Blueprint",
       "Aya",
-      "Vigilante Offense"
+      "Gladiator Finesse",
+      "Cetus Wisp",
+      "Vigilante Pursuit",
+      "Revenant Chassis Blueprint",
+      "Aya",
+      "Gladiator Finesse"
      ],
      "rewardPoolDrops": [
       {
-       "item": "Gladiator Rush",
-       "rarity": "Common",
-       "chance": 35.19,
-       "count": 1
-      },
-      {
-       "item": "Unairu Lens",
+       "item": "Augur Message",
        "rarity": "Uncommon",
-       "chance": 14.81,
+       "chance": 29.31,
        "count": 1
       },
       {
-       "item": "Madurai Lens",
+       "item": "Kuva",
        "rarity": "Uncommon",
-       "chance": 14.81,
-       "count": 1
+       "chance": 27.59,
+       "count": 100
       },
       {
-       "item": "300 Endo",
-       "rarity": "Common",
-       "chance": 35.19,
-       "count": 1
-      },
-      {
-       "item": "Gladiator Rush",
+       "item": "Naramon Lens",
        "rarity": "Uncommon",
-       "chance": 21.35,
-       "count": 1
-      },
-      {
-       "item": "Unairu Lens",
-       "rarity": "Rare",
-       "chance": 8.99,
-       "count": 1
-      },
-      {
-       "item": "Madurai Lens",
-       "rarity": "Rare",
-       "chance": 8.99,
+       "chance": 13.79,
        "count": 1
       },
       {
        "item": "300 Endo",
        "rarity": "Uncommon",
-       "chance": 21.35,
+       "chance": 29.31,
        "count": 1
       },
       {
-       "item": "Cetus Wisp",
+       "item": "Augur Message",
        "rarity": "Uncommon",
-       "chance": 10.11,
+       "chance": 18.48,
        "count": 1
       },
       {
-       "item": "Augur Reach",
-       "rarity": "Rare",
-       "chance": 8.99,
-       "count": 1
-      },
-      {
-       "item": "Revenant Chassis Blueprint",
-       "rarity": "Rare",
-       "chance": 8.99,
-       "count": 1
-      },
-      {
-       "item": "Aya",
+       "item": "Kuva",
        "rarity": "Uncommon",
-       "chance": 11.24,
-       "count": 1
+       "chance": 17.39,
+       "count": 100
       },
       {
-       "item": "Gladiator Rush",
-       "rarity": "Uncommon",
-       "chance": 20.88,
-       "count": 1
-      },
-      {
-       "item": "Unairu Lens",
+       "item": "Naramon Lens",
        "rarity": "Rare",
-       "chance": 8.79,
-       "count": 1
-      },
-      {
-       "item": "Madurai Lens",
-       "rarity": "Rare",
-       "chance": 8.79,
+       "chance": 8.7,
        "count": 1
       },
       {
        "item": "300 Endo",
        "rarity": "Uncommon",
-       "chance": 20.88,
+       "chance": 18.48,
        "count": 1
       },
       {
        "item": "Cetus Wisp",
        "rarity": "Rare",
-       "chance": 9.89,
+       "chance": 8.7,
        "count": 1
       },
       {
-       "item": "Augur Reach",
+       "item": "Vigilante Pursuit",
        "rarity": "Rare",
-       "chance": 8.79,
+       "chance": 8.7,
        "count": 1
       },
       {
        "item": "Revenant Chassis Blueprint",
        "rarity": "Rare",
-       "chance": 8.79,
+       "chance": 8.7,
        "count": 1
       },
       {
        "item": "Aya",
        "rarity": "Uncommon",
-       "chance": 10.99,
+       "chance": 10.87,
        "count": 1
       },
       {
-       "item": "Vigilante Offense",
+       "item": "Augur Message",
+       "rarity": "Uncommon",
+       "chance": 18.09,
+       "count": 1
+      },
+      {
+       "item": "Kuva",
+       "rarity": "Uncommon",
+       "chance": 17.02,
+       "count": 100
+      },
+      {
+       "item": "Naramon Lens",
        "rarity": "Rare",
-       "chance": 2.2,
+       "chance": 8.51,
+       "count": 1
+      },
+      {
+       "item": "300 Endo",
+       "rarity": "Uncommon",
+       "chance": 18.09,
+       "count": 1
+      },
+      {
+       "item": "Cetus Wisp",
+       "rarity": "Rare",
+       "chance": 8.51,
+       "count": 1
+      },
+      {
+       "item": "Vigilante Pursuit",
+       "rarity": "Rare",
+       "chance": 8.51,
+       "count": 1
+      },
+      {
+       "item": "Revenant Chassis Blueprint",
+       "rarity": "Rare",
+       "chance": 8.51,
+       "count": 1
+      },
+      {
+       "item": "Aya",
+       "rarity": "Uncommon",
+       "chance": 10.64,
+       "count": 1
+      },
+      {
+       "item": "Gladiator Finesse",
+       "rarity": "Rare",
+       "chance": 2.13,
        "count": 1
       },
       {
        "item": "Cetus Wisp",
        "rarity": "Uncommon",
-       "chance": 24.32,
+       "chance": 22.22,
        "count": 1
       },
       {
-       "item": "Augur Reach",
+       "item": "Vigilante Pursuit",
        "rarity": "Uncommon",
-       "chance": 21.62,
+       "chance": 22.22,
        "count": 1
       },
       {
        "item": "Revenant Chassis Blueprint",
        "rarity": "Uncommon",
-       "chance": 21.62,
+       "chance": 22.22,
        "count": 1
       },
       {
        "item": "Aya",
        "rarity": "Uncommon",
-       "chance": 27.03,
+       "chance": 27.78,
        "count": 1
       },
       {
-       "item": "Vigilante Offense",
+       "item": "Gladiator Finesse",
        "rarity": "Rare",
-       "chance": 5.41,
+       "chance": 5.56,
        "count": 1
       }
      ],
-     "type": "Search and Rescue",
+     "type": "Capture Their Leader",
      "enemyLevels": [
       30,
       50
      ],
      "standingStages": [
-      600,
-      600,
-      600,
-      600,
-      1170
+      620,
+      620,
+      620,
+      620,
+      1210
      ],
      "minMR": 3
     },
     {
-     "id": "CaptureBountyCapTwo1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableARewards",
+     "id": "ReclamationBountyCache1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableCRewards",
      "rewardPool": [
       "5X Breath Of The Eidolon",
       "400 Endo",
@@ -836,15 +836,15 @@
       "2X Cetus Wisp",
       "300X Kuva",
       "Aya",
-      "Furax Wraith Left Gauntlet",
-      "Carving Mantis",
+      "Furax Wraith Blueprint",
+      "Twirling Spire",
       "Eidolon Lens Blueprint",
       "Revenant Neuroptics Blueprint",
       "2X Cetus Wisp",
       "300X Kuva",
       "Aya",
-      "Furax Wraith Left Gauntlet",
-      "Carving Mantis",
+      "Furax Wraith Blueprint",
+      "Twirling Spire",
       "Eidolon Lens Blueprint",
       "Revenant Neuroptics Blueprint"
      ],
@@ -922,13 +922,13 @@
        "count": 1
       },
       {
-       "item": "Furax Wraith Left Gauntlet",
+       "item": "Furax Wraith Blueprint",
        "rarity": "Rare",
        "chance": 5.41,
        "count": 1
       },
       {
-       "item": "Carving Mantis",
+       "item": "Twirling Spire",
        "rarity": "Rare",
        "chance": 5.41,
        "count": 1
@@ -964,13 +964,13 @@
        "count": 1
       },
       {
-       "item": "Furax Wraith Left Gauntlet",
+       "item": "Furax Wraith Blueprint",
        "rarity": "Rare",
        "chance": 8.16,
        "count": 1
       },
       {
-       "item": "Carving Mantis",
+       "item": "Twirling Spire",
        "rarity": "Rare",
        "chance": 8.16,
        "count": 1
@@ -988,24 +988,24 @@
        "count": 1
       }
      ],
-     "type": "Spy Catcher",
+     "type": "Find the Hidden Artifact",
      "enemyLevels": [
       40,
       60
      ],
      "standingStages": [
-      730,
-      730,
-      730,
-      730,
-      1430
+      700,
+      700,
+      700,
+      700,
+      1370
      ],
      "minMR": 5
     },
     {
-     "id": "ReclamationBountyTheft1791569687604",
-     "expiry": "2026-10-09T18:14:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableARewards",
+     "id": "SabotageBountySab1791578686479",
+     "expiry": "2026-10-09T20:44:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableCRewards",
      "rewardPool": [
       "5X Breath Of The Eidolon",
       "400 Endo",
@@ -1019,15 +1019,15 @@
       "2X Cetus Wisp",
       "300X Kuva",
       "Aya",
-      "Furax Wraith Left Gauntlet",
-      "Carving Mantis",
+      "Furax Wraith Blueprint",
+      "Twirling Spire",
       "Eidolon Lens Blueprint",
       "Revenant Neuroptics Blueprint",
       "2X Cetus Wisp",
       "300X Kuva",
       "Aya",
-      "Furax Wraith Left Gauntlet",
-      "Carving Mantis",
+      "Furax Wraith Blueprint",
+      "Twirling Spire",
       "Eidolon Lens Blueprint",
       "Revenant Neuroptics Blueprint"
      ],
@@ -1105,13 +1105,13 @@
        "count": 1
       },
       {
-       "item": "Furax Wraith Left Gauntlet",
+       "item": "Furax Wraith Blueprint",
        "rarity": "Rare",
        "chance": 5.41,
        "count": 1
       },
       {
-       "item": "Carving Mantis",
+       "item": "Twirling Spire",
        "rarity": "Rare",
        "chance": 5.41,
        "count": 1
@@ -1147,13 +1147,13 @@
        "count": 1
       },
       {
-       "item": "Furax Wraith Left Gauntlet",
+       "item": "Furax Wraith Blueprint",
        "rarity": "Rare",
        "chance": 8.16,
        "count": 1
       },
       {
-       "item": "Carving Mantis",
+       "item": "Twirling Spire",
        "rarity": "Rare",
        "chance": 8.16,
        "count": 1
@@ -1171,7 +1171,7 @@
        "count": 1
       }
      ],
-     "type": "Reclaim the Stolen Artifact",
+     "type": "Sabotage Bounty",
      "enemyLevels": [
       100,
       100
@@ -1186,43 +1186,43 @@
      "minMR": 10
     },
     {
-     "id": "AssassinateBountyAss1791569687604",
-     "expiry": "2026-10-09T17:24:47.604Z",
-     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/NarmerTableARewards",
+     "id": "AttritionBountyExt1791578686479",
+     "expiry": "2026-10-09T19:54:46.479Z",
+     "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/NarmerTableCRewards",
      "rewardPool": [
-      "Amar's Anguish",
+      "Nira's Anguish",
       "Narmer Isoplast",
       "600 Endo",
-      "Amar's Anguish",
+      "Nira's Anguish",
       "Narmer Isoplast",
       "600 Endo",
-      "Caliban Systems Blueprint",
-      "Boreal's Hatred",
+      "Caliban Neuroptics Blueprint",
+      "Amar's Hatred",
       "2X Narmer Isoplast",
       "900 Endo",
-      "Amar's Anguish",
+      "Nira's Anguish",
       "Narmer Isoplast",
       "600 Endo",
-      "Caliban Systems Blueprint",
-      "Boreal's Hatred",
+      "Caliban Neuroptics Blueprint",
+      "Amar's Hatred",
       "2X Narmer Isoplast",
       "900 Endo",
-      "Nira's Contempt",
-      "Verdilac Blueprint",
+      "Boreal's Contempt",
+      "Korumm Blueprint",
       "3X Narmer Isoplast",
       "1200 Endo",
-      "Caliban Systems Blueprint",
-      "Boreal's Hatred",
+      "Caliban Neuroptics Blueprint",
+      "Amar's Hatred",
       "2X Narmer Isoplast",
       "900 Endo",
-      "Nira's Contempt",
-      "Verdilac Blueprint",
+      "Boreal's Contempt",
+      "Korumm Blueprint",
       "3X Narmer Isoplast",
       "1200 Endo"
      ],
      "rewardPoolDrops": [
       {
-       "item": "Amar's Anguish",
+       "item": "Nira's Anguish",
        "rarity": "Uncommon",
        "chance": 20,
        "count": 1
@@ -1240,7 +1240,7 @@
        "count": 1
       },
       {
-       "item": "Amar's Anguish",
+       "item": "Nira's Anguish",
        "rarity": "Rare",
        "chance": 8.11,
        "count": 1
@@ -1258,13 +1258,13 @@
        "count": 1
       },
       {
-       "item": "Caliban Systems Blueprint",
+       "item": "Caliban Neuroptics Blueprint",
        "rarity": "Rare",
        "chance": 8.11,
        "count": 1
       },
       {
-       "item": "Boreal's Hatred",
+       "item": "Amar's Hatred",
        "rarity": "Uncommon",
        "chance": 13.51,
        "count": 1
@@ -1282,7 +1282,7 @@
        "count": 1
       },
       {
-       "item": "Amar's Anguish",
+       "item": "Nira's Anguish",
        "rarity": "Rare",
        "chance": 5.45,
        "count": 1
@@ -1300,13 +1300,13 @@
        "count": 1
       },
       {
-       "item": "Caliban Systems Blueprint",
+       "item": "Caliban Neuroptics Blueprint",
        "rarity": "Rare",
        "chance": 5.45,
        "count": 1
       },
       {
-       "item": "Boreal's Hatred",
+       "item": "Amar's Hatred",
        "rarity": "Rare",
        "chance": 9.09,
        "count": 1
@@ -1324,13 +1324,13 @@
        "count": 1
       },
       {
-       "item": "Nira's Contempt",
+       "item": "Boreal's Contempt",
        "rarity": "Rare",
        "chance": 5.45,
        "count": 1
       },
       {
-       "item": "Verdilac Blueprint",
+       "item": "Korumm Blueprint",
        "rarity": "Rare",
        "chance": 5.45,
        "count": 1
@@ -1348,13 +1348,13 @@
        "count": 1
       },
       {
-       "item": "Caliban Systems Blueprint",
+       "item": "Caliban Neuroptics Blueprint",
        "rarity": "Rare",
        "chance": 7.5,
        "count": 1
       },
       {
-       "item": "Boreal's Hatred",
+       "item": "Amar's Hatred",
        "rarity": "Uncommon",
        "chance": 12.5,
        "count": 1
@@ -1372,13 +1372,13 @@
        "count": 1
       },
       {
-       "item": "Nira's Contempt",
+       "item": "Boreal's Contempt",
        "rarity": "Rare",
        "chance": 7.5,
        "count": 1
       },
       {
-       "item": "Verdilac Blueprint",
+       "item": "Korumm Blueprint",
        "rarity": "Rare",
        "chance": 7.5,
        "count": 1
@@ -1396,17 +1396,17 @@
        "count": 1
       }
      ],
-     "type": "Rise and Fall (Narmer)",
+     "type": "For the Unum (Narmer)",
      "enemyLevels": [
       50,
       70
      ],
      "standingStages": [
-      810,
-      810,
-      810,
-      810,
-      1590
+      770,
+      770,
+      770,
+      770,
+      1510
      ],
      "minMR": 0,
      "timeBound": "day"
@@ -1414,9 +1414,9 @@
    ]
   },
   {
-   "id": "1791569687604EntratiLabSyndicate",
-   "activation": "2026-10-09T15:44:48.731Z",
-   "expiry": "2026-10-09T18:14:47.604Z",
+   "id": "1791578686479EntratiLabSyndicate",
+   "activation": "2026-10-09T18:14:47.605Z",
+   "expiry": "2026-10-09T20:44:46.479Z",
    "syndicate": "Cavia",
    "syndicateKey": "Cavia",
    "nodes": [],
