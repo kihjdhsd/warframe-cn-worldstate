@@ -32,18 +32,29 @@ jobs:
           except Exception:
               ZM = {'rw': {}, 'bn': {}, 'names': {}, 'part': {}, 'tier': {}}
           RW, BN, NAMES, PART, TIER = ZM['rw'], ZM['bn'], ZM['names'], ZM['part'], ZM['tier']
-          NOSPACE = {k.replace(' ', '').replace('-', ''): v for k, v in RW.items()}
+          NOSPACE = {}
+          for k, v in RW.items():
+              NOSPACE[k.replace(' ', '').replace('-', '').lower()] = v
+          BN_L = {k.lower(): v for k, v in BN.items()}
 
           def tr(name):
               if not name: return name
               if name in RW: return RW[name]
               if name in BN: return BN[name]
-              key = name.replace(' ', '').replace('-', '')
-              if key in NOSPACE: return NOSPACE[key]
-              m = re.match(r'^(.+?)\s+(.+?)\s+Blueprint$', name)
+              base, suffix = name, ''
+              m = re.match(r'^(.*?)\s*\((Endless|Steel Path)\)\s*$', name)   # 无尽/钢铁之路变体
+              if m:
+                  base, suffix = m.group(1).strip(), m.group(2)
+              for cand in (base, name):
+                  if cand in RW: return RW[cand] + ('（无尽）' if suffix == 'Endless' else '')
+                  if cand in BN: return BN[cand] + ('（无尽）' if suffix == 'Endless' else '')
+                  if cand.lower() in BN_L: return BN_L[cand.lower()] + ('（无尽）' if suffix == 'Endless' else '')
+                  key = cand.replace(' ', '').replace('-', '').lower()
+                  if key in NOSPACE: return NOSPACE[key]
+              m = re.match(r'^(.+?)\s+(.+?)\s+Blueprint$', base)
               if m and m.group(1) in NAMES and m.group(2) in PART:
                   return '%s %s' % (NAMES[m.group(1)], PART[m.group(2)])
-              m = re.match(r'^(\w+)\s+(\w+)\s+Relic$', name)
+              m = re.match(r'^(\w+)\s+(\w+)\s+Relic$', base)
               if m and m.group(1) in TIER:
                   return '%s %s 遗物' % (TIER[m.group(1)], m.group(2))
               return name
