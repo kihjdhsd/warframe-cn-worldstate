@@ -85,7 +85,14 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add worldstate.json debug.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
-          git push
+          for i in 1 2 3 4; do
+            git pull --rebase --autostash origin main && git push && break
+            echo "push attempt $i failed, retrying..."; sleep 6
+          done
+          # 刷新 jsDelivr CDN（国内可达的镜像，网页优先读它）
+          for f in worldstate.json debug.json; do
+            curl -sS --max-time 20 "https://purge.jsdelivr.net/gh/kihjdhsd/warframe-cn-worldstate@main/$f" > /dev/null || true
+          done
 
   # ---------- 价格（每日 / 手动）----------
   prices:
@@ -137,8 +144,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add prices.json
           git diff --staged --quiet || git commit -m "prices $(date -u +%FT%TZ)"
-          # 与 worldstate 任务并行运行，推送前先同步远端，失败重试
           for i in 1 2 3 4; do
             git pull --rebase --autostash origin main && git push && break
             echo "push attempt $i failed, retrying..."; sleep 6
           done
+          curl -sS --max-time 20 "https://purge.jsdelivr.net/gh/kihjdhsd/warframe-cn-worldstate@main/prices.json" > /dev/null || true
