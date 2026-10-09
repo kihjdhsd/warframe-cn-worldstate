@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "50 分钟"
+   "left": "34 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "16 分钟"
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "50 分钟"
+   "left": "34 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "20 小时 56 分",
+  "left": "20 小时 40 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "即将结束"
-  },
-  {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "19 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "9 分钟"
-  },
-  {
-   "a": "Axi Survival",
-   "b": "Selkie (Sedna)",
-   "c": "7 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "11 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Teshub (Void)",
-   "c": "38 分钟"
+   "c": "22 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "Ultor (Mars)",
-   "c": "46 分钟"
+   "c": "30 分钟"
   },
   {
    "a": "Requiem Defense",
    "b": "Nabuk (Kuva Fortress)",
-   "c": "41 分钟"
+   "c": "25 分钟"
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "6 分钟"
+  },
+  {
+   "a": "Meso Mobile Defense",
+   "b": "Kiste (Ceres)",
+   "c": "12 分钟"
+  },
+  {
+   "a": "Meso Extermination",
+   "b": "Roche (Phobos)",
+   "c": "即将结束"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Gulliver (Phobos)",
+   "c": "24 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 41 分",
+   "left": "1 小时 24 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 41 分",
+   "left": "1 小时 24 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 41 分",
+   "left": "1 小时 24 分",
    "jobs": [
     {
      "t": "复仇冷盘",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 19:03 UTC"
+ "updated": "2026-10-09 19:19 UTC"
 }
