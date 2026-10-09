@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 18 分"
+   "left": "1 小时 11 分"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 18 分"
+   "left": "1 小时 11 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "2 小时 24 分",
+  "left": "2 小时 17 分",
   "rows": [
    {
     "a": "Disruption",
@@ -59,7 +59,7 @@
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "18 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Meso Rescue",
@@ -69,23 +69,23 @@
   {
    "a": "Meso Defense",
    "b": "Io (Jupiter)",
-   "c": "16 分钟"
+   "c": "9 分钟"
   },
   {
    "a": "Meso Spy",
    "b": "Dione (Saturn)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Minthe (Pluto)",
-   "c": "3 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 8 分",
+   "left": "2 小时 1 分",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 8 分",
+   "left": "2 小时 1 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -185,7 +185,7 @@
      ]
     },
     {
-     "t": "Strip Mining (Endless)",
+     "t": "露天开采（无尽）",
      "lv": "25-30",
      "rp": [
       "阿耶檀识琥珀星",
@@ -207,7 +207,7 @@
      ]
     },
     {
-     "t": "For Science!",
+     "t": "为了科学！",
      "lv": "40-60",
      "rp": [
       "阿耶檀识琥珀星",
@@ -218,7 +218,7 @@
      ]
     },
     {
-     "t": "Reclaim What's Ours",
+     "t": "夺回属于我们的一切",
      "lv": "100-100",
      "rp": [
       "阿耶檀识琥珀星",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 8 分",
+   "left": "2 小时 1 分",
    "jobs": [
     {
      "t": "焦土战术",
@@ -251,7 +251,7 @@
      "lv": "10-30",
      "rp": [
       "15X Gorgaricus Spore",
-      "200X Nano Spores",
+      "200 纳米孢子",
       "2,500 Credits Cache",
       "100 Endo",
       "2X Shelter Debt-Bond",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 13:35 UTC"
+ "updated": "2026-10-09 13:42 UTC"
 }
