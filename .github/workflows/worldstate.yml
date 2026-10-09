@@ -48,6 +48,17 @@ jobs:
                   return '%s %s 遗物' % (TIER[m.group(1)], m.group(2))
               return name
 
+          def tr_reward(s):
+              """奖励串带数量前缀，如 '200X Plastids' / '1,500 Credits Cache' → '200 生物质'"""
+              m = re.match(r'^([\d,]+)\s*[xX×]?\s+(.+)$', s or '')
+              num, item = ('', s or '')
+              if m:
+                  num, item = m.group(1), m.group(2).strip()
+              zh = tr(item)
+              if zh == item:
+                  return s
+              return ('%s %s' % (num, zh)) if num else zh
+
           def human(iso):
               if not iso: return ''
               try: t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
@@ -78,7 +89,7 @@ jobs:
                   lv = j.get('enemyLevels') or []
                   pool = []
                   for r in (j.get('rewardPool') or [])[:10]:
-                      rz = tr(r)
+                      rz = tr_reward(r)
                       if rz not in pool:
                           pool.append(rz)
                   jobs.append({
