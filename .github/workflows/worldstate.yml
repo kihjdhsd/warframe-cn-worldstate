@@ -127,16 +127,28 @@ jobs:
                     open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
           print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
           PY
+      - name: Fetch item id → slug map
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          H = {'User-Agent': 'WarframeCNLookup/1.0 (static fan site; contact 974170618@qq.com)',
+               'Accept': 'application/json', 'Language': 'zh-hans', 'Platform': 'pc'}
+          req = urllib.request.Request('https://api.warframe.market/v2/items', headers=H)
+          d = json.loads(urllib.request.urlopen(req, timeout=90).read())
+          m = {i['id']: i['slug'] for i in (d.get('data') or []) if i.get('id') and i.get('slug')}
+          json.dump(m, open('item-ids.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+          print('item-ids: %d 条' % len(m))
+          PY
           git config user.name "worldstate-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add worldstate.json debug.json
+          git add worldstate.json debug.json item-ids.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
           for i in 1 2 3 4; do
             git pull --rebase --autostash origin main && git push && break
             echo "push attempt $i failed, retrying..."; sleep 6
           done
           # 刷新 jsDelivr CDN（国内可达的镜像，网页优先读它）
-          for f in worldstate.json debug.json; do
+          for f in worldstate.json debug.json item-ids.json; do
             curl -sS --max-time 20 "https://purge.jsdelivr.net/gh/kihjdhsd/warframe-cn-worldstate@main/$f" > /dev/null || true
           done
 
