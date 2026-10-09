@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch and trim WFCD worldstate
+      - name: Fetch world state + bounties
         run: |
           curl -sS --max-time 60 -H 'User-Agent: warframe-cn-site' \
             'https://api.warframestat.us/pc?language=zh' -o raw.json
           python3 - <<'PY'
           import json, datetime
           w = json.load(open('raw.json', encoding='utf-8'))
+
           def human(iso):
               if not iso: return ''
               try: t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
@@ -27,11 +28,35 @@ jobs:
               if dd > 0: return '%d 天 %d 小时' % (dd, h % 24)
               if h > 0:  return '%d 小时 %d 分' % (h, m % 60)
               return '%d 分钟' % m
+
           cet = w.get('cetusCycle'); val = w.get('vallisCycle'); cam = w.get('cambionCycle')
           cyc = []
           if cet: cyc.append({'k': '地球', 's': '白天' if cet.get('isDay') else '夜晚', 'left': human(cet.get('expiry'))})
           if val: cyc.append({'k': '金星', 's': '温暖' if val.get('isWarm') else '寒冷', 'left': human(val.get('expiry'))})
           if cam: cyc.append({'k': '火卫二', 's': '法丝' if cam.get('active') == 'fass' else '沃姆', 'left': human(cam.get('expiry'))})
+
+          # ---- 赏金轮换：syndicateMissions ----
+          SY = {'Ostron': '地球 · 夜灵平野', 'Ostrons': '地球 · 夜灵平野',
+                'Solaris United': '金星 · 奥布山谷', 'Entrati': '火卫二 · 魔胎之境',
+                'Cavia': '解剖圣所', 'The Hex': '霍夫尼亚', 'Hex': '霍夫尼亚',
+                'Holdfasts': '扎里曼号', 'Necraloid': '殁圣械灵', 'Ventkids': '通风小子',
+                'Conclave': '武形秘仪', 'Cephalon Suda': '中枢苏达', 'Ostron Syndicate': '地球'}
+          bounties = []
+          for sm in (w.get('syndicateMissions') or []):
+              syn = sm.get('syndicate') or sm.get('syndicateKey') or ''
+              jobs = []
+              for j in (sm.get('jobs') or []):
+                  lv = j.get('enemyLevels') or []
+                  jobs.append({
+                      't': j.get('jobType') or j.get('type') or '',
+                      'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else '',
+                      'mr': j.get('minMR') or 0,
+                      'st': len(j.get('standingStages') or [])
+                  })
+              if not jobs: continue
+              bounties.append({'syn': SY.get(syn, syn), 'n': (sm.get('nodes') or [])[:3],
+                               'left': human(sm.get('expiry')), 'jobs': jobs[:6]})
+
           s = w.get('sortie') or {}
           vt = w.get('voidTrader')
           data = {
@@ -40,15 +65,21 @@ jobs:
             'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
                         'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
             'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
+            'bounties': bounties,
             'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
           }
           json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          print('cycles=%d fissures=%d sortie=%s' % (len(data['cycles']), len(data['fissures']), bool(data['sortie'])))
+
+          # 调试快照：原始赏金字段前 2 条，便于核对字段名
+          dbg = {'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2],
+                 'syndicate_keys': sorted({(m.get('syndicate') or '') for m in (w.get('syndicateMissions') or [])})}
+          json.dump(dbg, open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
           PY
       - name: Commit
         run: |
           git config user.name "worldstate-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add worldstate.json
+          git add worldstate.json debug.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
           git push
