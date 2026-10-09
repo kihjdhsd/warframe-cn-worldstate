@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "39 分钟"
+   "left": "19 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
+   "s": "寒冷",
    "left": "2 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "39 分钟"
+   "left": "19 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 20 小时"
+  "left": "6 天 19 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "23 小时 15 分",
+  "left": "22 小时 55 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Extermination",
-   "b": "Neso (Neptune)",
-   "c": "10 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "4 分钟"
-  },
-  {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "23 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "30 分钟"
+   "c": "10 分钟"
   },
   {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "26 分钟"
-  },
-  {
-   "a": "Axi Mobile Defense",
-   "b": "Charybdis (Sedna)",
-   "c": "0 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "45 分钟"
+   "c": "25 分钟"
   },
   {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "8 分钟"
+   "a": "Neo Excavation",
+   "b": "Despina (Neptune)",
+   "c": "43 分钟"
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Baal (Europa)",
+   "c": "5 分钟"
+  },
+  {
+   "a": "Lith Spy",
+   "b": "Unda (Venus)",
+   "c": "58 分钟"
+  },
+  {
+   "a": "Lith Capture",
+   "b": "Mantle (Earth)",
+   "c": "34 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 30 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 30 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 30 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "资源窃取",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 16:44 UTC"
+ "updated": "2026-10-09 17:04 UTC"
 }
