@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 34 分"
+   "left": "1 小时 17 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "10 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 34 分"
+   "left": "1 小时 17 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "16 小时 40 分",
+  "left": "16 小时 23 分",
   "rows": [
    {
     "a": "Rescue",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "29 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "3 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "27 分钟"
+   "c": "10 分钟"
   },
   {
    "a": "Meso Mobile Defense",
    "b": "Sharpless (Phobos)",
-   "c": "56 分钟"
+   "c": "38 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "E Gate (Venus)",
-   "c": "45 分钟"
+   "c": "28 分钟"
   },
   {
    "a": "Lith Disruption",
    "b": "Olympus (Mars)",
-   "c": "16 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Rescue",
    "b": "Naga (Sedna)",
-   "c": "19 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Axi Defense",
    "b": "Taranis (Void)",
-   "c": "27 分钟"
+   "c": "10 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Solium (Eris)",
+   "c": "31 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 25 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
      "t": "Sabotage the Enemy Supply Lines",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 25 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 25 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
      "t": "Bury Them",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 23:19 UTC"
+ "updated": "2026-10-09 23:36 UTC"
 }
