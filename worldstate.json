@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "22 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "22 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "38 分钟",
+  "left": "6 分钟",
   "rows": [
    {
     "a": "Disruption",
@@ -49,43 +49,43 @@
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "9 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "1 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "24 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Extermination",
    "b": "Narcissus (Pluto)",
-   "c": "15 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Disruption",
    "b": "Laomedeia (Neptune)",
-   "c": "18 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Mobile Defense",
    "b": "Tiwaz (Void)",
-   "c": "46 分钟"
+   "c": "13 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "22 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "22 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "22 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "焦土战术",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 15:21 UTC"
+ "updated": "2026-10-09 15:53 UTC"
 }
