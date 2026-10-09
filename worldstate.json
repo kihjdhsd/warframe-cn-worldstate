@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 19 分"
+   "left": "1 小时 3 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "2 分钟"
+   "left": "12 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 19 分"
+   "left": "1 小时 3 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "18 小时 55 分",
+  "left": "18 小时 39 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Extermination",
-   "b": "Neso (Neptune)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Meso Spy",
-   "b": "Amalthea (Jupiter)",
-   "c": "5 分钟"
-  },
-  {
    "a": "Axi Defense",
    "b": "Outer Terminus (Pluto)",
-   "c": "23 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Meso Survival",
    "b": "Stickney (Phobos)",
-   "c": "18 分钟"
-  },
-  {
-   "a": "Meso Defense",
-   "b": "Io (Jupiter)",
-   "c": "6 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Lith Mobile Defense",
    "b": "Vallis (Mars)",
-   "c": "26 分钟"
+   "c": "9 分钟"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "57 分钟"
+   "c": "41 分钟"
   },
   {
    "a": "Neo Sabotage",
    "b": "Kokabiel (Europa)",
-   "c": "50 分钟"
+   "c": "34 分钟"
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Teshub (Void)",
+   "c": "24 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "33 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "52 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 10 分",
+   "left": "1 小时 53 分",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 10 分",
+   "left": "1 小时 53 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 10 分",
+   "left": "1 小时 53 分",
    "jobs": [
     {
      "t": "焦土战术",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 21:04 UTC"
+ "updated": "2026-10-09 21:20 UTC"
 }
