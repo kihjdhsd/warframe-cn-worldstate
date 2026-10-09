@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 21 小时"
+  "left": "6 天 20 小时"
  },
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "6 分钟",
+  "left": "即将结束",
   "rows": [
    {
     "a": "Disruption",
@@ -79,7 +79,7 @@
   {
    "a": "Neo Mobile Defense",
    "b": "Tiwaz (Void)",
-   "c": "13 分钟"
+   "c": "4 分钟"
   }
  ],
  "bounties": [
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 15:53 UTC"
+ "updated": "2026-10-09 16:03 UTC"
 }
