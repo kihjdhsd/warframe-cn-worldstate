@@ -2,7 +2,8 @@ name: worldstate
 on:
   schedule:
     - cron: '5 * * * *'      # 每小时：世界状态 + 赏金
-    - cron: '20 3 * * *'     # 每天 03:20 UTC：额外抓一次 warframe.market 价格
+    - cron: '*/30 * * * *'   # 每 30 分钟：warframe.market 价格快照（准实时）
+    - cron: '20 3 * * *'     # 每天 03:20：额外全量兜底
   workflow_dispatch:
 permissions:
   contents: write
@@ -141,7 +142,7 @@ jobs:
 
   # ---------- 价格（每日 / 手动）----------
   prices:
-    if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
+    if: github.event.schedule != '5 * * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -176,7 +177,7 @@ jobs:
               return slug, None
 
           out, t0, fail = {}, time.time(), 0
-          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
               for slug, res in ex.map(one, slugs):
                   if res: out[slug] = res
                   else: fail += 1
