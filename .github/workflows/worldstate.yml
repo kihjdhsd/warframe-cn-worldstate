@@ -1,0 +1,54 @@
+name: worldstate
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and trim WFCD worldstate
+        run: |
+          curl -sS --max-time 60 -H 'User-Agent: warframe-cn-site' \
+            'https://api.warframestat.us/pc?language=zh' -o raw.json
+          python3 - <<'PY'
+          import json, datetime
+          w = json.load(open('raw.json', encoding='utf-8'))
+          def human(iso):
+              if not iso: return ''
+              try: t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
+              except Exception: return ''
+              d = (t - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
+              if d <= 0: return '即将结束'
+              m = int(d // 60); h = m // 60; dd = h // 24
+              if dd > 0: return '%d 天 %d 小时' % (dd, h % 24)
+              if h > 0:  return '%d 小时 %d 分' % (h, m % 60)
+              return '%d 分钟' % m
+          cet = w.get('cetusCycle'); val = w.get('vallisCycle'); cam = w.get('cambionCycle')
+          cyc = []
+          if cet: cyc.append({'k': '地球', 's': '白天' if cet.get('isDay') else '夜晚', 'left': human(cet.get('expiry'))})
+          if val: cyc.append({'k': '金星', 's': '温暖' if val.get('isWarm') else '寒冷', 'left': human(val.get('expiry'))})
+          if cam: cyc.append({'k': '火卫二', 's': '法丝' if cam.get('active') == 'fass' else '沃姆', 'left': human(cam.get('expiry'))})
+          s = w.get('sortie') or {}
+          vt = w.get('voidTrader')
+          data = {
+            'cycles': cyc,
+            'trader': ({'k': '已抵达' if vt.get('active') else '前往中', 'n': vt.get('location', ''), 'left': human(vt.get('activation'))} if vt else None),
+            'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
+                        'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
+            'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
+            'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
+          }
+          json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print('cycles=%d fissures=%d sortie=%s' % (len(data['cycles']), len(data['fissures']), bool(data['sortie'])))
+          PY
+      - name: Commit
+        run: |
+          git config user.name "worldstate-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add worldstate.json
+          git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
+          git push
