@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 25 分"
+   "left": "1 小时 18 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "5 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 25 分"
+   "left": "1 小时 18 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "2 小时 31 分",
+  "left": "2 小时 24 分",
   "rows": [
    {
     "a": "Disruption",
@@ -54,155 +54,155 @@
   {
    "a": "Axi Mobile Defense",
    "b": "Aten (Void)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "26 分钟"
+   "c": "18 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Nuovo (Ceres)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Defense",
    "b": "Io (Jupiter)",
-   "c": "23 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Meso Spy",
    "b": "Dione (Saturn)",
-   "c": "11 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Minthe (Pluto)",
-   "c": "11 分钟"
+   "c": "3 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 16 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
-     "t": "Capture Their Leader",
+     "t": "俘获其首领",
      "lv": "5-15",
      "rp": [
-      "Vitality",
-      "200X Plastids",
+      "生命力",
+      "200 生物质",
       "1,500 Credits Cache",
       "50 Endo",
-      "15X Nistlepod"
+      "15 尼蒐荚"
      ]
     },
     {
-     "t": "Cull the Enemy",
+     "t": "清剿敌军",
      "lv": "10-30",
      "rp": [
-      "Point Strike",
-      "300X Circuits",
+      "致命一击",
+      "300 电路",
       "2,500 Credits Cache",
       "100 Endo",
-      "Gara Systems Blueprint",
-      "Enhanced Durability"
+      "Gara 系统蓝图",
+      "耐久强化"
      ]
     },
     {
-     "t": "Weaken the Grineer Foothold",
+     "t": "削弱 Grineer 据点",
      "lv": "20-40",
      "rp": [
-      "Augur Pact",
-      "Naramon Lens",
-      "Zenurik Lens",
+      "预言 契约",
+      "Naramon 晶体",
+      "Zenurik 晶体",
       "200 Endo",
-      "Gara Neuroptics Blueprint",
-      "Vigilante Fervor"
+      "Gara 头部神经光元蓝图",
+      "私法 热诚"
      ]
     },
     {
-     "t": "Search and Rescue",
+     "t": "搜索与救援",
      "lv": "30-50",
      "rp": [
-      "Augur Message",
-      "100X Kuva",
-      "Naramon Lens",
+      "预言 启示",
+      "100 赤毒",
+      "Naramon 晶体",
       "300 Endo",
-      "Cetus Wisp",
-      "Vigilante Pursuit"
+      "希图斯幽魂",
+      "私法 追踪"
      ]
     },
     {
-     "t": "Capture the New Grineer Commander",
+     "t": "俘获新的 Grineer 指挥官",
      "lv": "40-60",
      "rp": [
-      "5X Breath Of The Eidolon",
+      "5 夜灵之息",
       "400 Endo",
-      "2X Cetus Wisp",
-      "300X Kuva",
-      "Aya"
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
      ]
     },
     {
-     "t": "Sabotage Bounty",
+     "t": "破坏赏金",
      "lv": "100-100",
      "rp": [
-      "5X Breath Of The Eidolon",
+      "5 夜灵之息",
       "400 Endo",
-      "2X Cetus Wisp",
-      "300X Kuva",
-      "Aya"
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
      ]
     }
    ]
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 16 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
-     "t": "Cleanse the Land",
+     "t": "净化土地",
      "lv": "5-15",
      "rp": [
-      "3X 1,500 Credits Cache",
+      "3 1,500 现金匣",
       "150 Endo",
       "15X Lucent Teroglobe",
-      "2X 3,000 Credits Cache",
+      "2 3,000 现金匣",
       "250 Endo"
      ]
     },
     {
-     "t": "Anomaly Retrieval",
+     "t": "异常回收",
      "lv": "15-25",
      "rp": [
       "600 Endo",
-      "Naramon Lens",
-      "Zenurik Lens",
-      "Body Count",
-      "Scintillant"
+      "Naramon 晶体",
+      "Zenurik 晶体",
+      "杀伤计数",
+      "闪烁体"
      ]
     },
     {
      "t": "Strip Mining (Endless)",
      "lv": "25-30",
      "rp": [
-      "Ayatan Amber Star",
+      "阿耶檀识琥珀星",
       "250 Endo",
-      "Carnis Mandible",
-      "Jugulus Barbs",
-      "Saxum Thorax"
+      "肉碾虫 巨颚",
+      "喉骨刃者 倒刺",
+      "重岩者 胸腔"
      ]
     },
     {
-     "t": "Salvage",
+     "t": "回收金属",
      "lv": "30-40",
      "rp": [
       "750 Endo",
-      "Unairu Lens",
-      "Madurai Lens",
-      "Hydraulic Crosshairs",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "液压准心",
       "5X Fass Residue"
      ]
     },
@@ -210,44 +210,44 @@
      "t": "For Science!",
      "lv": "40-60",
      "rp": [
-      "Ayatan Amber Star",
+      "阿耶檀识琥珀星",
       "1000 Endo",
-      "750X Kuva",
-      "Aya",
-      "Xaku Chassis Blueprint"
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
      ]
     },
     {
      "t": "Reclaim What's Ours",
      "lv": "100-100",
      "rp": [
-      "Ayatan Amber Star",
+      "阿耶檀识琥珀星",
       "1000 Endo",
-      "750X Kuva",
-      "Aya",
-      "Xaku Chassis Blueprint"
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
      ]
     }
    ]
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 16 分",
+   "left": "2 小时 8 分",
    "jobs": [
     {
-     "t": "Scorched Earth",
+     "t": "焦土战术",
      "lv": "5-15",
      "rp": [
-      "100X Plastids",
+      "100 生物质",
       "1,500 Credits Cache",
       "50 Endo",
       "5X Gorgaricus Spore",
-      "Training Debt-Bond",
-      "Garuda Chassis Blueprint"
+      "培训债务债券",
+      "Garuda 机体蓝图"
      ]
     },
     {
-     "t": "Operational Intelligence",
+     "t": "作战情报",
      "lv": "10-30",
      "rp": [
       "15X Gorgaricus Spore",
@@ -255,7 +255,7 @@
       "2,500 Credits Cache",
       "100 Endo",
       "2X Shelter Debt-Bond",
-      "Garuda Systems Blueprint"
+      "Garuda 系统蓝图"
      ]
     },
     {
@@ -263,22 +263,22 @@
      "lv": "20-40",
      "rp": [
       "200 Endo",
-      "Naramon Lens",
-      "300X Rubedo",
+      "Naramon 晶体",
+      "300 红化结晶",
       "2X Medical Debt-Bond",
-      "Garuda Neuroptics Blueprint",
-      "Aya"
+      "Garuda 头部神经光元蓝图",
+      "阿耶精华"
      ]
     },
     {
-     "t": "Proof of Life",
+     "t": "生命证明",
      "lv": "30-50",
      "rp": [
-      "200X Kuva",
+      "200 赤毒",
       "300 Endo",
-      "2X Mutagen Mass",
+      "2 突变原聚合物",
       "2X Advances Debt-Bond",
-      "Aya"
+      "阿耶精华"
      ]
     },
     {
@@ -286,10 +286,10 @@
      "lv": "40-60",
      "rp": [
       "400 Endo",
-      "Neurodes",
-      "Orokin Cell",
+      "神经元",
+      "奥罗金电池",
       "2X Familial Debt-Bond",
-      "Aya"
+      "阿耶精华"
      ]
     },
     {
@@ -297,14 +297,14 @@
      "lv": "100-100",
      "rp": [
       "400 Endo",
-      "Neurodes",
-      "Orokin Cell",
+      "神经元",
+      "奥罗金电池",
       "2X Familial Debt-Bond",
-      "Aya"
+      "阿耶精华"
      ]
     }
    ]
   }
  ],
- "updated": "2026-10-09 13:28 UTC"
+ "updated": "2026-10-09 13:35 UTC"
 }
