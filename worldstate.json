@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 29 分"
+   "left": "1 小时 21 分"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "2 分钟"
+   "s": "温暖",
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 29 分"
+   "left": "1 小时 21 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "21 小时 35 分",
+  "left": "21 小时 27 分",
   "rows": [
    {
     "a": "Rescue",
@@ -44,48 +44,48 @@
   {
    "a": "Axi Mobile Defense",
    "b": "Tiwaz (Void)",
-   "c": "13 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "36 分钟"
+   "c": "28 分钟"
   },
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "59 分钟"
+   "c": "51 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "30 分钟"
+   "c": "22 分钟"
   },
   {
    "a": "Neo Spy",
    "b": "Valac (Europa)",
-   "c": "31 分钟"
+   "c": "23 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "49 分钟"
+   "c": "41 分钟"
   },
   {
    "a": "Neo Disruption",
    "b": "Laomedeia (Neptune)",
-   "c": "26 分钟"
+   "c": "18 分钟"
   },
   {
-   "a": "Axi Hive",
-   "b": "Naeglar (Eris)",
-   "c": "32 分钟"
+   "a": "Axi Extermination",
+   "b": "Acheron (Pluto)",
+   "c": "28 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 20 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 20 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,10 +232,10 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 20 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
-     "t": "Served Cold",
+     "t": "复仇冷盘",
      "lv": "5-15",
      "rp": [
       "100 生物质",
@@ -247,7 +247,7 @@
      ]
     },
     {
-     "t": "Blood Relics",
+     "t": "血之遗物",
      "lv": "10-30",
      "rp": [
       "15X Gorgaricus Spore",
@@ -259,7 +259,7 @@
      ]
     },
     {
-     "t": "Trash Their Traps",
+     "t": "砸烂他们的陷阱",
      "lv": "20-40",
      "rp": [
       "200 Endo",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 18:24 UTC"
+ "updated": "2026-10-09 18:32 UTC"
 }
