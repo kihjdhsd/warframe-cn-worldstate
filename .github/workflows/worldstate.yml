@@ -7,14 +7,21 @@ on:
 permissions:
   contents: write
 jobs:
-  fetch:
+  # ---------- 世界状态 + 赏金 ----------
+  worldstate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Fetch world state + bounties
         run: |
-          curl -sS --max-time 60 -H 'User-Agent: warframe-cn-site' \
-            'https://api.warframestat.us/pc?language=zh' -o raw.json
+          for i in 1 2 3; do
+            if curl -sS --max-time 45 --retry 2 --retry-delay 3 -H 'User-Agent: warframe-cn-site' \
+                 'https://api.warframestat.us/pc?language=zh' -o raw.json && [ -s raw.json ]; then
+              echo "got raw.json ($(wc -c < raw.json) bytes)"; break
+            fi
+            echo "attempt $i failed, retrying..."; sleep 8
+          done
+          [ -s raw.json ] || { echo "upstream unavailable, keeping previous data"; exit 0; }
           python3 - <<'PY'
           import json, datetime
           w = json.load(open('raw.json', encoding='utf-8'))
@@ -36,27 +43,20 @@ jobs:
           if val: cyc.append({'k': '金星', 's': '温暖' if val.get('isWarm') else '寒冷', 'left': human(val.get('expiry'))})
           if cam: cyc.append({'k': '火卫二', 's': '法丝' if cam.get('active') == 'fass' else '沃姆', 'left': human(cam.get('expiry'))})
 
-          # ---- 赏金轮换：syndicateMissions ----
           SY = {'Ostron': '地球 · 夜灵平野', 'Ostrons': '地球 · 夜灵平野',
                 'Solaris United': '金星 · 奥布山谷', 'Entrati': '火卫二 · 魔胎之境',
                 'Cavia': '解剖圣所', 'The Hex': '霍夫尼亚', 'Hex': '霍夫尼亚',
                 'Holdfasts': '扎里曼号', 'Necraloid': '殁圣械灵', 'Ventkids': '通风小子',
-                'Conclave': '武形秘仪', 'Cephalon Suda': '中枢苏达', 'Ostron Syndicate': '地球'}
+                'Conclave': '武形秘仪', 'Cephalon Suda': '中枢苏达'}
           bounties = []
           for sm in (w.get('syndicateMissions') or []):
               syn = sm.get('syndicate') or sm.get('syndicateKey') or ''
               jobs = []
               for j in (sm.get('jobs') or []):
                   lv = j.get('enemyLevels') or []
-                  jobs.append({
-                      't': j.get('jobType') or j.get('type') or '',
-                      'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else '',
-                      'mr': j.get('minMR') or 0,
-                      'st': len(j.get('standingStages') or [])
-                  })
-              if not jobs: continue
-              bounties.append({'syn': SY.get(syn, syn), 'n': (sm.get('nodes') or [])[:3],
-                               'left': human(sm.get('expiry')), 'jobs': jobs[:6]})
+                  jobs.append({'t': j.get('jobType') or '', 'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else ''})
+              if jobs:
+                  bounties.append({'syn': SY.get(syn, syn), 'left': human(sm.get('expiry')), 'jobs': jobs[:6]})
 
           s = w.get('sortie') or {}
           vt = w.get('voidTrader')
@@ -70,22 +70,23 @@ jobs:
             'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
           }
           json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-
-          # 调试快照：原始赏金字段前 2 条，便于核对字段名
-          dbg = {'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2],
-                 'syndicate_keys': sorted({(m.get('syndicate') or '') for m in (w.get('syndicateMissions') or [])})}
-          json.dump(dbg, open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          json.dump({'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2]},
+                    open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
           print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
           PY
-      - name: Commit
-        run: |
           git config user.name "worldstate-bot"
           git config user.email "actions@users.noreply.github.com"
           git add worldstate.json debug.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
           git push
-      - name: Fetch market prices (daily / manual only)
-        if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
+
+  # ---------- 价格（每日 / 手动）----------
+  prices:
+    if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch market prices
         run: |
           python3 - <<'PY'
           import json, time, urllib.request, urllib.error, concurrent.futures
@@ -94,33 +95,37 @@ jobs:
           slugs = json.load(open('price-targets.json', encoding='utf-8'))
 
           def one(slug):
-              try:
-                  req = urllib.request.Request(
-                      'https://api.warframe.market/v2/orders/item/%s/top' % slug, headers=HEAD)
-                  with urllib.request.urlopen(req, timeout=25) as r:
-                      d = (json.loads(r.read()) or {}).get('data') or {}
-                  sell = [o for o in (d.get('sell') or []) if o.get('visible', True)]
-                  buy = [o for o in (d.get('buy') or []) if o.get('visible', True)]
-                  if not sell and not buy:
+              for attempt in range(3):
+                  try:
+                      req = urllib.request.Request(
+                          'https://api.warframe.market/v2/orders/item/%s/top' % slug, headers=HEAD)
+                      with urllib.request.urlopen(req, timeout=20) as r:
+                          d = (json.loads(r.read()) or {}).get('data') or {}
+                      sell = [o for o in (d.get('sell') or []) if o.get('visible', True)]
+                      buy = [o for o in (d.get('buy') or []) if o.get('visible', True)]
+                      if not sell and not buy:
+                          return slug, None
+                      return slug, {'s': min((o['platinum'] for o in sell), default=None),
+                                    'b': max((o['platinum'] for o in buy), default=None),
+                                    'c': len(sell) + len(buy)}
+                  except urllib.error.HTTPError as e:
+                      if e.code == 429:
+                          time.sleep(4 + attempt * 4); continue
                       return slug, None
-                  return slug, {'s': min((o['platinum'] for o in sell), default=None),
-                                'b': max((o['platinum'] for o in buy), default=None),
-                                'c': len(sell) + len(buy)}
-              except Exception:
-                  return slug, None
+                  except Exception:
+                      time.sleep(1 + attempt)
+              return slug, None
 
-          out, t0 = {}, time.time()
-          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+          out, t0, fail = {}, time.time(), 0
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
               for slug, res in ex.map(one, slugs):
                   if res: out[slug] = res
+                  else: fail += 1
           data = {'updated': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()),
-                  'count': len(out), 'prices': out}
+                  'count': len(out), 'failed': fail, 'prices': out}
           json.dump(data, open('prices.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-          print('prices: %d/%d in %.0fs' % (len(out), len(slugs), time.time() - t0))
+          print('prices: %d/%d ok, %d failed, %.0fs' % (len(out), len(slugs), fail, time.time() - t0))
           PY
-      - name: Commit prices
-        if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
-        run: |
           git config user.name "worldstate-bot"
           git config user.email "actions@users.noreply.github.com"
           git add prices.json
