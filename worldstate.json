@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "3 分钟"
+   "s": "夜晚",
+   "left": "35 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "5 分钟"
+   "s": "温暖",
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "3 分钟"
+   "left": "35 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "17 小时 39 分",
+  "left": "17 小时 21 分",
   "rows": [
    {
     "a": "Rescue",
@@ -44,48 +44,48 @@
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "9 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "31 分钟"
+   "c": "14 分钟"
   },
   {
    "a": "Axi Defense",
    "b": "Kala-azar (Eris)",
-   "c": "18 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Axi Sabotage",
    "b": "Cypress (Pluto)",
-   "c": "22 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Paimon (Europa)",
-   "c": "22 分钟"
-  },
-  {
-   "a": "Meso Sabotage",
-   "b": "Ker (Ceres)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Meso Defense",
-   "b": "Gulliver (Phobos)",
-   "c": "即将结束"
+   "c": "5 分钟"
   },
   {
    "a": "Meso Capture",
    "b": "Ananke (Jupiter)",
-   "c": "38 分钟"
+   "c": "20 分钟"
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Bode (Ceres)",
+   "c": "11 分钟"
+  },
+  {
+   "a": "Axi Hive",
+   "b": "Naeglar (Eris)",
+   "c": "2 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "焦土战术",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 22:20 UTC"
+ "updated": "2026-10-09 22:38 UTC"
 }
