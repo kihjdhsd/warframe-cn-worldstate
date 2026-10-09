@@ -54,7 +54,14 @@ jobs:
               jobs = []
               for j in (sm.get('jobs') or []):
                   lv = j.get('enemyLevels') or []
-                  jobs.append({'t': j.get('jobType') or '', 'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else ''})
+                  pool = []
+                  for r in (j.get('rewardPool') or [])[:10]:
+                      if r not in pool:
+                          pool.append(r)
+                  jobs.append({
+                      't': j.get('type') or j.get('jobType') or '',
+                      'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else '',
+                      'rp': pool})
               if jobs:
                   bounties.append({'syn': SY.get(syn, syn), 'left': human(sm.get('expiry')), 'jobs': jobs[:6]})
 
