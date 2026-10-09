@@ -23,8 +23,30 @@ jobs:
           done
           [ -s raw.json ] || { echo "upstream unavailable, keeping previous data"; exit 0; }
           python3 - <<'PY'
-          import json, datetime
+          import json, datetime, re
           w = json.load(open('raw.json', encoding='utf-8'))
+
+          # 官方英中对照表（由 gen_zh_map.py 生成，随仓库发布）
+          try:
+              ZM = json.load(open('zh-map.json', encoding='utf-8'))
+          except Exception:
+              ZM = {'rw': {}, 'bn': {}, 'names': {}, 'part': {}, 'tier': {}}
+          RW, BN, NAMES, PART, TIER = ZM['rw'], ZM['bn'], ZM['names'], ZM['part'], ZM['tier']
+          NOSPACE = {k.replace(' ', '').replace('-', ''): v for k, v in RW.items()}
+
+          def tr(name):
+              if not name: return name
+              if name in RW: return RW[name]
+              if name in BN: return BN[name]
+              key = name.replace(' ', '').replace('-', '')
+              if key in NOSPACE: return NOSPACE[key]
+              m = re.match(r'^(.+?)\s+(.+?)\s+Blueprint$', name)
+              if m and m.group(1) in NAMES and m.group(2) in PART:
+                  return '%s %s' % (NAMES[m.group(1)], PART[m.group(2)])
+              m = re.match(r'^(\w+)\s+(\w+)\s+Relic$', name)
+              if m and m.group(1) in TIER:
+                  return '%s %s 遗物' % (TIER[m.group(1)], m.group(2))
+              return name
 
           def human(iso):
               if not iso: return ''
@@ -56,10 +78,11 @@ jobs:
                   lv = j.get('enemyLevels') or []
                   pool = []
                   for r in (j.get('rewardPool') or [])[:10]:
-                      if r not in pool:
-                          pool.append(r)
+                      rz = tr(r)
+                      if rz not in pool:
+                          pool.append(rz)
                   jobs.append({
-                      't': j.get('type') or j.get('jobType') or '',
+                      't': tr(j.get('type') or j.get('jobType') or ''),
                       'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else '',
                       'rp': pool})
               if jobs:
