@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "夜晚",
-   "left": "2 分钟"
+   "s": "白天",
+   "left": "1 小时 35 分"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "1 分钟"
+   "s": "寒冷",
+   "left": "15 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "2 分钟"
+   "left": "1 小时 35 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "2 小时 48 分",
+  "left": "2 小时 41 分",
   "rows": [
    {
     "a": "Disruption",
@@ -42,227 +42,269 @@
  },
  "fissures": [
   {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "5 分钟"
-  },
-  {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "15 分钟"
+   "c": "8 分钟"
+  },
+  {
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "即将结束"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Aten (Void)",
-   "c": "18 分钟"
-  },
-  {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "即将结束"
+   "c": "12 分钟"
   },
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "42 分钟"
+   "c": "35 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Nuovo (Ceres)",
-   "c": "19 分钟"
+   "c": "13 分钟"
   },
   {
    "a": "Meso Defense",
    "b": "Io (Jupiter)",
-   "c": "40 分钟"
+   "c": "33 分钟"
   },
   {
    "a": "Meso Spy",
    "b": "Dione (Saturn)",
-   "c": "27 分钟"
+   "c": "21 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Minthe (Pluto)",
+   "c": "21 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "3 分钟",
+   "left": "2 小时 26 分",
    "jobs": [
     {
-     "t": "",
-     "lv": "5-15"
+     "t": "Capture Their Leader",
+     "lv": "5-15",
+     "rp": [
+      "Vitality",
+      "200X Plastids",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "15X Nistlepod"
+     ]
     },
     {
-     "t": "",
-     "lv": "10-30"
+     "t": "Cull the Enemy",
+     "lv": "10-30",
+     "rp": [
+      "Point Strike",
+      "300X Circuits",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara Systems Blueprint",
+      "Enhanced Durability"
+     ]
     },
     {
-     "t": "",
-     "lv": "20-40"
+     "t": "Weaken the Grineer Foothold",
+     "lv": "20-40",
+     "rp": [
+      "Augur Pact",
+      "Naramon Lens",
+      "Zenurik Lens",
+      "200 Endo",
+      "Gara Neuroptics Blueprint",
+      "Vigilante Fervor"
+     ]
     },
     {
-     "t": "",
-     "lv": "30-50"
+     "t": "Search and Rescue",
+     "lv": "30-50",
+     "rp": [
+      "Augur Message",
+      "100X Kuva",
+      "Naramon Lens",
+      "300 Endo",
+      "Cetus Wisp",
+      "Vigilante Pursuit"
+     ]
     },
     {
-     "t": "",
-     "lv": "40-60"
+     "t": "Capture the New Grineer Commander",
+     "lv": "40-60",
+     "rp": [
+      "5X Breath Of The Eidolon",
+      "400 Endo",
+      "2X Cetus Wisp",
+      "300X Kuva",
+      "Aya"
+     ]
     },
     {
-     "t": "",
-     "lv": "100-100"
+     "t": "Sabotage Bounty",
+     "lv": "100-100",
+     "rp": [
+      "5X Breath Of The Eidolon",
+      "400 Endo",
+      "2X Cetus Wisp",
+      "300X Kuva",
+      "Aya"
+     ]
     }
    ]
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "3 分钟",
+   "left": "2 小时 26 分",
    "jobs": [
     {
-     "t": "",
-     "lv": "5-15"
+     "t": "Cleanse the Land",
+     "lv": "5-15",
+     "rp": [
+      "3X 1,500 Credits Cache",
+      "150 Endo",
+      "15X Lucent Teroglobe",
+      "2X 3,000 Credits Cache",
+      "250 Endo"
+     ]
     },
     {
-     "t": "",
-     "lv": "15-25"
+     "t": "Anomaly Retrieval",
+     "lv": "15-25",
+     "rp": [
+      "600 Endo",
+      "Naramon Lens",
+      "Zenurik Lens",
+      "Body Count",
+      "Scintillant"
+     ]
     },
     {
-     "t": "",
-     "lv": "25-30"
+     "t": "Strip Mining (Endless)",
+     "lv": "25-30",
+     "rp": [
+      "Ayatan Amber Star",
+      "250 Endo",
+      "Carnis Mandible",
+      "Jugulus Barbs",
+      "Saxum Thorax"
+     ]
     },
     {
-     "t": "",
-     "lv": "30-40"
+     "t": "Salvage",
+     "lv": "30-40",
+     "rp": [
+      "750 Endo",
+      "Unairu Lens",
+      "Madurai Lens",
+      "Hydraulic Crosshairs",
+      "5X Fass Residue"
+     ]
     },
     {
-     "t": "",
-     "lv": "40-60"
+     "t": "For Science!",
+     "lv": "40-60",
+     "rp": [
+      "Ayatan Amber Star",
+      "1000 Endo",
+      "750X Kuva",
+      "Aya",
+      "Xaku Chassis Blueprint"
+     ]
     },
     {
-     "t": "",
-     "lv": "100-100"
+     "t": "Reclaim What's Ours",
+     "lv": "100-100",
+     "rp": [
+      "Ayatan Amber Star",
+      "1000 Endo",
+      "750X Kuva",
+      "Aya",
+      "Xaku Chassis Blueprint"
+     ]
     }
    ]
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "3 分钟",
+   "left": "2 小时 26 分",
    "jobs": [
     {
-     "t": "",
-     "lv": "5-15"
+     "t": "Scorched Earth",
+     "lv": "5-15",
+     "rp": [
+      "100X Plastids",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "5X Gorgaricus Spore",
+      "Training Debt-Bond",
+      "Garuda Chassis Blueprint"
+     ]
     },
     {
-     "t": "",
-     "lv": "10-30"
+     "t": "Operational Intelligence",
+     "lv": "10-30",
+     "rp": [
+      "15X Gorgaricus Spore",
+      "200X Nano Spores",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "2X Shelter Debt-Bond",
+      "Garuda Systems Blueprint"
+     ]
     },
     {
-     "t": "",
-     "lv": "20-40"
+     "t": "Served Cold",
+     "lv": "20-40",
+     "rp": [
+      "200 Endo",
+      "Naramon Lens",
+      "300X Rubedo",
+      "2X Medical Debt-Bond",
+      "Garuda Neuroptics Blueprint",
+      "Aya"
+     ]
     },
     {
-     "t": "",
-     "lv": "30-50"
+     "t": "Proof of Life",
+     "lv": "30-50",
+     "rp": [
+      "200X Kuva",
+      "300 Endo",
+      "2X Mutagen Mass",
+      "2X Advances Debt-Bond",
+      "Aya"
+     ]
     },
     {
-     "t": "",
-     "lv": "40-60"
+     "t": "Agent Down",
+     "lv": "40-60",
+     "rp": [
+      "400 Endo",
+      "Neurodes",
+      "Orokin Cell",
+      "2X Familial Debt-Bond",
+      "Aya"
+     ]
     },
     {
-     "t": "",
-     "lv": "100-100"
-    }
-   ]
-  },
-  {
-   "syn": "地球 · 夜灵平野",
-   "left": "2 小时 33 分",
-   "jobs": [
-    {
-     "t": "",
-     "lv": "5-15"
-    },
-    {
-     "t": "",
-     "lv": "10-30"
-    },
-    {
-     "t": "",
-     "lv": "20-40"
-    },
-    {
-     "t": "",
-     "lv": "30-50"
-    },
-    {
-     "t": "",
-     "lv": "40-60"
-    },
-    {
-     "t": "",
-     "lv": "100-100"
-    }
-   ]
-  },
-  {
-   "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 33 分",
-   "jobs": [
-    {
-     "t": "",
-     "lv": "5-15"
-    },
-    {
-     "t": "",
-     "lv": "15-25"
-    },
-    {
-     "t": "",
-     "lv": "25-30"
-    },
-    {
-     "t": "",
-     "lv": "30-40"
-    },
-    {
-     "t": "",
-     "lv": "40-60"
-    },
-    {
-     "t": "",
-     "lv": "100-100"
-    }
-   ]
-  },
-  {
-   "syn": "金星 · 奥布山谷",
-   "left": "2 小时 33 分",
-   "jobs": [
-    {
-     "t": "",
-     "lv": "5-15"
-    },
-    {
-     "t": "",
-     "lv": "10-30"
-    },
-    {
-     "t": "",
-     "lv": "20-40"
-    },
-    {
-     "t": "",
-     "lv": "30-50"
-    },
-    {
-     "t": "",
-     "lv": "40-60"
-    },
-    {
-     "t": "",
-     "lv": "100-100"
+     "t": "Protect the Innocent",
+     "lv": "100-100",
+     "rp": [
+      "400 Endo",
+      "Neurodes",
+      "Orokin Cell",
+      "2X Familial Debt-Bond",
+      "Aya"
+     ]
     }
    ]
   }
  ],
- "updated": "2026-10-09 13:11 UTC"
+ "updated": "2026-10-09 13:18 UTC"
 }
