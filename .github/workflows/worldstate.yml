@@ -1,7 +1,8 @@
 name: worldstate
 on:
   schedule:
-    - cron: '5 * * * *'
+    - cron: '5 * * * *'      # 每小时：世界状态 + 赏金
+    - cron: '20 3 * * *'     # 每天 03:20 UTC：额外抓一次 warframe.market 价格
   workflow_dispatch:
 permissions:
   contents: write
@@ -82,4 +83,46 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add worldstate.json debug.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
+          git push
+      - name: Fetch market prices (daily / manual only)
+        if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
+        run: |
+          python3 - <<'PY'
+          import json, time, urllib.request, urllib.error, concurrent.futures
+          HEAD = {'User-Agent': 'WarframeCNLookup/1.0 (static fansite)',
+                  'Accept': 'application/json', 'Language': 'zh-hans', 'Platform': 'pc'}
+          slugs = json.load(open('price-targets.json', encoding='utf-8'))
+
+          def one(slug):
+              try:
+                  req = urllib.request.Request(
+                      'https://api.warframe.market/v2/orders/item/%s/top' % slug, headers=HEAD)
+                  with urllib.request.urlopen(req, timeout=25) as r:
+                      d = (json.loads(r.read()) or {}).get('data') or {}
+                  sell = [o for o in (d.get('sell') or []) if o.get('visible', True)]
+                  buy = [o for o in (d.get('buy') or []) if o.get('visible', True)]
+                  if not sell and not buy:
+                      return slug, None
+                  return slug, {'s': min((o['platinum'] for o in sell), default=None),
+                                'b': max((o['platinum'] for o in buy), default=None),
+                                'c': len(sell) + len(buy)}
+              except Exception:
+                  return slug, None
+
+          out, t0 = {}, time.time()
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+              for slug, res in ex.map(one, slugs):
+                  if res: out[slug] = res
+          data = {'updated': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()),
+                  'count': len(out), 'prices': out}
+          json.dump(data, open('prices.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+          print('prices: %d/%d in %.0fs' % (len(out), len(slugs), time.time() - t0))
+          PY
+      - name: Commit prices
+        if: github.event.schedule == '20 3 * * *' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "worldstate-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add prices.json
+          git diff --staged --quiet || git commit -m "prices $(date -u +%FT%TZ)"
           git push
