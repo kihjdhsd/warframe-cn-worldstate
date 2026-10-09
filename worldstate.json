@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "即将结束"
+   "s": "夜晚",
+   "left": "18 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "14 分钟"
+   "left": "11 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "即将结束"
+   "left": "18 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "3 小时 34 分",
+  "left": "3 小时 4 分",
   "rows": [
    {
     "a": "Disruption",
@@ -42,45 +42,176 @@
  },
  "fissures": [
   {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "22 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
-   "c": "27 分钟"
-  },
-  {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Lith Rescue",
-   "b": "Linea (Venus)",
-   "c": "18 分钟"
-  },
-  {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "5 分钟"
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "31 分钟"
   },
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "51 分钟"
+   "c": "22 分钟"
   },
   {
-   "a": "Requiem Spy",
-   "b": "Pago (Kuva Fortress)",
-   "c": "1 小时 1 分"
+   "a": "Axi Mobile Defense",
+   "b": "Aten (Void)",
+   "c": "35 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "16 分钟"
+  },
+  {
+   "a": "Requiem Defense",
+   "b": "Nabuk (Kuva Fortress)",
+   "c": "11 分钟"
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "59 分钟"
+  },
+  {
+   "a": "Meso Rescue",
+   "b": "Nuovo (Ceres)",
+   "c": "36 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Io (Jupiter)",
+   "c": "57 分钟"
   }
  ],
- "updated": "2026-10-09 12:25 UTC"
+ "bounties": [
+  {
+   "syn": "地球 · 夜灵平野",
+   "n": [],
+   "left": "19 分钟",
+   "jobs": [
+    {
+     "t": "Capture the New Grineer Commander",
+     "lv": "5-15",
+     "mr": 0,
+     "st": 3
+    },
+    {
+     "t": "Reclaim the Stolen Artifact",
+     "lv": "10-30",
+     "mr": 1,
+     "st": 3
+    },
+    {
+     "t": "Capture the Grineer Commander",
+     "lv": "20-40",
+     "mr": 2,
+     "st": 4
+    },
+    {
+     "t": "Find the Hidden Artifact",
+     "lv": "30-50",
+     "mr": 3,
+     "st": 5
+    },
+    {
+     "t": "Spy Catcher",
+     "lv": "40-60",
+     "mr": 5,
+     "st": 5
+    },
+    {
+     "t": "Assassinate the Commander",
+     "lv": "100-100",
+     "mr": 10,
+     "st": 5
+    }
+   ]
+  },
+  {
+   "syn": "火卫二 · 魔胎之境",
+   "n": [],
+   "left": "19 分钟",
+   "jobs": [
+    {
+     "t": "Brute Force",
+     "lv": "5-15",
+     "mr": 0,
+     "st": 3
+    },
+    {
+     "t": "Salvage",
+     "lv": "15-25",
+     "mr": 1,
+     "st": 3
+    },
+    {
+     "t": "Anomaly Retrieval (Endless)",
+     "lv": "25-30",
+     "mr": 5,
+     "st": 3
+    },
+    {
+     "t": "Reclaim What's Ours",
+     "lv": "30-40",
+     "mr": 2,
+     "st": 4
+    },
+    {
+     "t": "Anomaly Retrieval",
+     "lv": "40-60",
+     "mr": 3,
+     "st": 5
+    },
+    {
+     "t": "Core Samples",
+     "lv": "100-100",
+     "mr": 10,
+     "st": 5
+    }
+   ]
+  },
+  {
+   "syn": "金星 · 奥布山谷",
+   "n": [],
+   "left": "19 分钟",
+   "jobs": [
+    {
+     "t": "Hunter-Killer",
+     "lv": "5-15",
+     "mr": 0,
+     "st": 3
+    },
+    {
+     "t": "Proof of Life",
+     "lv": "10-30",
+     "mr": 1,
+     "st": 3
+    },
+    {
+     "t": "Software Subterfuge",
+     "lv": "20-40",
+     "mr": 2,
+     "st": 4
+    },
+    {
+     "t": "Resource Theft",
+     "lv": "30-50",
+     "mr": 3,
+     "st": 5
+    },
+    {
+     "t": "Financial Liberation",
+     "lv": "40-60",
+     "mr": 5,
+     "st": 5
+    },
+    {
+     "t": "Courier Ambush",
+     "lv": "100-100",
+     "mr": 10,
+     "st": 5
+    }
+   ]
+  }
+ ],
+ "updated": "2026-10-09 12:55 UTC"
 }
