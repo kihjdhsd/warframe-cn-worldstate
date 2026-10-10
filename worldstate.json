@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "8 小时 55 分",
+  "left": "8 小时 39 分",
   "rows": [
    {
     "a": "Rescue",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 07:04 UTC"
+ "updated": "2026-10-10 07:20 UTC"
 }
