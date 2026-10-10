@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "22 分钟"
+   "left": "4 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "8 分钟"
+   "left": "17 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "22 分钟"
+   "left": "4 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "15 小时 28 分",
+  "left": "15 小时 10 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Meso Capture",
-   "b": "Skyresh (Phobos)",
-   "c": "0 分钟"
-  },
-  {
-   "a": "Meso Extermination",
-   "b": "Telesto (Saturn)",
-   "c": "14 分钟"
-  },
-  {
-   "a": "Meso Rescue",
-   "b": "Metis (Jupiter)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Lith Spy",
-   "b": "Unda (Venus)",
-   "c": "即将结束"
-  },
-  {
    "a": "Lith Interception",
    "b": "Gaia (Earth)",
-   "c": "32 分钟"
+   "c": "14 分钟"
   },
   {
    "a": "Neo Sabotage",
    "b": "Kokabiel (Europa)",
-   "c": "28 分钟"
+   "c": "10 分钟"
+  },
+  {
+   "a": "Neo Spy",
+   "b": "Nereid (Neptune)",
+   "c": "0 分钟"
+  },
+  {
+   "a": "Omnia Alchemy",
+   "b": "Cambire (Deimos)",
+   "c": "24 分钟"
+  },
+  {
+   "a": "Neo Interception",
+   "b": "Umbriel (Uranus)",
+   "c": "24 分钟"
+  },
+  {
+   "a": "Omnia Void Cascade",
+   "b": "Tuvul Commons (Zariman)",
+   "c": "44 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Axi Defense",
+   "b": "Belenus (Void)",
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 12 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "Sabotage the Enemy Supply Lines",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 12 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 12 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "Bury Them",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 00:31 UTC"
+ "updated": "2026-10-10 00:49 UTC"
 }
