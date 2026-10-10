@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 5 小时"
+  "left": "6 天 4 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "8 小时 22 分",
+  "left": "7 小时 57 分",
   "rows": [
    {
     "a": "Rescue",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 07:37 UTC"
+ "updated": "2026-10-10 08:02 UTC"
 }
