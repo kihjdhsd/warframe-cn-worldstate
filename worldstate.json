@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "42 分钟"
+   "left": "25 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "5 分钟"
+   "left": "14 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "42 分钟"
+   "left": "25 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "18 小时 58 分",
+  "left": "18 小时 41 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Assault",
-   "b": "Koro (Kuva Fortress)",
-   "c": "12 分钟"
-  },
-  {
    "a": "Axi Interception",
    "b": "Cerberus (Pluto)",
-   "c": "21 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Cytherean (Venus)",
-   "c": "20 分钟"
-  },
-  {
-   "a": "Axi Mobile Defense",
-   "b": "Solium (Eris)",
-   "c": "15 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Adaro (Sedna)",
-   "c": "43 分钟"
+   "c": "26 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Oxomoco (Void)",
-   "c": "37 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Neo Mobile Defense",
    "b": "Larissa (Neptune)",
-   "c": "19 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Paimon (Europa)",
-   "c": "50 分钟"
+   "c": "33 分钟"
+  },
+  {
+   "a": "Meso Rescue",
+   "b": "Metis (Jupiter)",
+   "c": "47 分钟"
+  },
+  {
+   "a": "Meso Sabotage",
+   "b": "Enceladus (Saturn)",
+   "c": "24 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "42 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "42 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "42 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "资源窃取",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 21:01 UTC"
+ "updated": "2026-10-10 21:18 UTC"
 }
