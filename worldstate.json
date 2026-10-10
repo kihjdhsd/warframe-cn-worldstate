@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "夜晚",
-   "left": "7 分钟"
+   "s": "白天",
+   "left": "1 小时 21 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "9 分钟"
+   "left": "11 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "7 分钟"
+   "left": "1 小时 21 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 1 小时"
+  "left": "6 天 0 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "4 小时 23 分",
+  "left": "3 小时 57 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,272 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Neo Sabotage",
-   "b": "Sao (Neptune)",
-   "c": "14 分钟"
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "Hellas (Mars)",
-   "c": "9 分钟"
-  },
-  {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "25 分钟"
-  },
-  {
-   "a": "Requiem Assault",
-   "b": "Koro (Kuva Fortress)",
-   "c": "10 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Interception",
    "b": "Xini (Eris)",
-   "c": "39 分钟"
+   "c": "14 分钟"
   },
   {
-   "a": "Lith Excavation",
-   "b": "Kiliken (Venus)",
-   "c": "12 分钟"
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "41 分钟"
   },
   {
-   "a": "Lith Extermination",
-   "b": "E Prime (Earth)",
-   "c": "9 分钟"
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "35 分钟"
+  },
+  {
+   "a": "Omnia Void Cascade",
+   "b": "Tuvul Commons (Zariman)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "10 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Mot (Void)",
+   "c": "1 小时 2 分"
+  },
+  {
+   "a": "Axi Rescue",
+   "b": "Brugia (Eris)",
+   "c": "41 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "7 分钟",
-   "jobs": [
-    {
-     "t": "俘获新的 Grineer 指挥官",
-     "lv": "5-15",
-     "rp": [
-      "压迫点",
-      "100 永冻晶矿",
-      "1,500 Credits Cache",
-      "50 Endo",
-      "15 葛克度"
-     ]
-    },
-    {
-     "t": "Sabotage the Enemy Supply Lines",
-     "lv": "10-30",
-     "rp": [
-      "能量转化",
-      "200 永冻晶矿",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "Gara 系统蓝图",
-      "灵敏扳机"
-     ]
-    },
-    {
-     "t": "清剿敌军",
-     "lv": "20-40",
-     "rp": [
-      "私法 军备",
-      "Vazarin 晶体",
-      "Unairu 晶体",
-      "200 Endo",
-      "Gara 头部神经光元蓝图",
-      "角斗士 威猛"
-     ]
-    },
-    {
-     "t": "Capture the Grineer Agent",
-     "lv": "30-50",
-     "rp": [
-      "私法 活力",
-      "Zenurik 晶体",
-      "Vazarin 晶体",
-      "300 Endo",
-      "希图斯幽魂",
-      "角斗士 决心"
-     ]
-    },
-    {
-     "t": "破坏赏金",
-     "lv": "40-60",
-     "rp": [
-      "5 夜灵之息",
-      "400 Endo",
-      "2 希图斯幽魂",
-      "300 赤毒",
-      "阿耶精华"
-     ]
-    },
-    {
-     "t": "俘获 Grineer 指挥官",
-     "lv": "100-100",
-     "rp": [
-      "5 夜灵之息",
-      "400 Endo",
-      "2 希图斯幽魂",
-      "300 赤毒",
-      "阿耶精华"
-     ]
-    }
-   ]
-  },
-  {
-   "syn": "火卫二 · 魔胎之境",
-   "left": "7 分钟",
-   "jobs": [
-    {
-     "t": "异常回收",
-     "lv": "5-15",
-     "rp": [
-      "3 1,500 现金匣",
-      "150 Endo",
-      "15X Pustulite",
-      "2 3,000 现金匣",
-      "250 Endo"
-     ]
-    },
-    {
-     "t": "回收金属",
-     "lv": "15-25",
-     "rp": [
-      "600 Endo",
-      "Vazarin 晶体",
-      "Unairu 晶体",
-      "破片射击",
-      "闪烁体"
-     ]
-    },
-    {
-     "t": "异常回收（无尽）",
-     "lv": "25-30",
-     "rp": [
-      "阿耶檀识琥珀星",
-      "250 Endo",
-      "肉碾虫 巨颚",
-      "喉骨刃者 倒刺",
-      "重岩者 胸腔"
-     ]
-    },
-    {
-     "t": "Core Samples",
-     "lv": "30-40",
-     "rp": [
-      "750 Endo",
-      "Unairu 晶体",
-      "Madurai 晶体",
-      "液压准心",
-      "5X Fass Residue"
-     ]
-    },
-    {
-     "t": "为了科学！",
-     "lv": "40-60",
-     "rp": [
-      "阿耶檀识琥珀星",
-      "1000 Endo",
-      "750 赤毒",
-      "阿耶精华",
-      "Xaku 机体蓝图"
-     ]
-    },
-    {
-     "t": "以力破局",
-     "lv": "100-100",
-     "rp": [
-      "阿耶檀识琥珀星",
-      "1000 Endo",
-      "750 赤毒",
-      "阿耶精华",
-      "Xaku 机体蓝图"
-     ]
-    }
-   ]
-  },
-  {
-   "syn": "金星 · 奥布山谷",
-   "left": "7 分钟",
-   "jobs": [
-    {
-     "t": "砸烂他们的陷阱",
-     "lv": "5-15",
-     "rp": [
-      "100 永冻晶矿",
-      "1,500 Credits Cache",
-      "50 Endo",
-      "5 热能软泥",
-      "2 培训债务债券",
-      "Garuda 机体蓝图"
-     ]
-    },
-    {
-     "t": "Network Collapse",
-     "lv": "10-30",
-     "rp": [
-      "15 热能软泥",
-      "200 永冻晶矿",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "2X Shelter Debt-Bond",
-      "Garuda 系统蓝图"
-     ]
-    },
-    {
-     "t": "Dirt Unit",
-     "lv": "20-40",
-     "rp": [
-      "200 Endo",
-      "Unairu 晶体",
-      "300 生物质",
-      "2X Medical Debt-Bond",
-      "Garuda 头部神经光元蓝图",
-      "阿耶精华"
-     ]
-    },
-    {
-     "t": "Bury Them",
-     "lv": "30-50",
-     "rp": [
-      "Zenurik 晶体",
-      "300 Endo",
-      "2 爆燃喷射器",
-      "2X Advances Debt-Bond",
-      "阿耶精华"
-     ]
-    },
-    {
-     "t": "Picket Duty",
-     "lv": "40-60",
-     "rp": [
-      "400 Endo",
-      "神经元",
-      "奥罗金电池",
-      "2X Familial Debt-Bond",
-      "阿耶精华"
-     ]
-    },
-    {
-     "t": "资源窃取",
-     "lv": "100-100",
-     "rp": [
-      "400 Endo",
-      "神经元",
-      "奥罗金电池",
-      "2X Familial Debt-Bond",
-      "阿耶精华"
-     ]
-    }
-   ]
-  },
-  {
-   "syn": "地球 · 夜灵平野",
-   "left": "2 小时 37 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -382,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 37 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -454,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 37 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "猎杀行动",
@@ -528,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 11:36 UTC"
+ "updated": "2026-10-10 12:02 UTC"
 }
