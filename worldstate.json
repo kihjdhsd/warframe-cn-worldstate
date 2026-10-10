@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "22 分钟"
+   "left": "1 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
+   "s": "温暖",
    "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "22 分钟"
+   "left": "1 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "21 小时 58 分",
+  "left": "21 小时 37 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -44,48 +44,48 @@
   {
    "a": "Axi Survival",
    "b": "Palus (Pluto)",
-   "c": "15 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Lith Spy",
-   "b": "Cambria (Earth)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Rescue",
    "b": "Triton (Neptune)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Interception",
    "b": "Mithra (Void)",
-   "c": "39 分钟"
+   "c": "18 分钟"
   },
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "20 分钟"
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "E Prime (Earth)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Mobile Defense",
    "b": "Tharsis (Mars)",
-   "c": "34 分钟"
+   "c": "13 分钟"
+  },
+  {
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "22 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Gulliver (Phobos)",
+   "c": "25 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 13 分",
+   "left": "52 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 13 分",
+   "left": "52 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 13 分",
+   "left": "52 分钟",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 18:01 UTC"
+ "updated": "2026-10-10 18:22 UTC"
 }
