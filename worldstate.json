@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "47 分钟"
+   "left": "22 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "3 分钟"
+   "s": "寒冷",
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "47 分钟"
+   "left": "22 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "5 天 19 小时"
+  "left": "5 天 18 小时"
  },
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "22 小时 23 分",
+  "left": "21 小时 58 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "11 分钟"
-  },
-  {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "14 分钟"
-  },
-  {
    "a": "Axi Survival",
    "b": "Palus (Pluto)",
-   "c": "41 分钟"
-  },
-  {
-   "a": "Axi Interception",
-   "b": "Berehynia (Sedna)",
-   "c": "3 分钟"
+   "c": "15 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "37 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Lith Spy",
    "b": "Cambria (Earth)",
-   "c": "28 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Rescue",
    "b": "Triton (Neptune)",
-   "c": "32 分钟"
+   "c": "7 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Mithra (Void)",
-   "c": "1 小时 4 分"
+   "c": "39 分钟"
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "20 分钟"
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "E Prime (Earth)",
+   "c": "2 分钟"
+  },
+  {
+   "a": "Lith Mobile Defense",
+   "b": "Tharsis (Mars)",
+   "c": "34 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 38 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 38 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 38 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 17:36 UTC"
+ "updated": "2026-10-10 18:01 UTC"
 }
