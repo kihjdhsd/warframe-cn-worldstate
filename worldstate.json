@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 3 分"
+   "left": "45 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "6 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 3 分"
+   "left": "45 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "13 小时 39 分",
+  "left": "13 小时 21 分",
   "rows": [
    {
     "a": "Rescue",
@@ -54,38 +54,38 @@
   {
    "a": "Axi Spy",
    "b": "Oceanum (Pluto)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Sabotage",
    "b": "Cervantes (Earth)",
-   "c": "0 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "17 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Excavation",
    "b": "Despina (Neptune)",
-   "c": "33 分钟"
+   "c": "14 分钟"
   },
   {
    "a": "Lith Sabotage",
    "b": "Ares (Mars)",
-   "c": "50 分钟"
+   "c": "31 分钟"
   },
   {
    "a": "Lith Excavation",
    "b": "Everest (Earth)",
-   "c": "28 分钟"
+   "c": "10 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 54 分",
+   "left": "1 小时 35 分",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 54 分",
+   "left": "1 小时 35 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 54 分",
+   "left": "1 小时 35 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 02:20 UTC"
+ "updated": "2026-10-10 02:38 UTC"
 }
