@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 6 分"
+   "left": "47 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "15 分钟"
+   "s": "温暖",
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 6 分"
+   "left": "47 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "22 小时 42 分",
+  "left": "22 小时 23 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Meso Defense",
-   "b": "Io (Jupiter)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Meso Survival",
-   "b": "Draco (Ceres)",
-   "c": "5 分钟"
-  },
-  {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "17 分钟"
-  },
-  {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "0 分钟"
-  },
-  {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "29 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Palus (Pluto)",
+   "c": "41 分钟"
+  },
+  {
+   "a": "Axi Interception",
+   "b": "Berehynia (Sedna)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Lith Interception",
+   "b": "Alator (Mars)",
+   "c": "37 分钟"
+  },
+  {
+   "a": "Lith Spy",
+   "b": "Cambria (Earth)",
+   "c": "28 分钟"
+  },
+  {
+   "a": "Neo Rescue",
+   "b": "Triton (Neptune)",
    "c": "32 分钟"
   },
   {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Belenus (Void)",
-   "c": "0 分钟"
+   "a": "Neo Interception",
+   "b": "Mithra (Void)",
+   "c": "1 小时 4 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 56 分",
+   "left": "1 小时 38 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 56 分",
+   "left": "1 小时 38 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 56 分",
+   "left": "1 小时 38 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 17:17 UTC"
+ "updated": "2026-10-10 17:36 UTC"
 }
