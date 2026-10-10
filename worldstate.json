@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 17 分"
+   "left": "51 分钟"
   },
   {
    "k": "金星",
@@ -13,18 +13,18 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 17 分"
+   "left": "51 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 13 小时"
+  "left": "6 天 12 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "16 小时 23 分",
+  "left": "15 小时 57 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Omnia Void Flood",
-   "b": "Everview Arc (Zariman)",
-   "c": "10 分钟"
-  },
-  {
    "a": "Meso Mobile Defense",
    "b": "Sharpless (Phobos)",
-   "c": "38 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "E Gate (Venus)",
-   "c": "28 分钟"
-  },
-  {
-   "a": "Lith Disruption",
-   "b": "Olympus (Mars)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Axi Rescue",
-   "b": "Naga (Sedna)",
    "c": "2 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Taranis (Void)",
-   "c": "10 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Solium (Eris)",
-   "c": "31 分钟"
+   "c": "5 分钟"
+  },
+  {
+   "a": "Axi Interception",
+   "b": "Cerberus (Pluto)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Requiem Extermination",
+   "b": "Dakata (Kuva Fortress)",
+   "c": "28 分钟"
+  },
+  {
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "26 分钟"
+  },
+  {
+   "a": "Meso Capture",
+   "b": "Skyresh (Phobos)",
+   "c": "29 分钟"
+  },
+  {
+   "a": "Meso Extermination",
+   "b": "Telesto (Saturn)",
+   "c": "44 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 8 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "Sabotage the Enemy Supply Lines",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 8 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 8 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "Bury Them",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-09 23:36 UTC"
+ "updated": "2026-10-10 00:02 UTC"
 }
