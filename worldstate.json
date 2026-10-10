@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 13 分"
+   "left": "50 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "即将结束"
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 13 分"
+   "left": "50 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 8 小时"
+  "left": "6 天 7 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "11 小时 19 分",
+  "left": "10 小时 56 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Lith Extermination",
-   "b": "E Gate (Venus)",
-   "c": "13 分钟"
-  },
-  {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "15 分钟"
-  },
-  {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "19 分钟"
-  },
-  {
    "a": "Neo Extermination",
    "b": "Armaros (Europa)",
-   "c": "38 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Neo Sabotage",
    "b": "Sao (Neptune)",
-   "c": "33 分钟"
-  },
-  {
-   "a": "Meso Spy",
-   "b": "Bode (Ceres)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Axi Interception",
-   "b": "Xini (Eris)",
-   "c": "7 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Axi Sabotage",
    "b": "Stribog (Void)",
-   "c": "35 分钟"
+   "c": "13 分钟"
+  },
+  {
+   "a": "Meso Interception",
+   "b": "Cinxia (Ceres)",
+   "c": "25 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Gulliver (Phobos)",
+   "c": "41 分钟"
+  },
+  {
+   "a": "Meso Survival",
+   "b": "Titan (Saturn)",
+   "c": "2 分钟"
+  },
+  {
+   "a": "Omnia Alchemy",
+   "b": "Cambire (Deimos)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
+   "c": "25 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 3 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 3 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 3 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 04:40 UTC"
+ "updated": "2026-10-10 05:03 UTC"
 }
