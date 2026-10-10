@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "41 分钟"
+   "left": "18 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "即将结束"
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "41 分钟"
+   "left": "18 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "9 小时 57 分",
+  "left": "9 小时 34 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Axi Survival",
-   "b": "Selkie (Sedna)",
-   "c": "1 分钟"
-  },
-  {
-   "a": "Lith Survival",
-   "b": "V Prime (Venus)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Meso Capture",
-   "b": "Lex (Ceres)",
-   "c": "7 分钟"
-  },
-  {
-   "a": "Meso Defense",
-   "b": "Io (Jupiter)",
-   "c": "6 分钟"
-  },
-  {
    "a": "Meso Rescue",
    "b": "Monolith (Phobos)",
-   "c": "22 分钟"
+   "c": "0 分钟"
   },
   {
-   "a": "Lith Mobile Defense",
-   "b": "Tharsis (Mars)",
-   "c": "即将结束"
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "9 分钟"
   },
   {
-   "a": "Requiem Spy",
-   "b": "Pago (Kuva Fortress)",
-   "c": "即将结束"
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "15 分钟"
   },
   {
-   "a": "Requiem Assault",
-   "b": "Koro (Kuva Fortress)",
-   "c": "即将结束"
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "21 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Axi Defense",
+   "b": "Kala-azar (Eris)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Tiwaz (Void)",
+   "c": "5 分钟"
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Teshub (Void)",
+   "c": "20 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "42 分钟",
+   "left": "19 分钟",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "42 分钟",
+   "left": "19 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "42 分钟",
+   "left": "19 分钟",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 06:02 UTC"
+ "updated": "2026-10-10 06:25 UTC"
 }
