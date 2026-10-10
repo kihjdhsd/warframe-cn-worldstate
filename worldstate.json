@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 35 分"
+   "left": "1 小时 16 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "8 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 35 分"
+   "left": "1 小时 16 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "1 小时 41 分",
+  "left": "1 小时 22 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "8 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "8 分钟"
-  },
-  {
    "a": "Axi Spy",
    "b": "Oceanum (Pluto)",
-   "c": "33 分钟"
+   "c": "14 分钟"
   },
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "23 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Lith Defense",
    "b": "Spear (Mars)",
-   "c": "28 分钟"
+   "c": "9 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Charybdis (Sedna)",
-   "c": "36 分钟"
-  },
-  {
-   "a": "Axi Sabotage",
-   "b": "Cypress (Pluto)",
-   "c": "15 分钟"
+   "c": "18 分钟"
   },
   {
    "a": "Axi Hive",
    "b": "Naeglar (Eris)",
-   "c": "45 分钟"
+   "c": "27 分钟"
+  },
+  {
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "23 分钟"
+  },
+  {
+   "a": "Neo Sabotage",
+   "b": "Kokabiel (Europa)",
+   "c": "20 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 25 分",
+   "left": "2 小时 7 分",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 25 分",
+   "left": "2 小时 7 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 25 分",
+   "left": "2 小时 7 分",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 14:18 UTC"
+ "updated": "2026-10-10 14:37 UTC"
 }
