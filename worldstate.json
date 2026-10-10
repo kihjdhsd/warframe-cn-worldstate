@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "42 分钟"
+   "left": "24 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "12 分钟"
+   "s": "温暖",
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "42 分钟"
+   "left": "24 分钟"
   }
  ],
  "trader": {
@@ -22,70 +22,70 @@
   "left": "5 天 20 小时"
  },
  "sortie": {
-  "k": "Ambulas",
-  "n": "Corpus",
-  "left": "即将结束",
+  "k": "Lech Kril",
+  "n": "Grineer",
+  "left": "23 小时 40 分",
   "rows": [
    {
-    "a": "Rescue",
-    "b": "Roche (Phobos)"
+    "a": "Free Roam",
+    "b": "Plains of Eidolon (Earth)"
    },
    {
-    "a": "Extermination",
-    "b": "Cytherean (Venus)"
+    "a": "Defense",
+    "b": "Grimaldi (Lua)"
    },
    {
     "a": "Assassination",
-    "b": "Hades (Pluto)"
+    "b": "War (Mars)"
    }
   ]
  },
  "fissures": [
   {
-   "a": "Neo Defense",
-   "b": "Stephano (Uranus)",
-   "c": "9 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
-   "c": "6 分钟"
-  },
-  {
    "a": "Axi Interception",
    "b": "Xini (Eris)",
-   "c": "27 分钟"
+   "c": "9 分钟"
   },
   {
    "a": "Axi Interception",
    "b": "Mithra (Void)",
-   "c": "17 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Extermination",
    "b": "Armaros (Europa)",
-   "c": "45 分钟"
+   "c": "27 分钟"
   },
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "48 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Kala-azar (Eris)",
-   "c": "54 分钟"
+   "c": "30 分钟"
   },
   {
    "a": "Axi Spy",
    "b": "Kelpie (Sedna)",
-   "c": "56 分钟"
+   "c": "38 分钟"
+  },
+  {
+   "a": "Axi Defense",
+   "b": "Kala-azar (Eris)",
+   "c": "36 分钟"
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Everest (Earth)",
+   "c": "22 分钟"
+  },
+  {
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "37 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "43 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "43 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "43 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 16:01 UTC"
+ "updated": "2026-10-10 16:19 UTC"
 }
