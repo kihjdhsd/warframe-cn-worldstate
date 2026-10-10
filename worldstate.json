@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "34 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "13 分钟"
+   "s": "温暖",
+   "left": "2 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "34 分钟"
+   "left": "16 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "10 小时 40 分",
+  "left": "10 小时 22 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Extermination",
-   "b": "Armaros (Europa)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Meso Interception",
-   "b": "Cinxia (Ceres)",
-   "c": "8 分钟"
-  },
-  {
    "a": "Meso Defense",
    "b": "Gulliver (Phobos)",
-   "c": "24 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "9 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "21 分钟"
-  },
-  {
-   "a": "Neo Disruption",
-   "b": "Laomedeia (Neptune)",
-   "c": "即将结束"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "22 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Axi Survival",
    "b": "Selkie (Sedna)",
-   "c": "44 分钟"
+   "c": "26 分钟"
+  },
+  {
+   "a": "Lith Survival",
+   "b": "V Prime (Venus)",
+   "c": "27 分钟"
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "E Prime (Earth)",
+   "c": "6 分钟"
+  },
+  {
+   "a": "Meso Capture",
+   "b": "Lex (Ceres)",
+   "c": "32 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Io (Jupiter)",
+   "c": "31 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 24 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 24 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 24 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 05:19 UTC"
+ "updated": "2026-10-10 05:37 UTC"
 }
