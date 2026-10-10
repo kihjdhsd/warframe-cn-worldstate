@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "夜晚",
-   "left": "5 分钟"
+   "s": "白天",
+   "left": "1 小时 21 分"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "4 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "5 分钟"
+   "left": "1 小时 21 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "5 天 20 小时"
+  "left": "5 天 19 小时"
  },
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "23 小时 21 分",
+  "left": "22 小时 57 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,100 +42,100 @@
  },
  "fissures": [
   {
-   "a": "Axi Interception",
-   "b": "Xini (Eris)",
-   "c": "即将结束"
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "7 分钟"
   },
   {
-   "a": "Axi Interception",
-   "b": "Mithra (Void)",
-   "c": "即将结束"
+   "a": "Meso Defense",
+   "b": "Io (Jupiter)",
+   "c": "14 分钟"
   },
   {
-   "a": "Neo Extermination",
-   "b": "Armaros (Europa)",
-   "c": "8 分钟"
+   "a": "Meso Survival",
+   "b": "Draco (Ceres)",
+   "c": "21 分钟"
   },
   {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "11 分钟"
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "16 分钟"
   },
   {
-   "a": "Axi Spy",
-   "b": "Kelpie (Sedna)",
-   "c": "19 分钟"
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "33 分钟"
   },
   {
-   "a": "Axi Defense",
-   "b": "Kala-azar (Eris)",
+   "a": "Omnia Void Cascade",
+   "b": "Tuvul Commons (Zariman)",
+   "c": "45 分钟"
+  },
+  {
+   "a": "Omnia Alchemy",
+   "b": "Cambire (Deimos)",
+   "c": "48 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
    "c": "17 分钟"
-  },
-  {
-   "a": "Lith Excavation",
-   "b": "Everest (Earth)",
-   "c": "3 分钟"
-  },
-  {
-   "a": "Omnia Void Flood",
-   "b": "Everview Arc (Zariman)",
-   "c": "18 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "6 分钟",
+   "left": "2 小时 12 分",
    "jobs": [
     {
-     "t": "Spy Catcher",
+     "t": "Find the Hidden Artifact",
      "lv": "5-15",
      "rp": [
-      "蓄能重划",
-      "100 奥席金属",
+      "压迫点",
+      "100 永冻晶矿",
       "1,500 Credits Cache",
       "50 Endo",
-      "15 伊莱体"
-     ]
-    },
-    {
-     "t": "破坏赏金",
-     "lv": "10-30",
-     "rp": [
-      "钢铁纤维",
-      "200 奥席金属",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "Gara 系统蓝图",
-      "蓄力装填"
+      "15 葛克度"
      ]
     },
     {
      "t": "Assassinate the Commander",
-     "lv": "20-40",
+     "lv": "10-30",
      "rp": [
-      "角斗士 圣盾",
-      "Madurai 晶体",
-      "希图斯幽魂",
-      "200 Endo",
-      "Gara 头部神经光元蓝图",
-      "预言 协约"
-     ]
-    },
-    {
-     "t": "Capture the Grineer Agent",
-     "lv": "30-50",
-     "rp": [
-      "角斗士 猛突",
-      "Unairu 晶体",
-      "Madurai 晶体",
-      "300 Endo",
-      "希图斯幽魂",
-      "预言 通灵"
+      "能量转化",
+      "200 永冻晶矿",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "灵敏扳机"
      ]
     },
     {
      "t": "夺回失窃圣物",
+     "lv": "20-40",
+     "rp": [
+      "私法 军备",
+      "Vazarin 晶体",
+      "Unairu 晶体",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "角斗士 威猛"
+     ]
+    },
+    {
+     "t": "俘获 Grineer 指挥官",
+     "lv": "30-50",
+     "rp": [
+      "私法 活力",
+      "Zenurik 晶体",
+      "Vazarin 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "角斗士 决心"
+     ]
+    },
+    {
+     "t": "清剿敌军",
      "lv": "40-60",
      "rp": [
       "5 夜灵之息",
@@ -146,7 +146,7 @@
      ]
     },
     {
-     "t": "Sabotage the Enemy Supply Lines",
+     "t": "Capture the Grineer Agent",
      "lv": "100-100",
      "rp": [
       "5 夜灵之息",
@@ -160,32 +160,32 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "6 分钟",
+   "left": "2 小时 12 分",
    "jobs": [
     {
-     "t": "为了科学！",
+     "t": "以力破局",
      "lv": "5-15",
      "rp": [
       "3 1,500 现金匣",
       "150 Endo",
-      "15X Ganglion",
+      "15X Pustulite",
       "2 3,000 现金匣",
       "250 Endo"
      ]
     },
     {
-     "t": "Core Samples",
+     "t": "为了科学！",
      "lv": "15-25",
      "rp": [
       "600 Endo",
-      "Zenurik 晶体",
-      "Madurai 晶体",
-      "触媒连动",
+      "Vazarin 晶体",
+      "Unairu 晶体",
+      "破片射击",
       "闪烁体"
      ]
     },
     {
-     "t": "异常回收（无尽）",
+     "t": "露天开采（无尽）",
      "lv": "25-30",
      "rp": [
       "阿耶檀识琥珀星",
@@ -196,18 +196,18 @@
      ]
     },
     {
-     "t": "以力破局",
+     "t": "异常回收",
      "lv": "30-40",
      "rp": [
       "750 Endo",
       "Unairu 晶体",
       "Madurai 晶体",
-      "液压准心",
-      "5X Fass Residue"
+      "重点防御",
+      "5X Vome Residue"
      ]
     },
     {
-     "t": "净化土地",
+     "t": "Core Samples",
      "lv": "40-60",
      "rp": [
       "阿耶檀识琥珀星",
@@ -218,7 +218,7 @@
      ]
     },
     {
-     "t": "异常回收",
+     "t": "净化土地",
      "lv": "100-100",
      "rp": [
       "阿耶檀识琥珀星",
@@ -232,26 +232,26 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "6 分钟",
+   "left": "2 小时 12 分",
    "jobs": [
     {
-     "t": "Falling Star",
+     "t": "Dog Boards",
      "lv": "5-15",
      "rp": [
-      "100 奥席金属",
+      "100 永冻晶矿",
       "1,500 Credits Cache",
       "50 Endo",
-      "5X Mytocardia Spore",
+      "5 热能软泥",
       "2 培训债务债券",
       "Garuda 机体蓝图"
      ]
     },
     {
-     "t": "Courier Ambush",
+     "t": "作战情报",
      "lv": "10-30",
      "rp": [
-      "15X Mytocardia Spore",
-      "200 奥席金属",
+      "15 热能软泥",
+      "200 永冻晶矿",
       "2,500 Credits Cache",
       "100 Endo",
       "2X Shelter Debt-Bond",
@@ -259,30 +259,30 @@
      ]
     },
     {
-     "t": "砸烂他们的陷阱",
+     "t": "Agent Down",
      "lv": "20-40",
      "rp": [
       "200 Endo",
-      "Madurai 晶体",
-      "300 电路",
+      "Unairu 晶体",
+      "300 生物质",
       "2X Medical Debt-Bond",
       "Garuda 头部神经光元蓝图",
       "阿耶精华"
      ]
     },
     {
-     "t": "Financial Liberation",
+     "t": "Archaeology",
      "lv": "30-50",
      "rp": [
-      "Vazarin 晶体",
+      "Zenurik 晶体",
       "300 Endo",
-      "2 电磁力场装置",
+      "2 爆燃喷射器",
       "2X Advances Debt-Bond",
       "阿耶精华"
      ]
     },
     {
-     "t": "猎杀行动",
+     "t": "焦土战术",
      "lv": "40-60",
      "rp": [
       "400 Endo",
@@ -293,7 +293,7 @@
      ]
     },
     {
-     "t": "Bury Them",
+     "t": "资源窃取",
      "lv": "100-100",
      "rp": [
       "400 Endo",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 16:38 UTC"
+ "updated": "2026-10-10 17:02 UTC"
 }
