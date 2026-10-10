@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "34 分钟"
+   "left": "15 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "0 分钟"
+   "s": "寒冷",
+   "left": "2 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "34 分钟"
+   "left": "15 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "19 小时 40 分",
+  "left": "19 小时 21 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Lith Defense",
-   "b": "Lith (Earth)",
-   "c": "11 分钟"
-  },
-  {
-   "a": "Neo Survival",
-   "b": "Mot (Void)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Meso Mobile Defense",
-   "b": "Sharpless (Phobos)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Meso Extermination",
-   "b": "Telesto (Saturn)",
-   "c": "即将结束"
-  },
-  {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "27 分钟"
+   "c": "8 分钟"
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "36 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Saxis (Eris)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Axi Interception",
+   "b": "Cerberus (Pluto)",
+   "c": "44 分钟"
+  },
+  {
+   "a": "Lith Interception",
+   "b": "Cytherean (Venus)",
+   "c": "44 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Solium (Eris)",
+   "c": "38 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Adaro (Sedna)",
+   "c": "1 小时 7 分"
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Oxomoco (Void)",
+   "c": "1 小时 0 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 25 分",
+   "left": "1 小时 6 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 25 分",
+   "left": "1 小时 6 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 25 分",
+   "left": "1 小时 6 分",
    "jobs": [
     {
      "t": "资源窃取",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 20:19 UTC"
+ "updated": "2026-10-10 20:38 UTC"
 }
