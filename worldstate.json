@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "21 小时 37 分",
+  "left": "21 小时 18 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -59,7 +59,7 @@
   {
    "a": "Neo Interception",
    "b": "Mithra (Void)",
-   "c": "18 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Assault",
@@ -69,23 +69,23 @@
   {
    "a": "Lith Mobile Defense",
    "b": "Tharsis (Mars)",
-   "c": "13 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "22 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Meso Defense",
    "b": "Gulliver (Phobos)",
-   "c": "25 分钟"
+   "c": "6 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "52 分钟",
+   "left": "32 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "52 分钟",
+   "left": "32 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "52 分钟",
+   "left": "32 分钟",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 18:22 UTC"
+ "updated": "2026-10-10 18:41 UTC"
 }
