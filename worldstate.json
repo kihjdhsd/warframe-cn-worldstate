@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "59 分钟"
+   "left": "40 分钟"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "59 分钟"
+   "left": "40 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "3 小时 35 分",
+  "left": "3 小时 16 分",
   "rows": [
    {
     "a": "Rescue",
@@ -49,12 +49,12 @@
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "13 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Void Cascade",
@@ -64,28 +64,28 @@
   {
    "a": "Axi Survival",
    "b": "Mot (Void)",
-   "c": "40 分钟"
+   "c": "20 分钟"
   },
   {
    "a": "Axi Rescue",
    "b": "Brugia (Eris)",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Survival",
    "b": "Ani (Void)",
-   "c": "20 分钟"
+   "c": "0 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Nuovo (Ceres)",
-   "c": "18 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 50 分",
+   "left": "1 小时 30 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 50 分",
+   "left": "1 小时 30 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 50 分",
+   "left": "1 小时 30 分",
    "jobs": [
     {
      "t": "猎杀行动",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 12:24 UTC"
+ "updated": "2026-10-10 12:43 UTC"
 }
