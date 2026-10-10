@@ -1,8 +1,532 @@
 {
- "cycles": [],
- "trader": null,
- "sortie": null,
- "fissures": [],
- "bounties": [],
- "updated": "2026-10-10 03:39 UTC"
+ "cycles": [
+  {
+   "k": "地球",
+   "s": "夜晚",
+   "left": "10 分钟"
+  },
+  {
+   "k": "金星",
+   "s": "寒冷",
+   "left": "10 分钟"
+  },
+  {
+   "k": "火卫二",
+   "s": "沃姆",
+   "left": "10 分钟"
+  }
+ ],
+ "trader": {
+  "k": "前往中",
+  "n": "Orcus Relay (Pluto)",
+  "left": "6 天 8 小时"
+ },
+ "sortie": {
+  "k": "Ambulas",
+  "n": "Corpus",
+  "left": "11 小时 56 分",
+  "rows": [
+   {
+    "a": "Rescue",
+    "b": "Roche (Phobos)"
+   },
+   {
+    "a": "Extermination",
+    "b": "Cytherean (Venus)"
+   },
+   {
+    "a": "Assassination",
+    "b": "Hades (Pluto)"
+   }
+  ]
+ },
+ "fissures": [
+  {
+   "a": "Neo Rescue",
+   "b": "Orias (Europa)",
+   "c": "4 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "即将结束"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Selkie (Sedna)",
+   "c": "2 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Nimus (Eris)",
+   "c": "5 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Mot (Void)",
+   "c": "23 分钟"
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "Ultor (Mars)",
+   "c": "16 分钟"
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "E Gate (Venus)",
+   "c": "50 分钟"
+  },
+  {
+   "a": "Lith Sabotage",
+   "b": "Ishtar (Venus)",
+   "c": "26 分钟"
+  }
+ ],
+ "bounties": [
+  {
+   "syn": "地球 · 夜灵平野",
+   "left": "11 分钟",
+   "jobs": [
+    {
+     "t": "俘获其首领",
+     "lv": "5-15",
+     "rp": [
+      "生命力",
+      "200 生物质",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "15 尼蒐荚"
+     ]
+    },
+    {
+     "t": "Sabotage the Enemy Supply Lines",
+     "lv": "10-30",
+     "rp": [
+      "致命一击",
+      "300 电路",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "耐久强化"
+     ]
+    },
+    {
+     "t": "Spy Catcher",
+     "lv": "20-40",
+     "rp": [
+      "预言 契约",
+      "Naramon 晶体",
+      "Zenurik 晶体",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "私法 热诚"
+     ]
+    },
+    {
+     "t": "俘获新的 Grineer 指挥官",
+     "lv": "30-50",
+     "rp": [
+      "预言 启示",
+      "100 赤毒",
+      "Naramon 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "私法 追踪"
+     ]
+    },
+    {
+     "t": "夺回失窃圣物",
+     "lv": "40-60",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "破坏赏金",
+     "lv": "100-100",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "火卫二 · 魔胎之境",
+   "left": "11 分钟",
+   "jobs": [
+    {
+     "t": "为了科学！",
+     "lv": "5-15",
+     "rp": [
+      "3 1,500 现金匣",
+      "150 Endo",
+      "15X Lucent Teroglobe",
+      "2 3,000 现金匣",
+      "250 Endo"
+     ]
+    },
+    {
+     "t": "夺回属于我们的一切",
+     "lv": "15-25",
+     "rp": [
+      "600 Endo",
+      "Naramon 晶体",
+      "Zenurik 晶体",
+      "杀伤计数",
+      "闪烁体"
+     ]
+    },
+    {
+     "t": "露天开采（无尽）",
+     "lv": "25-30",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "250 Endo",
+      "肉碾虫 巨颚",
+      "喉骨刃者 倒刺",
+      "重岩者 胸腔"
+     ]
+    },
+    {
+     "t": "异常回收",
+     "lv": "30-40",
+     "rp": [
+      "750 Endo",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "重点防御",
+      "5X Vome Residue"
+     ]
+    },
+    {
+     "t": "净化土地",
+     "lv": "40-60",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    },
+    {
+     "t": "Core Samples",
+     "lv": "100-100",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "金星 · 奥布山谷",
+   "left": "11 分钟",
+   "jobs": [
+    {
+     "t": "Dog Boards",
+     "lv": "5-15",
+     "rp": [
+      "100 生物质",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "5X Gorgaricus Spore",
+      "培训债务债券",
+      "Garuda 机体蓝图"
+     ]
+    },
+    {
+     "t": "作战情报",
+     "lv": "10-30",
+     "rp": [
+      "15X Gorgaricus Spore",
+      "200 纳米孢子",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "2X Shelter Debt-Bond",
+      "Garuda 系统蓝图"
+     ]
+    },
+    {
+     "t": "资源窃取",
+     "lv": "20-40",
+     "rp": [
+      "200 Endo",
+      "Naramon 晶体",
+      "300 红化结晶",
+      "2X Medical Debt-Bond",
+      "Garuda 头部神经光元蓝图",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Courier Ambush",
+     "lv": "30-50",
+     "rp": [
+      "200 赤毒",
+      "300 Endo",
+      "2 突变原聚合物",
+      "2X Advances Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Protect the Innocent",
+     "lv": "40-60",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "生命证明",
+     "lv": "100-100",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "地球 · 夜灵平野",
+   "left": "2 小时 41 分",
+   "jobs": [
+    {
+     "t": "Spy Catcher",
+     "lv": "5-15",
+     "rp": [
+      "蓄能重划",
+      "100 奥席金属",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "15 伊莱体"
+     ]
+    },
+    {
+     "t": "Capture the Grineer Agent",
+     "lv": "10-30",
+     "rp": [
+      "钢铁纤维",
+      "200 奥席金属",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "蓄力装填"
+     ]
+    },
+    {
+     "t": "俘获其首领",
+     "lv": "20-40",
+     "rp": [
+      "角斗士 圣盾",
+      "Madurai 晶体",
+      "希图斯幽魂",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "预言 协约"
+     ]
+    },
+    {
+     "t": "清剿敌军",
+     "lv": "30-50",
+     "rp": [
+      "角斗士 猛突",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "预言 通灵"
+     ]
+    },
+    {
+     "t": "夺回失窃圣物",
+     "lv": "40-60",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "俘获 Grineer 指挥官",
+     "lv": "100-100",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "火卫二 · 魔胎之境",
+   "left": "2 小时 41 分",
+   "jobs": [
+    {
+     "t": "Core Samples",
+     "lv": "5-15",
+     "rp": [
+      "3 1,500 现金匣",
+      "150 Endo",
+      "15X Ganglion",
+      "2 3,000 现金匣",
+      "250 Endo"
+     ]
+    },
+    {
+     "t": "以力破局",
+     "lv": "15-25",
+     "rp": [
+      "600 Endo",
+      "Zenurik 晶体",
+      "Madurai 晶体",
+      "触媒连动",
+      "闪烁体"
+     ]
+    },
+    {
+     "t": "露天开采（无尽）",
+     "lv": "25-30",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "250 Endo",
+      "肉碾虫 巨颚",
+      "喉骨刃者 倒刺",
+      "重岩者 胸腔"
+     ]
+    },
+    {
+     "t": "回收金属",
+     "lv": "30-40",
+     "rp": [
+      "750 Endo",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "液压准心",
+      "5X Fass Residue"
+     ]
+    },
+    {
+     "t": "为了科学！",
+     "lv": "40-60",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    },
+    {
+     "t": "夺回属于我们的一切",
+     "lv": "100-100",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "金星 · 奥布山谷",
+   "left": "2 小时 41 分",
+   "jobs": [
+    {
+     "t": "Dog Boards",
+     "lv": "5-15",
+     "rp": [
+      "100 奥席金属",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "5X Mytocardia Spore",
+      "2 培训债务债券",
+      "Garuda 机体蓝图"
+     ]
+    },
+    {
+     "t": "Protect the Innocent",
+     "lv": "10-30",
+     "rp": [
+      "15X Mytocardia Spore",
+      "200 奥席金属",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "2X Shelter Debt-Bond",
+      "Garuda 系统蓝图"
+     ]
+    },
+    {
+     "t": "焦土战术",
+     "lv": "20-40",
+     "rp": [
+      "200 Endo",
+      "Madurai 晶体",
+      "300 电路",
+      "2X Medical Debt-Bond",
+      "Garuda 头部神经光元蓝图",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Archaeology",
+     "lv": "30-50",
+     "rp": [
+      "Vazarin 晶体",
+      "300 Endo",
+      "2 电磁力场装置",
+      "2X Advances Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Financial Liberation",
+     "lv": "40-60",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "生命证明",
+     "lv": "100-100",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    }
+   ]
+  }
+ ],
+ "updated": "2026-10-10 04:03 UTC"
 }
