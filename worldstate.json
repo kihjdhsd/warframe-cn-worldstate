@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "3 分钟"
+   "s": "夜晚",
+   "left": "35 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "3 分钟"
+   "left": "35 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "7 小时 39 分",
+  "left": "7 小时 21 分",
   "rows": [
    {
     "a": "Rescue",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Axi Interception",
-   "b": "Cerberus (Pluto)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "10 分钟"
-  },
-  {
    "a": "Lith Spy",
    "b": "Unda (Venus)",
-   "c": "28 分钟"
+   "c": "10 分钟"
   },
   {
    "a": "Meso Survival",
    "b": "Stickney (Phobos)",
-   "c": "32 分钟"
+   "c": "15 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "23 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
-   "c": "12 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "E Gate (Venus)",
-   "c": "30 分钟"
+   "c": "12 分钟"
+  },
+  {
+   "a": "Lith Spy",
+   "b": "Arval (Mars)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Axi Rescue",
+   "b": "Regna (Pluto)",
+   "c": "12 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "22 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "破坏赏金",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "53 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "Archaeology",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 08:20 UTC"
+ "updated": "2026-10-10 08:38 UTC"
 }
