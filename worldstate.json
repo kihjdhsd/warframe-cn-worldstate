@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "5 天 18 小时"
+  "left": "5 天 17 小时"
  },
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "21 小时 18 分",
+  "left": "20 小时 56 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -74,18 +74,18 @@
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Defense",
    "b": "Gulliver (Phobos)",
-   "c": "6 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "32 分钟",
+   "left": "10 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "32 分钟",
+   "left": "10 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "32 分钟",
+   "left": "10 分钟",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 18:41 UTC"
+ "updated": "2026-10-10 19:03 UTC"
 }
