@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "34 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "7 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "34 分钟"
+   "left": "16 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "5 小时 40 分",
+  "left": "5 小时 22 分",
   "rows": [
    {
     "a": "Rescue",
@@ -49,43 +49,43 @@
   {
    "a": "Lith Sabotage",
    "b": "Cervantes (Earth)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Sabotage",
    "b": "Stribog (Void)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Defense",
    "b": "Hydron (Sedna)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Rescue",
    "b": "Metis (Jupiter)",
-   "c": "16 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "33 分钟"
+   "c": "15 分钟"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "15 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Interception",
    "b": "Callisto (Jupiter)",
-   "c": "1 小时 6 分"
+   "c": "48 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "俘获新的 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "砸烂他们的陷阱",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 10:19 UTC"
+ "updated": "2026-10-10 10:37 UTC"
 }
