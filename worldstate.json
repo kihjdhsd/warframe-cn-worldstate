@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 天 6 小时"
+  "left": "6 天 5 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "9 小时 15 分",
+  "left": "8 小时 55 分",
   "rows": [
    {
     "a": "Rescue",
@@ -59,7 +59,7 @@
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
@@ -79,13 +79,13 @@
   {
    "a": "Neo Extermination",
    "b": "Teshub (Void)",
-   "c": "1 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "0 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "0 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "0 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 06:44 UTC"
+ "updated": "2026-10-10 07:04 UTC"
 }
