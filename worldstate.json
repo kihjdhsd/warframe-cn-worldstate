@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "24 分钟"
+   "left": "5 分钟"
   },
   {
    "k": "金星",
    "s": "温暖",
-   "left": "0 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "24 分钟"
+   "left": "5 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "23 小时 40 分",
+  "left": "23 小时 21 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -44,7 +44,7 @@
   {
    "a": "Axi Interception",
    "b": "Xini (Eris)",
-   "c": "9 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Interception",
@@ -54,38 +54,38 @@
   {
    "a": "Neo Extermination",
    "b": "Armaros (Europa)",
-   "c": "27 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "30 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Axi Spy",
    "b": "Kelpie (Sedna)",
-   "c": "38 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Axi Defense",
    "b": "Kala-azar (Eris)",
-   "c": "36 分钟"
+   "c": "17 分钟"
   },
   {
    "a": "Lith Excavation",
    "b": "Everest (Earth)",
-   "c": "22 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "37 分钟"
+   "c": "18 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "25 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "25 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "25 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-10 16:19 UTC"
+ "updated": "2026-10-10 16:38 UTC"
 }
