@@ -1,3 +1,38 @@
 {
- "syndicateMissions_sample": []
+ "syndicateMissions_sample": [
+  {
+   "id": "1791647940000ArbitersSyndicate",
+   "activation": "2026-10-09T15:59:02.275Z",
+   "expiry": "2026-10-10T15:59:00.000Z",
+   "syndicate": "Arbiters of Hexis",
+   "syndicateKey": "Arbiters of Hexis",
+   "nodes": [
+    "Aphrodite (Venus)",
+    "Spear (Mars)",
+    "Boethius (Mercury)",
+    "Cambria (Earth)",
+    "Berehynia (Sedna)",
+    "Nimus (Eris)",
+    "Cypress (Pluto)"
+   ],
+   "jobs": []
+  },
+  {
+   "id": "1791647940000CephalonSudaSyndicate",
+   "activation": "2026-10-09T15:59:02.275Z",
+   "expiry": "2026-10-10T15:59:00.000Z",
+   "syndicate": "Cephalon Suda",
+   "syndicateKey": "Cephalon Suda",
+   "nodes": [
+    "E Gate (Venus)",
+    "Pantheon (Mercury)",
+    "Gulliver (Phobos)",
+    "Pacific (Earth)",
+    "Oestrus (Eris)",
+    "Acheron (Pluto)",
+    "Martialis (Mars)"
+   ],
+   "jobs": []
+  }
+ ]
 }
