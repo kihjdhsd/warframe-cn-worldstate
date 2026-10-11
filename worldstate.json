@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "3 分钟"
+   "s": "夜晚",
+   "left": "35 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "6 分钟"
+   "left": "15 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "3 分钟"
+   "left": "35 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "1 小时 39 分",
+  "left": "1 小时 21 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "7 分钟"
-  },
-  {
-   "a": "Meso Survival",
-   "b": "Draco (Ceres)",
-   "c": "7 分钟"
-  },
-  {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "28 分钟"
+   "c": "9 分钟"
   },
   {
    "a": "Meso Extermination",
    "b": "Roche (Phobos)",
-   "c": "22 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Thon (Ceres)",
-   "c": "27 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Neso (Neptune)",
-   "c": "19 分钟"
-  },
-  {
-   "a": "Neo Rescue",
-   "b": "Orias (Europa)",
-   "c": "13 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Neo Mobile Defense",
    "b": "Larissa (Neptune)",
-   "c": "31 分钟"
+   "c": "12 分钟"
+  },
+  {
+   "a": "Lith Spy",
+   "b": "Unda (Venus)",
+   "c": "41 分钟"
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Augustus (Mars)",
+   "c": "22 分钟"
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "54 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "54 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "54 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "54 分钟",
+   "left": "36 分钟",
    "jobs": [
     {
      "t": "Agent Down",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 14:20 UTC"
+ "updated": "2026-10-11 14:38 UTC"
 }
