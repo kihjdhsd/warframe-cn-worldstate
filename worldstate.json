@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 15 分"
+   "left": "50 分钟"
   },
   {
    "k": "金星",
    "s": "温暖",
-   "left": "2 分钟"
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 15 分"
+   "left": "50 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "5 天 7 小时"
+  "left": "5 天 6 小时"
  },
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "10 小时 21 分",
+  "left": "9 小时 56 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Defense",
-   "b": "Nabuk (Kuva Fortress)",
-   "c": "13 分钟"
-  },
-  {
-   "a": "Requiem Assault",
-   "b": "Koro (Kuva Fortress)",
-   "c": "1 分钟"
-  },
-  {
-   "a": "Requiem Spy",
-   "b": "Pago (Kuva Fortress)",
-   "c": "20 分钟"
-  },
-  {
-   "a": "Axi Hive",
-   "b": "Naeglar (Eris)",
-   "c": "3 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Belenus (Void)",
-   "c": "10 分钟"
-  },
-  {
    "a": "Neo Defense",
    "b": "Stephano (Uranus)",
-   "c": "44 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "39 分钟"
+   "c": "14 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Enceladus (Saturn)",
-   "c": "52 分钟"
+   "c": "27 分钟"
+  },
+  {
+   "a": "Meso Mobile Defense",
+   "b": "Sharpless (Phobos)",
+   "c": "即将结束"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
+   "c": "12 分钟"
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Everest (Earth)",
+   "c": "28 分钟"
+  },
+  {
+   "a": "Lith Survival",
+   "b": "V Prime (Venus)",
+   "c": "53 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 6 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 6 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 6 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "资源窃取",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 05:38 UTC"
+ "updated": "2026-10-11 06:03 UTC"
 }
