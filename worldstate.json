@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "20 分钟"
+   "left": "4 分钟"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "20 分钟"
+   "left": "4 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "20 小时 56 分",
+  "left": "20 小时 40 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -69,7 +69,7 @@
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Void Flood",
@@ -79,13 +79,13 @@
   {
    "a": "Lith Sabotage",
    "b": "Cervantes (Earth)",
-   "c": "5 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 10 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 10 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 10 分",
+   "left": "55 分钟",
    "jobs": [
     {
      "t": "Protect the Innocent",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 19:03 UTC"
+ "updated": "2026-10-11 19:19 UTC"
 }
