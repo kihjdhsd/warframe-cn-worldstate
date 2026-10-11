@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "15 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,18 +13,18 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "15 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 15 小时"
+  "left": "4 天 14 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "18 小时 21 分",
+  "left": "17 小时 57 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,7 +44,7 @@
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "0 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Rescue",
@@ -79,13 +79,13 @@
   {
    "a": "Meso Interception",
    "b": "Callisto (Jupiter)",
-   "c": "1 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "生命证明",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 21:38 UTC"
+ "updated": "2026-10-11 22:02 UTC"
 }
