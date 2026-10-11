@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "41 分钟"
+   "left": "24 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "3 分钟"
+   "left": "14 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "41 分钟"
+   "left": "24 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "22 小时 57 分",
+  "left": "22 小时 40 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Defense",
    "b": "Nabuk (Kuva Fortress)",
-   "c": "23 分钟"
-  },
-  {
-   "a": "Meso Mobile Defense",
-   "b": "Keeler (Saturn)",
-   "c": "11 分钟"
+   "c": "7 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "24 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Axi Extermination",
-   "b": "Saxis (Eris)",
-   "c": "1 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "3 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "56 分钟"
+   "c": "40 分钟"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "1 小时 1 分"
+   "c": "44 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Oxomoco (Void)",
+   "c": "40 分钟"
+  },
+  {
+   "a": "Axi Spy",
+   "b": "Oceanum (Pluto)",
+   "c": "18 分钟"
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Everest (Earth)",
+   "c": "20 分钟"
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Kiliken (Venus)",
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "41 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "41 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "41 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 17:02 UTC"
+ "updated": "2026-10-11 17:19 UTC"
 }
