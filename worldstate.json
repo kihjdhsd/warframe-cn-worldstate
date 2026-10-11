@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 4 分"
+   "left": "46 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "9 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 4 分"
+   "left": "46 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "16 小时 40 分",
+  "left": "16 小时 22 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Defense",
-   "b": "Nabuk (Kuva Fortress)",
-   "c": "0 分钟"
-  },
-  {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "0 分钟"
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Belenus (Void)",
-   "c": "5 分钟"
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Stephano (Uranus)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Axi Mobile Defense",
-   "b": "Solium (Eris)",
-   "c": "13 分钟"
-  },
-  {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "34 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "32 分钟"
+   "c": "14 分钟"
+  },
+  {
+   "a": "Axi Rescue",
+   "b": "Brugia (Eris)",
+   "c": "17 分钟"
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Dione (Saturn)",
+   "c": "29 分钟"
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Shklovsky (Phobos)",
+   "c": "10 分钟"
+  },
+  {
+   "a": "Meso Sabotage",
+   "b": "Ker (Ceres)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Neo Excavation",
+   "b": "Despina (Neptune)",
+   "c": "26 分钟"
+  },
+  {
+   "a": "Neo Spy",
+   "b": "Valac (Europa)",
+   "c": "40 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 54 分",
+   "left": "1 小时 36 分",
    "jobs": [
     {
      "t": "破坏赏金",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 54 分",
+   "left": "1 小时 36 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 54 分",
+   "left": "1 小时 36 分",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 23:19 UTC"
+ "updated": "2026-10-11 23:37 UTC"
 }
