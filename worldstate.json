@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 2 分"
+   "left": "44 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 2 分"
+   "left": "44 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "7 小时 38 分",
+  "left": "7 小时 20 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -44,48 +44,48 @@
   {
    "a": "Axi Interception",
    "b": "Xini (Eris)",
-   "c": "21 分钟"
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "E Gate (Venus)",
-   "c": "11 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Lith Excavation",
    "b": "Everest (Earth)",
-   "c": "19 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Axi Survival",
    "b": "Ani (Void)",
-   "c": "22 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Saxis (Eris)",
-   "c": "26 分钟"
-  },
-  {
-   "a": "Axi Rescue",
-   "b": "Naga (Sedna)",
-   "c": "12 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "48 分钟"
+   "c": "30 分钟"
   },
   {
    "a": "Meso Mobile Defense",
    "b": "Keeler (Saturn)",
-   "c": "27 分钟"
+   "c": "9 分钟"
+  },
+  {
+   "a": "Meso Interception",
+   "b": "Callisto (Jupiter)",
+   "c": "25 分钟"
+  },
+  {
+   "a": "Lith Survival",
+   "b": "V Prime (Venus)",
+   "c": "15 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 52 分",
+   "left": "1 小时 34 分",
    "jobs": [
     {
      "t": "夺回失窃圣物",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 52 分",
+   "left": "1 小时 34 分",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 52 分",
+   "left": "1 小时 34 分",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 08:21 UTC"
+ "updated": "2026-10-11 08:39 UTC"
 }
