@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "41 分钟"
+   "left": "20 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "10 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "41 分钟"
+   "left": "20 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 18 小时"
+  "left": "4 天 17 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "21 小时 17 分",
+  "left": "20 小时 56 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,7 +44,7 @@
   {
    "a": "Axi Survival",
    "b": "Nimus (Eris)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Sabotage",
@@ -54,38 +54,38 @@
   {
    "a": "Meso Sabotage",
    "b": "Thon (Ceres)",
-   "c": "20 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Extermination",
    "b": "Roche (Phobos)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "12 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "24 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "18 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Sabotage",
    "b": "Cervantes (Earth)",
-   "c": "26 分钟"
+   "c": "5 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 31 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 31 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 31 分",
+   "left": "1 小时 10 分",
    "jobs": [
     {
      "t": "Protect the Innocent",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 18:42 UTC"
+ "updated": "2026-10-11 19:03 UTC"
 }
