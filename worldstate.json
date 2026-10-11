@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "15 分钟"
+   "s": "夜晚",
+   "left": "41 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "1 分钟"
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "15 分钟"
+   "left": "41 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 20 小时"
+  "left": "4 天 19 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "23 小时 21 分",
+  "left": "22 小时 57 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Defense",
    "b": "Nabuk (Kuva Fortress)",
-   "c": "47 分钟"
+   "c": "23 分钟"
   },
   {
    "a": "Meso Mobile Defense",
    "b": "Keeler (Saturn)",
-   "c": "35 分钟"
-  },
-  {
-   "a": "Meso Interception",
-   "b": "Callisto (Jupiter)",
    "c": "11 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "48 分钟"
+   "c": "24 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "26 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Saxis (Eris)",
-   "c": "25 分钟"
-  },
-  {
-   "a": "Axi Mobile Defense",
-   "b": "Minthe (Pluto)",
-   "c": "8 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "27 分钟"
+   "c": "3 分钟"
+  },
+  {
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "56 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "1 小时 1 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 5 分",
+   "left": "41 分钟",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 16:38 UTC"
+ "updated": "2026-10-11 17:02 UTC"
 }
