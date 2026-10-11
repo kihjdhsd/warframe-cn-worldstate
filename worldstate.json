@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "6 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
    "s": "温暖",
-   "left": "2 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "6 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 19 小时"
+  "left": "4 天 18 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "22 小时 22 分",
+  "left": "21 小时 58 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "21 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "26 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Oxomoco (Void)",
-   "c": "21 分钟"
-  },
-  {
-   "a": "Axi Spy",
-   "b": "Oceanum (Pluto)",
    "c": "即将结束"
-  },
-  {
-   "a": "Lith Excavation",
-   "b": "Everest (Earth)",
-   "c": "1 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "E Gate (Venus)",
-   "c": "27 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Disruption",
    "b": "Laomedeia (Neptune)",
-   "c": "48 分钟"
+   "c": "25 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Ose (Europa)",
-   "c": "11 分钟"
+   "c": "即将结束"
+  },
+  {
+   "a": "Neo Interception",
+   "b": "Umbriel (Uranus)",
+   "c": "即将结束"
+  },
+  {
+   "a": "Neo Defense",
+   "b": "Paimon (Europa)",
+   "c": "2 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "6 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "6 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,55 +232,82 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "6 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Falling Star",
      "lv": "5-15",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "100 生物质",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "5X Gorgaricus Spore",
+      "培训债务债券",
+      "Garuda 机体蓝图"
      ]
     },
     {
      "t": "Agent Down",
      "lv": "10-30",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "15X Gorgaricus Spore",
+      "200 纳米孢子",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "2X Shelter Debt-Bond",
+      "Garuda 系统蓝图"
      ]
     },
     {
      "t": "生命证明",
      "lv": "20-40",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "200 Endo",
+      "Naramon 晶体",
+      "300 红化结晶",
+      "2X Medical Debt-Bond",
+      "Garuda 头部神经光元蓝图",
+      "阿耶精华"
      ]
     },
     {
      "t": "猎杀行动",
      "lv": "30-50",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "200 赤毒",
+      "300 Endo",
+      "2 突变原聚合物",
+      "2X Advances Debt-Bond",
+      "阿耶精华"
      ]
     },
     {
      "t": "Dirt Unit",
      "lv": "40-60",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
      ]
     },
     {
      "t": "Financial Liberation",
      "lv": "100-100",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
      ]
     }
    ]
   },
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 36 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -355,7 +382,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 36 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -427,7 +454,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 36 分",
+   "left": "2 小时 12 分",
    "jobs": [
     {
      "t": "Protect the Innocent",
@@ -501,5 +528,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 17:37 UTC"
+ "updated": "2026-10-11 18:01 UTC"
 }
