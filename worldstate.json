@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "34 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "9 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "34 分钟"
+   "left": "16 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "4 小时 40 分",
+  "left": "4 小时 22 分",
   "rows": [
    {
     "a": "Free Roam",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "38 分钟"
-  },
-  {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "1 分钟"
-  },
-  {
-   "a": "Neo Rescue",
-   "b": "Triton (Neptune)",
-   "c": "6 分钟"
+   "c": "21 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Aten (Void)",
-   "c": "18 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Outer Terminus (Pluto)",
    "c": "0 分钟"
   },
   {
    "a": "Lith Excavation",
    "b": "Augustus (Mars)",
-   "c": "24 分钟"
-  },
-  {
-   "a": "Lith Excavation",
-   "b": "Everest (Earth)",
-   "c": "4 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Axi Defense",
    "b": "Hydron (Sedna)",
-   "c": "1 小时 2 分"
+   "c": "45 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Ani (Void)",
+   "c": "5 分钟"
+  },
+  {
+   "a": "Lith Defense",
+   "b": "Lith (Earth)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
+   "c": "31 分钟"
+  },
+  {
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "13 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Spy Catcher",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 25 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Dirt Unit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-11 11:19 UTC"
+ "updated": "2026-10-11 11:37 UTC"
 }
