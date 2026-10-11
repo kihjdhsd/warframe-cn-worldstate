@@ -1,16 +1,16 @@
 {
  "syndicateMissions_sample": [
   {
-   "id": "1791758663975CetusSyndicate",
-   "activation": "2026-10-11T20:14:25.101Z",
-   "expiry": "2026-10-11T22:44:23.975Z",
+   "id": "1791767662850CetusSyndicate",
+   "activation": "2026-10-11T22:44:23.976Z",
+   "expiry": "2026-10-12T01:14:22.850Z",
    "syndicate": "Ostrons",
    "syndicateKey": "Ostrons",
    "nodes": [],
    "jobs": [
     {
-     "id": "AttritionBountyExt1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "SabotageBountySab1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierATableBRewards",
      "rewardPool": [
       "Pressure Point",
@@ -198,21 +198,21 @@
        "count": 2
       }
      ],
-     "type": "Cull the Enemy",
+     "type": "Sabotage Bounty",
      "enemyLevels": [
       5,
       15
      ],
      "standingStages": [
-      440,
-      440,
-      440
+      430,
+      430,
+      430
      ],
      "minMR": 0
     },
     {
-     "id": "AssassinateBountyAss1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "ReclamationBountyCache1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierBTableBRewards",
      "rewardPool": [
       "Energy Inversion",
@@ -400,21 +400,21 @@
        "count": 2
       }
      ],
-     "type": "Assassinate the Commander",
+     "type": "Find the Hidden Artifact",
      "enemyLevels": [
       10,
       30
      ],
      "standingStages": [
-      660,
-      660,
-      660
+      700,
+      700,
+      700
      ],
      "minMR": 1
     },
     {
-     "id": "AttritionBountyLib1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "RescueBountyResc1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierCTableBRewards",
      "rewardPool": [
       "Vigilante Armaments",
@@ -602,22 +602,22 @@
        "count": 1
       }
      ],
-     "type": "Weaken the Grineer Foothold",
+     "type": "Search and Rescue",
      "enemyLevels": [
       20,
       40
      ],
      "standingStages": [
-      580,
-      580,
-      580,
-      850
+      630,
+      630,
+      630,
+      920
      ],
      "minMR": 2
     },
     {
-     "id": "SabotageBountySab1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "AttritionBountySab1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierDTableBRewards",
      "rewardPool": [
       "Vigilante Vigor",
@@ -805,23 +805,23 @@
        "count": 1
       }
      ],
-     "type": "Sabotage Bounty",
+     "type": "Sabotage the Enemy Supply Lines",
      "enemyLevels": [
       30,
       50
      ],
      "standingStages": [
-      600,
-      600,
-      600,
-      600,
-      1180
+      620,
+      620,
+      620,
+      620,
+      1210
      ],
      "minMR": 3
     },
     {
-     "id": "ReclamationBountyCache1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "AssassinateBountyCap1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableBRewards",
      "rewardPool": [
       "5X Breath Of The Eidolon",
@@ -988,23 +988,23 @@
        "count": 1
       }
      ],
-     "type": "Find the Hidden Artifact",
+     "type": "Capture the New Grineer Commander",
      "enemyLevels": [
       40,
       60
      ],
      "standingStages": [
-      710,
-      710,
-      710,
-      710,
-      1400
+      680,
+      680,
+      680,
+      680,
+      1340
      ],
      "minMR": 5
     },
     {
-     "id": "AttritionBountyCap1791758663975",
-     "expiry": "2026-10-11T22:44:23.975Z",
+     "id": "CaptureBountyCapOne1791767662850",
+     "expiry": "2026-10-12T01:14:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/TierETableBRewards",
      "rewardPool": [
       "5X Breath Of The Eidolon",
@@ -1171,7 +1171,7 @@
        "count": 1
       }
      ],
-     "type": "Capture Their Leader",
+     "type": "Capture the Grineer Commander",
      "enemyLevels": [
       100,
       100
@@ -1186,8 +1186,8 @@
      "minMR": 10
     },
     {
-     "id": "AssassinateBountyAss1791758663975",
-     "expiry": "2026-10-11T21:54:23.975Z",
+     "id": "AttritionBountyLib1791767662850",
+     "expiry": "2026-10-12T00:24:22.850Z",
      "uniqueName": "/Lotus/Types/Game/MissionDecks/EidolonJobMissionRewards/NarmerTableBRewards",
      "rewardPool": [
       "Boreal's Anguish",
@@ -1396,17 +1396,17 @@
        "count": 1
       }
      ],
-     "type": "Rise and Fall (Narmer)",
+     "type": "Bring Them Home (Narmer)",
      "enemyLevels": [
       50,
       70
      ],
      "standingStages": [
-      820,
-      820,
-      820,
-      820,
-      1610
+      800,
+      800,
+      800,
+      800,
+      1570
      ],
      "minMR": 0,
      "timeBound": "day"
@@ -1414,9 +1414,9 @@
    ]
   },
   {
-   "id": "1791758663975EntratiLabSyndicate",
-   "activation": "2026-10-11T20:14:25.101Z",
-   "expiry": "2026-10-11T22:44:23.975Z",
+   "id": "1791767662850EntratiLabSyndicate",
+   "activation": "2026-10-11T22:44:23.976Z",
+   "expiry": "2026-10-12T01:14:22.850Z",
    "syndicate": "Cavia",
    "syndicateKey": "Cavia",
    "nodes": [],
