@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "8 分钟"
+   "s": "夜晚",
+   "left": "37 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "1 分钟"
+   "left": "6 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "8 分钟"
+   "left": "37 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 5 小时"
+  "left": "4 天 4 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "8 小时 14 分",
+  "left": "7 小时 53 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Lith Capture",
-   "b": "Mantle (Earth)",
-   "c": "8 分钟"
-  },
-  {
-   "a": "Axi Capture",
-   "b": "Isos (Eris)",
-   "c": "11 分钟"
-  },
-  {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "24 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Taranis (Void)",
-   "c": "19 分钟"
-  },
-  {
-   "a": "Meso Spy",
-   "b": "Shklovsky (Phobos)",
-   "c": "4 分钟"
-  },
-  {
-   "a": "Meso Extermination",
-   "b": "Carpo (Jupiter)",
-   "c": "1 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Rescue",
    "b": "Anthe (Saturn)",
-   "c": "26 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Monolith (Phobos)",
-   "c": "33 分钟"
+   "c": "12 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "13 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Neo Mobile Defense",
+   "b": "Larissa (Neptune)",
+   "c": "5 分钟"
+  },
+  {
+   "a": "Neo Defense",
+   "b": "Stephano (Uranus)",
+   "c": "47 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "59 分钟",
+   "left": "37 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "59 分钟",
+   "left": "37 分钟",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "59 分钟",
+   "left": "37 分钟",
    "jobs": [
     {
      "t": "Archaeology",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-12 07:45 UTC"
+ "updated": "2026-10-12 08:06 UTC"
 }
