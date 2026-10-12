@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 0 分"
+   "left": "40 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "7 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 0 分"
+   "left": "40 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 6 小时"
+  "left": "4 天 5 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "9 小时 6 分",
+  "left": "8 小时 46 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "13 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Ose (Europa)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Neo Capture",
-   "b": "Galatea (Neptune)",
-   "c": "7 分钟"
-  },
-  {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Disruption",
    "b": "Olympus (Mars)",
-   "c": "39 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Lith Rescue",
    "b": "Pacific (Earth)",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Capture",
    "b": "Mantle (Earth)",
-   "c": "1 小时 0 分"
+   "c": "40 分钟"
   },
   {
    "a": "Lith Rescue",
    "b": "Linea (Venus)",
-   "c": "23 分钟"
+   "c": "3 分钟"
+  },
+  {
+   "a": "Omnia Alchemy",
+   "b": "Cambire (Deimos)",
+   "c": "6 分钟"
+  },
+  {
+   "a": "Axi Capture",
+   "b": "Isos (Eris)",
+   "c": "44 分钟"
+  },
+  {
+   "a": "Axi Defense",
+   "b": "Outer Terminus (Pluto)",
+   "c": "4 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 51 分",
+   "left": "1 小时 31 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 51 分",
+   "left": "1 小时 31 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 51 分",
+   "left": "1 小时 31 分",
    "jobs": [
     {
      "t": "Archaeology",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-12 06:53 UTC"
+ "updated": "2026-10-12 07:13 UTC"
 }
