@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "16 分钟"
+   "s": "夜晚",
+   "left": "49 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "2 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "16 分钟"
+   "left": "49 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "5 小时 52 分",
+  "left": "5 小时 35 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -44,48 +44,48 @@
   {
    "a": "Neo Excavation",
    "b": "Valefor (Europa)",
-   "c": "29 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Saxis (Eris)",
-   "c": "45 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Belenus (Void)",
-   "c": "9 分钟"
+   "c": "27 分钟"
   },
   {
    "a": "Axi Rescue",
    "b": "Regna (Pluto)",
-   "c": "55 分钟"
+   "c": "38 分钟"
   },
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "50 分钟"
+   "c": "32 分钟"
   },
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "33 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "45 分钟"
+   "c": "28 分钟"
   },
   {
    "a": "Lith Mobile Defense",
    "b": "Vallis (Mars)",
-   "c": "1 小时 2 分"
+   "c": "45 分钟"
+  },
+  {
+   "a": "Lith Rescue",
+   "b": "Linea (Venus)",
+   "c": "38 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 7 分",
+   "left": "50 分钟",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 7 分",
+   "left": "50 分钟",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 7 分",
+   "left": "50 分钟",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-12 10:07 UTC"
+ "updated": "2026-10-12 10:24 UTC"
 }
