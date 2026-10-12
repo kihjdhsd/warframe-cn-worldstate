@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 22 分"
+   "left": "1 小时 0 分"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "2 分钟"
+   "s": "寒冷",
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 22 分"
+   "left": "1 小时 0 分"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "9 小时 28 分",
+  "left": "9 小时 6 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Meso Survival",
-   "b": "Titan (Saturn)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Meso Defense",
-   "b": "Gulliver (Phobos)",
-   "c": "12 分钟"
-  },
-  {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "18 分钟"
-  },
-  {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "2 分钟"
-  },
-  {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "35 分钟"
+   "c": "13 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Ose (Europa)",
-   "c": "28 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Neo Capture",
    "b": "Galatea (Neptune)",
-   "c": "29 分钟"
+   "c": "7 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "41 分钟"
+   "c": "19 分钟"
+  },
+  {
+   "a": "Lith Disruption",
+   "b": "Olympus (Mars)",
+   "c": "39 分钟"
+  },
+  {
+   "a": "Lith Rescue",
+   "b": "Pacific (Earth)",
+   "c": "19 分钟"
+  },
+  {
+   "a": "Lith Capture",
+   "b": "Mantle (Earth)",
+   "c": "1 小时 0 分"
+  },
+  {
+   "a": "Lith Rescue",
+   "b": "Linea (Venus)",
+   "c": "23 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 13 分",
+   "left": "1 小时 51 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 13 分",
+   "left": "1 小时 51 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 13 分",
+   "left": "1 小时 51 分",
    "jobs": [
     {
      "t": "Archaeology",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-12 06:31 UTC"
+ "updated": "2026-10-12 06:53 UTC"
 }
