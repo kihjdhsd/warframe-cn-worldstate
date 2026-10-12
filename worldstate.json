@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 天 9 小时"
+  "left": "4 天 8 小时"
  },
  "sortie": {
   "k": "Mutalist Alad V",
   "n": "Infestation",
-  "left": "12 小时 15 分",
+  "left": "11 小时 53 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-12 03:44 UTC"
+ "updated": "2026-10-12 04:06 UTC"
 }
