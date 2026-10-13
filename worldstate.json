@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "1 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,18 +13,18 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "3 天 3 小时"
+  "left": "3 天 2 小时"
  },
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "6 小时 17 分",
+  "left": "5 小时 54 分",
   "rows": [
    {
     "a": "Survival",
@@ -69,12 +69,12 @@
   {
    "a": "Axi Extermination",
    "b": "Oxomoco (Void)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Survival",
    "b": "Palus (Pluto)",
-   "c": "4 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Extermination",
@@ -85,7 +85,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "削弱 Grineer 据点",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 09:42 UTC"
+ "updated": "2026-10-13 10:05 UTC"
 }
