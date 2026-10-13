@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "44 分钟"
+   "left": "21 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "3 分钟"
+   "s": "寒冷",
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "44 分钟"
+   "left": "21 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "9 小时 30 分",
+  "left": "9 小时 7 分",
   "rows": [
    {
     "a": "Survival",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Axi Spy",
-   "b": "Oceanum (Pluto)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "19 分钟"
-  },
-  {
-   "a": "Neo Spy",
-   "b": "Valac (Europa)",
-   "c": "7 分钟"
-  },
-  {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "25 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "28 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Lith Rescue",
    "b": "Linea (Venus)",
-   "c": "50 分钟"
+   "c": "27 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Stephano (Uranus)",
-   "c": "36 分钟"
+   "c": "13 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Ose (Europa)",
-   "c": "50 分钟"
+   "c": "28 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Casta (Ceres)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Meso Interception",
+   "b": "Rhea (Saturn)",
+   "c": "33 分钟"
+  },
+  {
+   "a": "Meso Sabotage",
+   "b": "Ker (Ceres)",
+   "c": "26 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "44 分钟",
+   "left": "22 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "44 分钟",
+   "left": "22 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "44 分钟",
+   "left": "22 分钟",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 06:29 UTC"
+ "updated": "2026-10-13 06:52 UTC"
 }
