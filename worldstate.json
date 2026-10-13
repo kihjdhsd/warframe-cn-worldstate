@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 9 分"
+   "left": "51 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "5 分钟"
+   "s": "寒冷",
+   "left": "7 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 9 分"
+   "left": "51 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "19 小时 45 分",
+  "left": "19 小时 27 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "5 分钟"
-  },
-  {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "15 分钟"
-  },
-  {
-   "a": "Lith Excavation",
-   "b": "Augustus (Mars)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "3 分钟"
-  },
-  {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "34 分钟"
-  },
-  {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "0 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Taranis (Void)",
-   "c": "15 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Meso Mobile Defense",
    "b": "Kiste (Ceres)",
+   "c": "7 分钟"
+  },
+  {
+   "a": "Meso Rescue",
+   "b": "Metis (Jupiter)",
+   "c": "44 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Adaro (Sedna)",
+   "c": "49 分钟"
+  },
+  {
+   "a": "Neo Defense",
+   "b": "Stephano (Uranus)",
    "c": "25 分钟"
+  },
+  {
+   "a": "Neo Survival",
+   "b": "Mot (Void)",
+   "c": "45 分钟"
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Armaros (Europa)",
+   "c": "13 分钟"
+  },
+  {
+   "a": "Lith Interception",
+   "b": "Gaia (Earth)",
+   "c": "8 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 59 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Capture the Grineer Agent",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 59 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 59 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 20:14 UTC"
+ "updated": "2026-10-13 20:32 UTC"
 }
