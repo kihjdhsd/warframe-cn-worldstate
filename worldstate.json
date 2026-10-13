@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "21 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "1 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "21 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "3 天 6 小时"
+  "left": "3 天 5 小时"
  },
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "9 小时 7 分",
+  "left": "8 小时 45 分",
   "rows": [
    {
     "a": "Survival",
@@ -44,48 +44,48 @@
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "5 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Rescue",
    "b": "Linea (Venus)",
-   "c": "27 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Stephano (Uranus)",
-   "c": "13 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Interception",
    "b": "Ose (Europa)",
-   "c": "28 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Meso Defense",
    "b": "Casta (Ceres)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Interception",
    "b": "Rhea (Saturn)",
-   "c": "33 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Ker (Ceres)",
-   "c": "26 分钟"
+   "c": "4 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "22 分钟",
+   "left": "0 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "22 分钟",
+   "left": "0 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "22 分钟",
+   "left": "0 分钟",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 06:52 UTC"
+ "updated": "2026-10-13 07:14 UTC"
 }
