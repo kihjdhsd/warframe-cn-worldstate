@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "40 分钟"
+   "left": "17 分钟"
   },
   {
    "k": "金星",
@@ -13,18 +13,18 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "40 分钟"
+   "left": "17 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 天 21 小时"
+  "left": "2 天 20 小时"
  },
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "16 分钟",
+  "left": "即将结束",
   "rows": [
    {
     "a": "Survival",
@@ -64,7 +64,7 @@
   {
    "a": "Meso Extermination",
    "b": "Carpo (Jupiter)",
-   "c": "8 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Sabotage",
@@ -74,18 +74,18 @@
   {
    "a": "Lith Rescue",
    "b": "Pacific (Earth)",
-   "c": "5 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Extermination",
    "b": "Ultor (Mars)",
-   "c": "15 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 30 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 30 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 30 分",
+   "left": "1 小时 7 分",
    "jobs": [
     {
      "t": "Archaeology",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 15:43 UTC"
+ "updated": "2026-10-13 16:06 UTC"
 }
