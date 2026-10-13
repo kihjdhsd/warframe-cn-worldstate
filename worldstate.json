@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "19 分钟"
+   "left": "1 分钟"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "19 分钟"
+   "left": "1 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Councilor Vay Hek",
   "n": "Grineer",
-  "left": "6 小时 35 分",
+  "left": "6 小时 17 分",
   "rows": [
    {
     "a": "Survival",
@@ -49,12 +49,12 @@
   {
    "a": "Lith Extermination",
    "b": "Hellas (Mars)",
-   "c": "5 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "15 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Sabotage",
@@ -64,28 +64,28 @@
   {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "10 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Extermination",
    "b": "Oxomoco (Void)",
-   "c": "21 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Axi Survival",
    "b": "Palus (Pluto)",
-   "c": "22 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "7 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "19 分钟",
+   "left": "1 分钟",
    "jobs": [
     {
      "t": "削弱 Grineer 据点",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "19 分钟",
+   "left": "1 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "19 分钟",
+   "left": "1 分钟",
    "jobs": [
     {
      "t": "Network Collapse",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-13 09:24 UTC"
+ "updated": "2026-10-13 09:42 UTC"
 }
