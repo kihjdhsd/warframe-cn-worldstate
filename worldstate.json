@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "34 分钟"
+   "left": "18 分钟"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "34 分钟"
+   "left": "18 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "11 小时 41 分",
+  "left": "11 小时 25 分",
   "rows": [
    {
     "a": "Spy",
@@ -49,12 +49,12 @@
   {
    "a": "Meso Sabotage",
    "b": "Thon (Ceres)",
-   "c": "28 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Thebe (Jupiter)",
-   "c": "38 分钟"
+   "c": "22 分钟"
   },
   {
    "a": "Neo Interception",
@@ -64,7 +64,7 @@
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "21 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Axi Sabotage",
@@ -74,7 +74,7 @@
   {
    "a": "Axi Capture",
    "b": "Ukko (Void)",
-   "c": "18 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Requiem Survival",
@@ -85,7 +85,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 25 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "俘获新的 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 25 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 25 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "Protect the Innocent",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 04:18 UTC"
+ "updated": "2026-10-14 04:34 UTC"
 }
