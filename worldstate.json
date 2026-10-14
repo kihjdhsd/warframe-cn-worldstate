@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "29 分钟"
+   "left": "18 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "9 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "29 分钟"
+   "left": "18 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "6 小时 36 分",
+  "left": "6 小时 25 分",
   "rows": [
    {
     "a": "Spy",
@@ -59,33 +59,33 @@
   {
    "a": "Lith Defense",
    "b": "Lith (Earth)",
-   "c": "21 分钟"
+   "c": "10 分钟"
   },
   {
    "a": "Lith Defense",
    "b": "Spear (Mars)",
-   "c": "21 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Neo Mobile Defense",
    "b": "Morax (Europa)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Extermination",
    "b": "Oxomoco (Void)",
-   "c": "30 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Charybdis (Sedna)",
-   "c": "23 分钟"
+   "c": "13 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 20 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 20 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 20 分",
+   "left": "1 小时 9 分",
    "jobs": [
     {
      "t": "Dirt Unit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 09:23 UTC"
+ "updated": "2026-10-14 09:34 UTC"
 }
