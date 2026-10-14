@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 7 分"
+   "left": "51 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "17 分钟"
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 7 分"
+   "left": "51 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "18 小时 44 分",
+  "left": "18 小时 28 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Defense",
-   "b": "Nabuk (Kuva Fortress)",
-   "c": "18 分钟"
-  },
-  {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "12 分钟"
+   "c": "即将结束"
+  },
+  {
+   "a": "Requiem Defense",
+   "b": "Nabuk (Kuva Fortress)",
+   "c": "2 分钟"
   },
   {
    "a": "Meso Capture",
    "b": "Cassini (Saturn)",
-   "c": "17 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Meso Defense",
    "b": "Casta (Ceres)",
-   "c": "28 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Axi Rescue",
    "b": "Naga (Sedna)",
-   "c": "24 分钟"
-  },
-  {
-   "a": "Axi Interception",
-   "b": "Xini (Eris)",
-   "c": "即将结束"
+   "c": "8 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Taranis (Void)",
-   "c": "24 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Armaros (Europa)",
-   "c": "25 分钟"
+   "c": "9 分钟"
+  },
+  {
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "31 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 57 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "Capture the Grineer Agent",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 57 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 57 分",
+   "left": "1 小时 42 分",
    "jobs": [
     {
      "t": "焦土战术",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 21:15 UTC"
+ "updated": "2026-10-14 21:31 UTC"
 }
