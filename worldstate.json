@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "20 分钟"
+   "left": "5 分钟"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "20 分钟"
+   "left": "5 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "37 分钟",
+  "left": "22 分钟",
   "rows": [
    {
     "a": "Spy",
@@ -44,17 +44,17 @@
   {
    "a": "Lith Excavation",
    "b": "Kiliken (Venus)",
-   "c": "1 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Extermination",
    "b": "E Prime (Earth)",
-   "c": "0 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Excavation",
    "b": "Despina (Neptune)",
-   "c": "1 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Spy",
@@ -64,17 +64,17 @@
   {
    "a": "Meso Rescue",
    "b": "Monolith (Phobos)",
-   "c": "6 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Extermination",
    "b": "Adaro (Sedna)",
-   "c": "20 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "26 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Omnia Survival",
@@ -85,7 +85,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "21 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "21 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "21 分钟",
+   "left": "6 分钟",
    "jobs": [
     {
      "t": "生命证明",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 15:22 UTC"
+ "updated": "2026-10-14 15:37 UTC"
 }
