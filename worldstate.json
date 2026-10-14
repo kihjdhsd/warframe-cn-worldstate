@@ -2,18 +2,18 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "10 分钟"
+   "s": "夜晚",
+   "left": "43 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "13 分钟"
+   "s": "温暖",
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "10 分钟"
+   "left": "43 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "13 小时 46 分",
+  "left": "13 小时 29 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "9 分钟"
-  },
-  {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "47 分钟"
+   "c": "30 分钟"
   },
   {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "55 分钟"
-  },
-  {
-   "a": "Requiem Extermination",
-   "b": "Dakata (Kuva Fortress)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Meso Spy",
-   "b": "Shklovsky (Phobos)",
-   "c": "3 分钟"
-  },
-  {
-   "a": "Meso Rescue",
-   "b": "Nuovo (Ceres)",
-   "c": "2 分钟"
+   "c": "38 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Numa (Saturn)",
-   "c": "50 分钟"
+   "c": "33 分钟"
   },
   {
    "a": "Neo Rescue",
    "b": "Triton (Neptune)",
-   "c": "1 小时 8 分"
+   "c": "51 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Aten (Void)",
+   "c": "35 分钟"
+  },
+  {
+   "a": "Axi Capture",
+   "b": "Hydra (Pluto)",
+   "c": "26 分钟"
+  },
+  {
+   "a": "Lith Defense",
+   "b": "Spear (Mars)",
+   "c": "47 分钟"
+  },
+  {
+   "a": "Lith Mobile Defense",
+   "b": "Eurasia (Earth)",
+   "c": "41 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 0 分",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 0 分",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 0 分",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "Picket Duty",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 02:13 UTC"
+ "updated": "2026-10-14 02:30 UTC"
 }
