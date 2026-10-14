@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 29 分"
+   "left": "1 小时 8 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "6 分钟"
+   "left": "12 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 29 分"
+   "left": "1 小时 8 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 天 7 小时"
+  "left": "2 天 6 小时"
  },
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "10 小时 6 分",
+  "left": "9 小时 45 分",
   "rows": [
    {
     "a": "Spy",
@@ -44,48 +44,48 @@
   {
    "a": "Lith Spy",
    "b": "Arval (Mars)",
-   "c": "33 分钟"
+   "c": "12 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Gaia (Earth)",
-   "c": "22 分钟"
-  },
-  {
-   "a": "Lith Rescue",
-   "b": "Linea (Venus)",
    "c": "1 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Armaros (Europa)",
-   "c": "27 分钟"
-  },
-  {
-   "a": "Lith Sabotage",
-   "b": "Ishtar (Venus)",
-   "c": "15 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Lith Sabotage",
    "b": "Cervantes (Earth)",
-   "c": "45 分钟"
+   "c": "24 分钟"
   },
   {
    "a": "Meso Mobile Defense",
    "b": "Carme (Jupiter)",
-   "c": "20 分钟"
+   "c": "即将结束"
   },
   {
-   "a": "Meso Extermination",
-   "b": "Telesto (Saturn)",
-   "c": "11 分钟"
+   "a": "Requiem Extermination",
+   "b": "Dakata (Kuva Fortress)",
+   "c": "34 分钟"
+  },
+  {
+   "a": "Requiem Mobile Defense",
+   "b": "Rotuma (Kuva Fortress)",
+   "c": "37 分钟"
+  },
+  {
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "22 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 20 分",
+   "left": "1 小时 59 分",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 20 分",
+   "left": "1 小时 59 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 20 分",
+   "left": "1 小时 59 分",
    "jobs": [
     {
      "t": "生命证明",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 05:53 UTC"
+ "updated": "2026-10-14 06:14 UTC"
 }
