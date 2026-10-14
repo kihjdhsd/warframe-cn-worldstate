@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "33 分钟"
+   "left": "10 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "即将结束"
+   "left": "13 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "33 分钟"
+   "left": "10 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 天 11 小时"
+  "left": "2 天 10 小时"
  },
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "14 小时 9 分",
+  "left": "13 小时 46 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Meso Survival",
-   "b": "Stickney (Phobos)",
-   "c": "即将结束"
+   "a": "Omnia Alchemy",
+   "b": "Cambire (Deimos)",
+   "c": "9 分钟"
   },
   {
-   "a": "Requiem Spy",
-   "b": "Pago (Kuva Fortress)",
-   "c": "即将结束"
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "47 分钟"
   },
   {
-   "a": "Lith Mobile Defense",
-   "b": "Aphrodite (Venus)",
-   "c": "即将结束"
+   "a": "Requiem Mobile Defense",
+   "b": "Rotuma (Kuva Fortress)",
+   "c": "55 分钟"
   },
   {
-   "a": "Lith Defense",
-   "b": "Tessera (Venus)",
-   "c": "即将结束"
+   "a": "Requiem Extermination",
+   "b": "Dakata (Kuva Fortress)",
+   "c": "6 分钟"
   },
   {
-   "a": "Lith Excavation",
-   "b": "Augustus (Mars)",
-   "c": "0 分钟"
+   "a": "Meso Spy",
+   "b": "Shklovsky (Phobos)",
+   "c": "3 分钟"
   },
   {
-   "a": "Axi Rescue",
-   "b": "Regna (Pluto)",
-   "c": "即将结束"
+   "a": "Meso Rescue",
+   "b": "Nuovo (Ceres)",
+   "c": "2 分钟"
   },
   {
-   "a": "Axi Extermination",
-   "b": "Saxis (Eris)",
-   "c": "即将结束"
+   "a": "Meso Rescue",
+   "b": "Numa (Saturn)",
+   "c": "50 分钟"
   },
   {
-   "a": "Neo Defense",
-   "b": "Proteus (Neptune)",
-   "c": "即将结束"
+   "a": "Neo Rescue",
+   "b": "Triton (Neptune)",
+   "c": "1 小时 8 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 23 分",
+   "left": "1 小时 0 分",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 23 分",
+   "left": "1 小时 0 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 23 分",
+   "left": "1 小时 0 分",
    "jobs": [
     {
      "t": "Picket Duty",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 01:50 UTC"
+ "updated": "2026-10-14 02:13 UTC"
 }
