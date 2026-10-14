@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "47 分钟"
+   "left": "24 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "4 分钟"
+   "left": "8 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "47 分钟"
+   "left": "24 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "23 小时 24 分",
+  "left": "23 小时 1 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,63 +42,72 @@
  },
  "fissures": [
   {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "11 分钟"
-  },
-  {
    "a": "Meso Survival",
    "b": "Elara (Jupiter)",
-   "c": "22 分钟"
-  },
-  {
-   "a": "Meso Extermination",
-   "b": "Telesto (Saturn)",
-   "c": "15 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Defense",
    "b": "Lith (Earth)",
-   "c": "22 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "26 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Mobile Defense",
    "b": "Aten (Void)",
-   "c": "28 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Ose (Europa)",
-   "c": "21 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Thebe (Jupiter)",
-   "c": "40 分钟"
+   "c": "16 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Saxis (Eris)",
+   "c": "29 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "30 分钟"
+  },
+  {
+   "a": "Omnia Void Flood",
+   "b": "Everview Arc (Zariman)",
+   "c": "13 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 38 分",
+   "left": "1 小时 15 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
      "lv": "5-15",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "压迫点",
+      "100 永冻晶矿",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "15 葛克度"
      ]
     },
     {
      "t": "削弱 Grineer 据点",
      "lv": "10-30",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "能量转化",
+      "200 永冻晶矿",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "灵敏扳机"
      ]
     },
     {
@@ -129,69 +138,101 @@
      "t": "Assassinate the Commander",
      "lv": "40-60",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
      ]
     },
     {
      "t": "搜索与救援",
      "lv": "100-100",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
      ]
     }
    ]
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 38 分",
+   "left": "1 小时 15 分",
    "jobs": [
     {
      "t": "回收金属",
      "lv": "5-15",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "3 1,500 现金匣",
+      "150 Endo",
+      "15X Pustulite",
+      "2 3,000 现金匣",
+      "250 Endo"
      ]
     },
     {
      "t": "夺回属于我们的一切",
      "lv": "15-25",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "600 Endo",
+      "Vazarin 晶体",
+      "Unairu 晶体",
+      "破片射击",
+      "闪烁体"
      ]
     },
     {
      "t": "异常回收（无尽）",
      "lv": "25-30",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "阿耶檀识琥珀星",
+      "250 Endo",
+      "肉碾虫 巨颚",
+      "喉骨刃者 倒刺",
+      "重岩者 胸腔"
      ]
     },
     {
      "t": "净化土地",
      "lv": "30-40",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "750 Endo",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "重点防御",
+      "5X Vome Residue"
      ]
     },
     {
      "t": "Core Samples",
      "lv": "40-60",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
      ]
     },
     {
      "t": "以力破局",
      "lv": "100-100",
      "rp": [
-      "Pattern Mismatch. Results inaccurate."
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
      ]
     }
    ]
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 38 分",
+   "left": "1 小时 15 分",
    "jobs": [
     {
      "t": "作战情报",
@@ -265,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 16:35 UTC"
+ "updated": "2026-10-14 16:58 UTC"
 }
