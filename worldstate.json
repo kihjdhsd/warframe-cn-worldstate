@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "32 分钟"
+   "left": "14 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "5 分钟"
+   "left": "14 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "32 分钟"
+   "left": "14 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "8 小时 19 分",
+  "left": "8 小时 1 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Meso Sabotage",
-   "b": "Enceladus (Saturn)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Meso Survival",
-   "b": "Elara (Jupiter)",
-   "c": "12 分钟"
-  },
-  {
    "a": "Neo Extermination",
    "b": "Teshub (Void)",
-   "c": "23 分钟"
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "Ultor (Mars)",
-   "c": "19 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Lith Mobile Defense",
    "b": "Eurasia (Earth)",
-   "c": "21 分钟"
+   "c": "4 分钟"
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "Ultor (Mars)",
+   "c": "1 分钟"
   },
   {
    "a": "Axi Survival",
    "b": "Nimus (Eris)",
-   "c": "29 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "17 分钟"
+   "c": "即将结束"
   },
   {
-   "a": "Omnia Void Flood",
-   "b": "Everview Arc (Zariman)",
-   "c": "13 分钟"
+   "a": "Lith Extermination",
+   "b": "E Gate (Venus)",
+   "c": "23 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "15 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "33 分钟",
+   "left": "15 分钟",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "33 分钟",
+   "left": "15 分钟",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "33 分钟",
+   "left": "15 分钟",
    "jobs": [
     {
      "t": "生命证明",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 07:40 UTC"
+ "updated": "2026-10-14 07:58 UTC"
 }
