@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 18 分"
+   "left": "51 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "1 分钟"
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 18 分"
+   "left": "51 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "14 小时 54 分",
+  "left": "14 小时 27 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "0 分钟"
-  },
-  {
    "a": "Meso Survival",
    "b": "Stickney (Phobos)",
-   "c": "13 分钟"
-  },
-  {
-   "a": "Meso Sabotage",
-   "b": "Thon (Ceres)",
-   "c": "6 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "10 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Mobile Defense",
    "b": "Aphrodite (Venus)",
-   "c": "32 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "16 分钟"
-  },
-  {
-   "a": "Lith Sabotage",
-   "b": "Cervantes (Earth)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Excavation",
    "b": "Augustus (Mars)",
-   "c": "45 分钟"
+   "c": "18 分钟"
+  },
+  {
+   "a": "Axi Rescue",
+   "b": "Regna (Pluto)",
+   "c": "2 分钟"
+  },
+  {
+   "a": "Axi Extermination",
+   "b": "Saxis (Eris)",
+   "c": "即将结束"
+  },
+  {
+   "a": "Neo Defense",
+   "b": "Proteus (Neptune)",
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 8 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 8 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 8 分",
+   "left": "1 小时 41 分",
    "jobs": [
     {
      "t": "Picket Duty",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 01:05 UTC"
+ "updated": "2026-10-14 01:32 UTC"
 }
