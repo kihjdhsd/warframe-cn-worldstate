@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "8 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,7 +13,7 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "8 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "17 小时 45 分",
+  "left": "17 小时 29 分",
   "rows": [
    {
     "a": "Spy",
@@ -49,12 +49,12 @@
   {
    "a": "Lith Mobile Defense",
    "b": "Aphrodite (Venus)",
-   "c": "12 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "14 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Void Cascade",
@@ -64,12 +64,12 @@
   {
    "a": "Lith Defense",
    "b": "Spear (Mars)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Sabotage",
    "b": "Cypress (Pluto)",
-   "c": "17 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Requiem Assault",
@@ -85,7 +85,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "59 分钟",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "Capture the Grineer Agent",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "59 分钟",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "59 分钟",
+   "left": "43 分钟",
    "jobs": [
     {
      "t": "焦土战术",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 22:14 UTC"
+ "updated": "2026-10-14 22:30 UTC"
 }
