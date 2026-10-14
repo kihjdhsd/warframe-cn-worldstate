@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "夜晚",
-   "left": "14 分钟"
+   "s": "白天",
+   "left": "1 小时 29 分"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "14 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "14 分钟"
+   "left": "1 小时 29 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 天 5 小时"
+  "left": "2 天 4 小时"
  },
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "8 小时 1 分",
+  "left": "7 小时 36 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,100 +42,100 @@
  },
  "fissures": [
   {
-   "a": "Neo Extermination",
-   "b": "Teshub (Void)",
-   "c": "5 分钟"
-  },
-  {
-   "a": "Lith Mobile Defense",
-   "b": "Eurasia (Earth)",
-   "c": "4 分钟"
-  },
-  {
    "a": "Lith Extermination",
-   "b": "Ultor (Mars)",
-   "c": "1 分钟"
-  },
-  {
-   "a": "Axi Survival",
-   "b": "Nimus (Eris)",
-   "c": "11 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
+   "b": "E Gate (Venus)",
    "c": "即将结束"
   },
   {
-   "a": "Lith Extermination",
-   "b": "E Gate (Venus)",
-   "c": "23 分钟"
+   "a": "Requiem Defense",
+   "b": "Nabuk (Kuva Fortress)",
+   "c": "即将结束"
   },
   {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "14 分钟"
+   "a": "Axi Survival",
+   "b": "Selkie (Sedna)",
+   "c": "16 分钟"
   },
   {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "15 分钟"
+   "a": "Neo Spy",
+   "b": "Valac (Europa)",
+   "c": "57 分钟"
+  },
+  {
+   "a": "Neo Interception",
+   "b": "Umbriel (Uranus)",
+   "c": "32 分钟"
+  },
+  {
+   "a": "Meso Sabotage",
+   "b": "Ker (Ceres)",
+   "c": "42 分钟"
+  },
+  {
+   "a": "Meso Interception",
+   "b": "Rhea (Saturn)",
+   "c": "41 分钟"
+  },
+  {
+   "a": "Meso Survival",
+   "b": "Draco (Ceres)",
+   "c": "57 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "15 分钟",
+   "left": "2 小时 20 分",
    "jobs": [
     {
      "t": "搜索与救援",
      "lv": "5-15",
      "rp": [
-      "生命力",
-      "200 生物质",
+      "蓄能重划",
+      "100 奥席金属",
       "1,500 Credits Cache",
       "50 Endo",
-      "15 尼蒐荚"
-     ]
-    },
-    {
-     "t": "俘获 Grineer 指挥官",
-     "lv": "10-30",
-     "rp": [
-      "致命一击",
-      "300 电路",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "Gara 系统蓝图",
-      "耐久强化"
+      "15 伊莱体"
      ]
     },
     {
      "t": "俘获其首领",
-     "lv": "20-40",
+     "lv": "10-30",
      "rp": [
-      "预言 契约",
-      "Naramon 晶体",
-      "Zenurik 晶体",
-      "200 Endo",
-      "Gara 头部神经光元蓝图",
-      "私法 热诚"
-     ]
-    },
-    {
-     "t": "Assassinate the Commander",
-     "lv": "30-50",
-     "rp": [
-      "预言 启示",
-      "100 赤毒",
-      "Naramon 晶体",
-      "300 Endo",
-      "希图斯幽魂",
-      "私法 追踪"
+      "钢铁纤维",
+      "200 奥席金属",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "蓄力装填"
      ]
     },
     {
      "t": "削弱 Grineer 据点",
+     "lv": "20-40",
+     "rp": [
+      "角斗士 圣盾",
+      "Madurai 晶体",
+      "希图斯幽魂",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "预言 协约"
+     ]
+    },
+    {
+     "t": "俘获 Grineer 指挥官",
+     "lv": "30-50",
+     "rp": [
+      "角斗士 猛突",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "预言 通灵"
+     ]
+    },
+    {
+     "t": "Sabotage the Enemy Supply Lines",
      "lv": "40-60",
      "rp": [
       "5 夜灵之息",
@@ -146,7 +146,7 @@
      ]
     },
     {
-     "t": "Capture the Grineer Agent",
+     "t": "俘获新的 Grineer 指挥官",
      "lv": "100-100",
      "rp": [
       "5 夜灵之息",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "15 分钟",
+   "left": "2 小时 20 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -168,24 +168,24 @@
      "rp": [
       "3 1,500 现金匣",
       "150 Endo",
-      "15X Lucent Teroglobe",
+      "15X Ganglion",
       "2 3,000 现金匣",
       "250 Endo"
      ]
     },
     {
-     "t": "为了科学！",
+     "t": "异常回收",
      "lv": "15-25",
      "rp": [
       "600 Endo",
-      "Naramon 晶体",
       "Zenurik 晶体",
-      "杀伤计数",
+      "Madurai 晶体",
+      "触媒连动",
       "闪烁体"
      ]
     },
     {
-     "t": "露天开采（无尽）",
+     "t": "异常回收（无尽）",
      "lv": "25-30",
      "rp": [
       "阿耶檀识琥珀星",
@@ -196,18 +196,18 @@
      ]
     },
     {
-     "t": "Core Samples",
+     "t": "回收金属",
      "lv": "30-40",
      "rp": [
       "750 Endo",
       "Unairu 晶体",
       "Madurai 晶体",
-      "重点防御",
-      "5X Vome Residue"
+      "液压准心",
+      "5X Fass Residue"
      ]
     },
     {
-     "t": "夺回属于我们的一切",
+     "t": "为了科学！",
      "lv": "40-60",
      "rp": [
       "阿耶檀识琥珀星",
@@ -218,7 +218,7 @@
      ]
     },
     {
-     "t": "异常回收",
+     "t": "夺回属于我们的一切",
      "lv": "100-100",
      "rp": [
       "阿耶檀识琥珀星",
@@ -232,26 +232,26 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "15 分钟",
+   "left": "2 小时 20 分",
    "jobs": [
     {
-     "t": "生命证明",
+     "t": "Dirt Unit",
      "lv": "5-15",
      "rp": [
-      "100 生物质",
+      "100 奥席金属",
       "1,500 Credits Cache",
       "50 Endo",
-      "5X Gorgaricus Spore",
-      "培训债务债券",
+      "5X Mytocardia Spore",
+      "2 培训债务债券",
       "Garuda 机体蓝图"
      ]
     },
     {
-     "t": "Agent Down",
+     "t": "血之遗物",
      "lv": "10-30",
      "rp": [
-      "15X Gorgaricus Spore",
-      "200 纳米孢子",
+      "15X Mytocardia Spore",
+      "200 奥席金属",
       "2,500 Credits Cache",
       "100 Endo",
       "2X Shelter Debt-Bond",
@@ -259,12 +259,12 @@
      ]
     },
     {
-     "t": "猎杀行动",
+     "t": "Dog Boards",
      "lv": "20-40",
      "rp": [
       "200 Endo",
-      "Naramon 晶体",
-      "300 红化结晶",
+      "Madurai 晶体",
+      "300 电路",
       "2X Medical Debt-Bond",
       "Garuda 头部神经光元蓝图",
       "阿耶精华"
@@ -274,15 +274,15 @@
      "t": "作战情报",
      "lv": "30-50",
      "rp": [
-      "200 赤毒",
+      "Vazarin 晶体",
       "300 Endo",
-      "2 突变原聚合物",
+      "2 电磁力场装置",
       "2X Advances Debt-Bond",
       "阿耶精华"
      ]
     },
     {
-     "t": "Financial Liberation",
+     "t": "焦土战术",
      "lv": "40-60",
      "rp": [
       "400 Endo",
@@ -293,7 +293,7 @@
      ]
     },
     {
-     "t": "血之遗物",
+     "t": "Agent Down",
      "lv": "100-100",
      "rp": [
       "400 Endo",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 07:58 UTC"
+ "updated": "2026-10-14 08:23 UTC"
 }
