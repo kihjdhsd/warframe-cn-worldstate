@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "56 分钟"
+   "left": "34 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "17 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "56 分钟"
+   "left": "34 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 天 9 小时"
+  "left": "2 天 8 小时"
  },
  "sortie": {
   "k": "Raptor",
   "n": "Corpus",
-  "left": "12 小时 3 分",
+  "left": "11 小时 41 分",
   "rows": [
    {
     "a": "Spy",
@@ -44,48 +44,48 @@
   {
    "a": "Axi Extermination",
    "b": "Oxomoco (Void)",
-   "c": "5 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Sabotage",
    "b": "Thon (Ceres)",
-   "c": "50 分钟"
+   "c": "28 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Thebe (Jupiter)",
-   "c": "1 小时 1 分"
+   "c": "38 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Ose (Europa)",
-   "c": "13 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "43 分钟"
+   "c": "21 分钟"
   },
   {
    "a": "Axi Sabotage",
    "b": "Rusalka (Sedna)",
-   "c": "17 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Capture",
    "b": "Ukko (Void)",
-   "c": "41 分钟"
+   "c": "18 分钟"
   },
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "18 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 47 分",
+   "left": "1 小时 25 分",
    "jobs": [
     {
      "t": "俘获新的 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 47 分",
+   "left": "1 小时 25 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 47 分",
+   "left": "1 小时 25 分",
    "jobs": [
     {
      "t": "Protect the Innocent",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-14 03:56 UTC"
+ "updated": "2026-10-14 04:18 UTC"
 }
