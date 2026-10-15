@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 16 分"
+   "left": "56 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "17 分钟"
+   "s": "温暖",
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 16 分"
+   "left": "56 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "22 小时 23 分"
+  "left": "22 小时 3 分"
  },
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "1 小时 23 分",
+  "left": "1 小时 3 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Axi Defense",
-   "b": "Belenus (Void)",
-   "c": "5 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Kala-azar (Eris)",
-   "c": "15 分钟"
-  },
-  {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "16 分钟"
-  },
-  {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "22 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Neo Capture",
    "b": "Ukko (Void)",
-   "c": "37 分钟"
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Stephano (Uranus)",
-   "c": "7 分钟"
+   "c": "17 分钟"
   },
   {
    "a": "Axi Defense",
    "b": "Outer Terminus (Pluto)",
-   "c": "54 分钟"
+   "c": "33 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "1 小时 2 分"
+   "c": "42 分钟"
+  },
+  {
+   "a": "Lith Rescue",
+   "b": "Pacific (Earth)",
+   "c": "29 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "53 分钟"
+  },
+  {
+   "a": "Meso Interception",
+   "b": "Rhea (Saturn)",
+   "c": "1 小时 0 分"
+  },
+  {
+   "a": "Meso Rescue",
+   "b": "Monolith (Phobos)",
+   "c": "1 小时 1 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 7 分",
+   "left": "1 小时 47 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 7 分",
+   "left": "1 小时 47 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 7 分",
+   "left": "1 小时 47 分",
    "jobs": [
     {
      "t": "Seems Legit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 14:36 UTC"
+ "updated": "2026-10-15 14:56 UTC"
 }
