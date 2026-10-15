@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 24 分"
+   "left": "59 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "9 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 24 分"
+   "left": "59 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "20 小时 1 分"
+  "left": "19 小时 36 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "23 小时 1 分",
+  "left": "22 小时 36 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Extermination",
-   "b": "Baal (Europa)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Belenus (Void)",
-   "c": "6 分钟"
-  },
-  {
-   "a": "Axi Defense",
-   "b": "Kala-azar (Eris)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Axi Disruption",
-   "b": "Kappa (Sedna)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "E Prime (Earth)",
-   "c": "6 分钟"
-  },
-  {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "32 分钟"
+   "c": "7 分钟"
   },
   {
-   "a": "Neo Rescue",
-   "b": "Orias (Europa)",
-   "c": "即将结束"
+   "a": "Meso Extermination",
+   "b": "Pallas (Ceres)",
+   "c": "1 分钟"
   },
   {
-   "a": "Neo Excavation",
-   "b": "Despina (Neptune)",
-   "c": "2 分钟"
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "19 分钟"
+  },
+  {
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "35 分钟"
+  },
+  {
+   "a": "Meso Capture",
+   "b": "Ananke (Jupiter)",
+   "c": "24 分钟"
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Dione (Saturn)",
+   "c": "38 分钟"
+  },
+  {
+   "a": "Meso Defense",
+   "b": "Gulliver (Phobos)",
+   "c": "42 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 14 分",
+   "left": "1 小时 49 分",
    "jobs": [
     {
      "t": "Find the Hidden Artifact",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 14 分",
+   "left": "1 小时 49 分",
    "jobs": [
     {
      "t": "以力破局",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 14 分",
+   "left": "1 小时 49 分",
    "jobs": [
     {
      "t": "砸烂他们的陷阱",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 16:58 UTC"
+ "updated": "2026-10-15 17:23 UTC"
 }
