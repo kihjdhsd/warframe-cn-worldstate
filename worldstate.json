@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "1 天 6 小时"
+  "left": "1 天 5 小时"
  },
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "9 小时 20 分",
+  "left": "8 小时 49 分",
   "rows": [
    {
     "a": "Spy",
@@ -69,7 +69,7 @@
   {
    "a": "Lith Excavation",
    "b": "Augustus (Mars)",
-   "c": "2 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Defense",
@@ -85,7 +85,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "3 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "夺回失窃圣物",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "3 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "3 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "Falling Star",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 06:39 UTC"
+ "updated": "2026-10-15 07:10 UTC"
 }
