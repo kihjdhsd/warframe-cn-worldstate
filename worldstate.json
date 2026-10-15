@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "28 分钟"
+   "left": "7 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "5 分钟"
+   "s": "寒冷",
+   "left": "4 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "28 分钟"
+   "left": "7 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "1 天 10 小时"
+  "left": "1 天 9 小时"
  },
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "13 小时 5 分",
+  "left": "12 小时 44 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "即将结束"
-  },
-  {
    "a": "Lith Sabotage",
    "b": "Ishtar (Venus)",
-   "c": "20 分钟"
+   "c": "0 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Neso (Neptune)",
-   "c": "24 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Lith Survival",
    "b": "V Prime (Venus)",
-   "c": "33 分钟"
+   "c": "13 分钟"
   },
   {
    "a": "Lith Interception",
    "b": "Gaia (Earth)",
-   "c": "25 分钟"
+   "c": "5 分钟"
   },
   {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "7 分钟"
+   "a": "Omnia Survival",
+   "b": "Circulus (Lua)",
+   "c": "19 分钟"
   },
   {
-   "a": "Requiem Assault",
-   "b": "Koro (Kuva Fortress)",
-   "c": "10 分钟"
+   "a": "Axi Survival",
+   "b": "Mot (Void)",
+   "c": "45 分钟"
   },
   {
-   "a": "Axi Extermination",
-   "b": "Saxis (Eris)",
-   "c": "14 分钟"
+   "a": "Neo Excavation",
+   "b": "Despina (Neptune)",
+   "c": "12 分钟"
+  },
+  {
+   "a": "Neo Interception",
+   "b": "Umbriel (Uranus)",
+   "c": "3 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 18 分",
+   "left": "58 分钟",
    "jobs": [
     {
      "t": "搜索与救援",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 18 分",
+   "left": "58 分钟",
    "jobs": [
     {
      "t": "异常回收",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 18 分",
+   "left": "58 分钟",
    "jobs": [
     {
      "t": "Picket Duty",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 02:54 UTC"
+ "updated": "2026-10-15 03:15 UTC"
 }
