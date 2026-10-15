@@ -2,29 +2,29 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "13 分钟"
+   "s": "夜晚",
+   "left": "47 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "10 分钟"
+   "s": "温暖",
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "13 分钟"
+   "left": "47 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "13 小时 50 分"
+  "left": "13 小时 34 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "16 小时 50 分",
+  "left": "16 小时 34 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Mobile Defense",
-   "b": "Rotuma (Kuva Fortress)",
-   "c": "2 分钟"
-  },
-  {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "28 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Adaro (Sedna)",
-   "c": "27 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Axi Extermination",
    "b": "Acheron (Pluto)",
-   "c": "34 分钟"
-  },
-  {
-   "a": "Neo Sabotage",
-   "b": "Stribog (Void)",
-   "c": "即将结束"
+   "c": "17 分钟"
   },
   {
    "a": "Lith Survival",
    "b": "V Prime (Venus)",
-   "c": "51 分钟"
+   "c": "34 分钟"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "46 分钟"
+   "c": "29 分钟"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "20 分钟"
+   "c": "3 分钟"
+  },
+  {
+   "a": "Lith Rescue",
+   "b": "Linea (Venus)",
+   "c": "51 分钟"
+  },
+  {
+   "a": "Lith Mobile Defense",
+   "b": "Eurasia (Earth)",
+   "c": "1 小时 13 分"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 4 分",
+   "left": "47 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 4 分",
+   "left": "47 分钟",
    "jobs": [
     {
      "t": "净化土地",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 4 分",
+   "left": "47 分钟",
    "jobs": [
     {
      "t": "Seems Legit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 23:09 UTC"
+ "updated": "2026-10-15 23:25 UTC"
 }
