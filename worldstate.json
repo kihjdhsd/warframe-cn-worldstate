@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "14 小时 29 分"
+  "left": "14 小时 10 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "17 小时 29 分",
+  "left": "17 小时 10 分",
   "rows": [
    {
     "a": "Extermination",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 22:30 UTC"
+ "updated": "2026-10-15 22:49 UTC"
 }
