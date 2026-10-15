@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "39 分钟"
+   "left": "23 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "10 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "39 分钟"
+   "left": "23 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "16 小时 46 分"
+  "left": "16 小时 30 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "19 小时 46 分",
+  "left": "19 小时 30 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Lith Mobile Defense",
-   "b": "Tharsis (Mars)",
-   "c": "8 分钟"
-  },
-  {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "19 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "18 分钟"
+   "c": "1 分钟"
   },
   {
    "a": "Neo Excavation",
    "b": "Despina (Neptune)",
-   "c": "14 分钟"
-  },
-  {
-   "a": "Neo Extermination",
-   "b": "Baal (Europa)",
-   "c": "13 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Interception",
    "b": "Rhea (Saturn)",
-   "c": "21 分钟"
+   "c": "4 分钟"
   },
   {
    "a": "Meso Sabotage",
    "b": "Ker (Ceres)",
-   "c": "23 分钟"
+   "c": "7 分钟"
   },
   {
    "a": "Lith Spy",
    "b": "Arval (Mars)",
-   "c": "38 分钟"
+   "c": "22 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "46 分钟"
+  },
+  {
+   "a": "Meso Mobile Defense",
+   "b": "Carme (Jupiter)",
+   "c": "58 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 30 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 30 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 30 分",
+   "left": "1 小时 13 分",
    "jobs": [
     {
      "t": "生命证明",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 20:13 UTC"
+ "updated": "2026-10-15 20:29 UTC"
 }
