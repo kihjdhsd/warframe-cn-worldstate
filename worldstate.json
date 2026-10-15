@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "46 分钟"
+   "left": "24 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "3 分钟"
+   "s": "寒冷",
+   "left": "1 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "46 分钟"
+   "left": "24 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "1 天 2 小时"
+  "left": "1 天 1 小时"
  },
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "5 小时 3 分",
+  "left": "4 小时 41 分",
   "rows": [
    {
     "a": "Spy",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "10 分钟"
+   "a": "Lith Spy",
+   "b": "Cambria (Earth)",
+   "c": "3 分钟"
   },
   {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "1 分钟"
+   "a": "Axi Rescue",
+   "b": "Brugia (Eris)",
+   "c": "30 分钟"
   },
   {
-   "a": "Neo Survival",
-   "b": "Ani (Void)",
-   "c": "6 分钟"
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "19 分钟"
   },
   {
-   "a": "Meso Survival",
-   "b": "Elara (Jupiter)",
-   "c": "11 分钟"
+   "a": "Axi Spy",
+   "b": "Kelpie (Sedna)",
+   "c": "47 分钟"
   },
   {
-   "a": "Meso Sabotage",
-   "b": "Calypso (Saturn)",
-   "c": "16 分钟"
+   "a": "Neo Sabotage",
+   "b": "Stribog (Void)",
+   "c": "30 分钟"
   },
   {
-   "a": "Omnia Survival",
-   "b": "Circulus (Lua)",
-   "c": "18 分钟"
+   "a": "Neo Extermination",
+   "b": "Baal (Europa)",
+   "c": "31 分钟"
   },
   {
-   "a": "Meso Mobile Defense",
-   "b": "Sharpless (Phobos)",
-   "c": "17 分钟"
+   "a": "Lith Mobile Defense",
+   "b": "Vallis (Mars)",
+   "c": "53 分钟"
   },
   {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "0 分钟"
+   "a": "Lith Interception",
+   "b": "Gaia (Earth)",
+   "c": "52 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "47 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Sabotage the Enemy Supply Lines",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "47 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "47 分钟",
+   "left": "25 分钟",
    "jobs": [
     {
      "t": "Financial Liberation",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 10:56 UTC"
+ "updated": "2026-10-15 11:18 UTC"
 }
