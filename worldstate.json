@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Hyena Pack",
   "n": "Corpus",
-  "left": "11 小时 41 分",
+  "left": "11 小时 28 分",
   "rows": [
    {
     "a": "Spy",
@@ -44,32 +44,32 @@
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "3 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Spy",
    "b": "Pago (Kuva Fortress)",
-   "c": "1 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "22 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Axi Interception",
    "b": "Cerberus (Pluto)",
-   "c": "46 分钟"
+   "c": "33 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Tiwaz (Void)",
-   "c": "43 分钟"
+   "c": "29 分钟"
   },
   {
    "a": "Axi Interception",
    "b": "Berehynia (Sedna)",
-   "c": "4 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Lith Interception",
@@ -79,7 +79,7 @@
   {
    "a": "Lith Capture",
    "b": "Mantle (Earth)",
-   "c": "31 分钟"
+   "c": "17 分钟"
   }
  ],
  "bounties": [
@@ -307,7 +307,7 @@
   },
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 25 分",
+   "left": "2 小时 11 分",
    "jobs": [
     {
      "t": "夺回失窃圣物",
@@ -382,7 +382,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 25 分",
+   "left": "2 小时 11 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -454,7 +454,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 25 分",
+   "left": "2 小时 11 分",
    "jobs": [
     {
      "t": "Falling Star",
@@ -528,5 +528,5 @@
    ]
   }
  ],
- "updated": "2026-10-15 04:18 UTC"
+ "updated": "2026-10-15 04:31 UTC"
 }
