@@ -132,7 +132,10 @@ jobs:
             'trader': ({'k': '已抵达' if vt.get('active') else '前往中', 'n': vt.get('location', ''), 'left': human(vt.get('activation'))} if vt else None),
             'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
                         'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
-            'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
+            'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''),
+                          'c': human(f.get('expiry')), 'x': f.get('missionType', ''), 't': f.get('tier', ''),
+                          'h': 1 if f.get('isHard') else 0, 's': 1 if f.get('isStorm') else 0}
+                         for f in (w.get('fissures') or [])[:40]],
             'bounties': bounties,
             # ---- 扩展板块：午夜电波 / 入侵 / 警报 / 仲裁 / 活动 / 特惠 / 商人库存 / 钢铁之路 / 新闻 ----
             'nightwave': ({'season': nw.get('season'), 'rows': [
