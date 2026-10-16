@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "40 分钟"
+   "left": "16 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "0 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "40 分钟"
+   "left": "16 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "3 小时 27 分"
+  "left": "3 小时 3 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "6 小时 27 分",
+  "left": "6 小时 3 分",
   "rows": [
    {
     "a": "Extermination",
@@ -44,48 +44,48 @@
   {
    "a": "Lith Extermination",
    "b": "Mariana (Earth)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Neo Disruption",
    "b": "Laomedeia (Neptune)",
-   "c": "32 分钟"
+   "c": "8 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Oxomoco (Void)",
-   "c": "28 分钟"
+   "c": "5 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "8 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Sabotage",
    "b": "Rusalka (Sedna)",
-   "c": "42 分钟"
+   "c": "19 分钟"
   },
   {
    "a": "Axi Interception",
    "b": "Cerberus (Pluto)",
-   "c": "0 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Axi Survival",
    "b": "Nimus (Eris)",
-   "c": "10 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "47 分钟"
+   "c": "23 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "40 分钟",
+   "left": "17 分钟",
    "jobs": [
     {
      "t": "Capture the Grineer Agent",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "40 分钟",
+   "left": "17 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "40 分钟",
+   "left": "17 分钟",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 09:32 UTC"
+ "updated": "2026-10-16 09:56 UTC"
 }
