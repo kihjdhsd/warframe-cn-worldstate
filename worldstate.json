@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 14 分"
+   "left": "41 分钟"
   },
   {
    "k": "金星",
    "s": "温暖",
-   "left": "4 分钟"
+   "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 14 分"
+   "left": "41 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "2 小时 51 分",
+  "left": "2 小时 18 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Interception",
-   "b": "Mithra (Void)",
-   "c": "20 分钟"
-  },
-  {
-   "a": "Lith Mobile Defense",
-   "b": "Aphrodite (Venus)",
-   "c": "9 分钟"
-  },
-  {
-   "a": "Lith Mobile Defense",
-   "b": "Eurasia (Earth)",
-   "c": "21 分钟"
-  },
-  {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "7 分钟"
-  },
-  {
-   "a": "Axi Extermination",
-   "b": "Adaro (Sedna)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Axi Extermination",
-   "b": "Acheron (Pluto)",
-   "c": "14 分钟"
-  },
-  {
    "a": "Axi Interception",
    "b": "Berehynia (Sedna)",
-   "c": "43 分钟"
+   "c": "10 分钟"
   },
   {
    "a": "Axi Rescue",
    "b": "Regna (Pluto)",
-   "c": "50 分钟"
+   "c": "18 分钟"
+  },
+  {
+   "a": "Requiem Rescue",
+   "b": "Garus (Kuva Fortress)",
+   "c": "19 分钟"
+  },
+  {
+   "a": "Requiem Mobile Defense",
+   "b": "Rotuma (Kuva Fortress)",
+   "c": "17 分钟"
+  },
+  {
+   "a": "Requiem Survival",
+   "b": "Taveuni (Kuva Fortress)",
+   "c": "3 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "17 分钟"
+  },
+  {
+   "a": "Meso Sabotage",
+   "b": "Adrastea (Jupiter)",
+   "c": "37 分钟"
+  },
+  {
+   "a": "Meso Survival",
+   "b": "Draco (Ceres)",
+   "c": "31 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 4 分",
+   "left": "1 小时 32 分",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 4 分",
+   "left": "1 小时 32 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 4 分",
+   "left": "1 小时 32 分",
    "jobs": [
     {
      "t": "Seems Legit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 13:08 UTC"
+ "updated": "2026-10-16 13:41 UTC"
 }
