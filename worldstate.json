@@ -3,7 +3,7 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "14 分钟"
+   "left": "即将结束"
   },
   {
    "k": "金星",
@@ -13,18 +13,18 @@
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "14 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "6 小时 21 分"
+  "left": "5 小时 50 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "9 小时 21 分",
+  "left": "8 小时 50 分",
   "rows": [
    {
     "a": "Extermination",
@@ -54,12 +54,12 @@
   {
    "a": "Meso Survival",
    "b": "Draco (Ceres)",
-   "c": "7 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Sabotage",
    "b": "Enceladus (Saturn)",
-   "c": "20 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Meso Rescue",
@@ -74,18 +74,18 @@
   {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "15 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 5 分",
+   "left": "34 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 5 分",
+   "left": "34 分钟",
    "jobs": [
     {
      "t": "为了科学！",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 5 分",
+   "left": "34 分钟",
    "jobs": [
     {
      "t": "资源窃取",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 06:38 UTC"
+ "updated": "2026-10-16 07:09 UTC"
 }
