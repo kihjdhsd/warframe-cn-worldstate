@@ -1,76 +1,22 @@
 name: worldstate
 on:
   schedule:
-    - cron: '5 * * * *'      # 每小时：世界状态 + 赏金
-    - cron: '*/30 * * * *'   # 每 30 分钟：warframe.market 价格快照（准实时）
-    - cron: '20 3 * * *'     # 每天 03:20：额外全量兜底
+    - cron: '5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  # ---------- 世界状态 + 赏金 ----------
-  worldstate:
+  fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch world state + bounties
+      - name: Fetch and trim WFCD worldstate
         run: |
-          for i in 1 2 3; do
-            if curl -sS --max-time 45 --retry 2 --retry-delay 3 -H 'User-Agent: warframe-cn-site' \
-                 'https://api.warframestat.us/pc?language=zh' -o raw.json && [ -s raw.json ]; then
-              echo "got raw.json ($(wc -c < raw.json) bytes)"; break
-            fi
-            echo "attempt $i failed, retrying..."; sleep 8
-          done
-          [ -s raw.json ] || { echo "upstream unavailable, keeping previous data"; exit 0; }
+          curl -sS --max-time 60 -H 'User-Agent: warframe-cn-site' \
+            'https://api.warframestat.us/pc?language=zh' -o raw.json
           python3 - <<'PY'
-          import json, datetime, re
+          import json, datetime
           w = json.load(open('raw.json', encoding='utf-8'))
-
-          # 官方英中对照表（由 gen_zh_map.py 生成，随仓库发布）
-          try:
-              ZM = json.load(open('zh-map.json', encoding='utf-8'))
-          except Exception:
-              ZM = {'rw': {}, 'bn': {}, 'names': {}, 'part': {}, 'tier': {}}
-          RW, BN, NAMES, PART, TIER = ZM['rw'], ZM['bn'], ZM['names'], ZM['part'], ZM['tier']
-          NOSPACE = {}
-          for k, v in RW.items():
-              NOSPACE[k.replace(' ', '').replace('-', '').lower()] = v
-          BN_L = {k.lower(): v for k, v in BN.items()}
-
-          def tr(name):
-              if not name: return name
-              if name in RW: return RW[name]
-              if name in BN: return BN[name]
-              base, suffix = name, ''
-              m = re.match(r'^(.*?)\s*\((Endless|Steel Path)\)\s*$', name)   # 无尽/钢铁之路变体
-              if m:
-                  base, suffix = m.group(1).strip(), m.group(2)
-              for cand in (base, name):
-                  if cand in RW: return RW[cand] + ('（无尽）' if suffix == 'Endless' else '')
-                  if cand in BN: return BN[cand] + ('（无尽）' if suffix == 'Endless' else '')
-                  if cand.lower() in BN_L: return BN_L[cand.lower()] + ('（无尽）' if suffix == 'Endless' else '')
-                  key = cand.replace(' ', '').replace('-', '').lower()
-                  if key in NOSPACE: return NOSPACE[key]
-              m = re.match(r'^(.+?)\s+(.+?)\s+Blueprint$', base)
-              if m and m.group(1) in NAMES and m.group(2) in PART:
-                  return '%s %s' % (NAMES[m.group(1)], PART[m.group(2)])
-              m = re.match(r'^(\w+)\s+(\w+)\s+Relic$', base)
-              if m and m.group(1) in TIER:
-                  return '%s %s 遗物' % (TIER[m.group(1)], m.group(2))
-              return name
-
-          def tr_reward(s):
-              """奖励串带数量前缀，如 '200X Plastids' / '1,500 Credits Cache' → '200 生物质'"""
-              m = re.match(r'^([\d,]+)\s*[xX×]?\s+(.+)$', s or '')
-              num, item = ('', s or '')
-              if m:
-                  num, item = m.group(1), m.group(2).strip()
-              zh = tr(item)
-              if zh == item:
-                  return s
-              return ('%s %s' % (num, zh)) if num else zh
-
           def human(iso):
               if not iso: return ''
               try: t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
@@ -81,129 +27,70 @@ jobs:
               if dd > 0: return '%d 天 %d 小时' % (dd, h % 24)
               if h > 0:  return '%d 小时 %d 分' % (h, m % 60)
               return '%d 分钟' % m
-
           cet = w.get('cetusCycle'); val = w.get('vallisCycle'); cam = w.get('cambionCycle')
           cyc = []
           if cet: cyc.append({'k': '地球', 's': '白天' if cet.get('isDay') else '夜晚', 'left': human(cet.get('expiry'))})
           if val: cyc.append({'k': '金星', 's': '温暖' if val.get('isWarm') else '寒冷', 'left': human(val.get('expiry'))})
           if cam: cyc.append({'k': '火卫二', 's': '法丝' if cam.get('active') == 'fass' else '沃姆', 'left': human(cam.get('expiry'))})
-
-          SY = {'Ostron': '地球 · 夜灵平野', 'Ostrons': '地球 · 夜灵平野',
-                'Solaris United': '金星 · 奥布山谷', 'Entrati': '火卫二 · 魔胎之境',
-                'Cavia': '解剖圣所', 'The Hex': '霍夫尼亚', 'Hex': '霍夫尼亚',
-                'Holdfasts': '扎里曼号', 'Necraloid': '殁圣械灵', 'Ventkids': '通风小子',
-                'Conclave': '武形秘仪', 'Cephalon Suda': '中枢苏达'}
-          bounties = []
-          for sm in (w.get('syndicateMissions') or []):
-              syn = sm.get('syndicate') or sm.get('syndicateKey') or ''
-              jobs = []
-              for j in (sm.get('jobs') or []):
-                  lv = j.get('enemyLevels') or []
-                  pool = []
-                  for r in (j.get('rewardPool') or [])[:10]:
-                      rz = tr_reward(r)
-                      if rz not in pool:
-                          pool.append(rz)
-                  jobs.append({
-                      't': tr(j.get('type') or j.get('jobType') or ''),
-                      'lv': ('%s-%s' % (lv[0], lv[1])) if len(lv) == 2 else '',
-                      'rp': pool})
-              if jobs:
-                  bounties.append({'syn': SY.get(syn, syn), 'left': human(sm.get('expiry')), 'jobs': jobs[:6]})
-
+          z = w.get('zarimanCycle')
+          if z: cyc.append({'k': '扎里曼', 's': '科珀斯' if z.get('isCorpus') else '已净化', 'left': human(z.get('expiry'))})
+          dv = w.get('duviriCycle')
+          if dv: cyc.append({'k': '双衍王境', 's': str(dv.get('state') or ''), 'left': human(dv.get('expiry'))})
           s = w.get('sortie') or {}
-          vt = w.get('voidTrader')
+          vt = w.get('voidTrader') or {}
+
+          def rows(items, fa, fb, fc=None, limit=8):
+              out = []
+              for x in (items or [])[:limit]:
+                  if not isinstance(x, dict): continue
+                  row = {'a': str(fa(x) or '')[:34], 'b': str(fb(x) or '')[:40]}
+                  row['c'] = human(fc(x)) if fc else ''
+                  out.append(row)
+              return out
+
+          nw = w.get('nightwave') or {}
+          arb = w.get('arbitration') or {}
           data = {
             'cycles': cyc,
             'trader': ({'k': '已抵达' if vt.get('active') else '前往中', 'n': vt.get('location', ''), 'left': human(vt.get('activation'))} if vt else None),
             'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
                         'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
             'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
-            'bounties': bounties,
+            'nightwave': ({'season': nw.get('season'), 'rows': [
+                {'a': str(c.get('title') or '')[:30], 'b': str(c.get('desc') or '')[:46],
+                 'c': ('%s 声望' % c.get('reputation')) if c.get('reputation') else ''}
+                for c in (nw.get('activeChallenges') or [])[:10]]} if nw.get('activeChallenges') else None),
+            'invasions': rows([i for i in (w.get('invasions') or []) if not i.get('completed')],
+                              lambda i: i.get('node'), lambda i: '%s %s%% ／ %s %s%%' % (
+                                  (i.get('attacker') or {}).get('faction', ''), i.get('completion', 0),
+                                  (i.get('defender') or {}).get('faction', ''), 100 - (i.get('completion') or 0)),
+                              lambda i: i.get('expiry'), 8),
+            'alerts': rows(w.get('alerts'), lambda a: ((a.get('mission') or {}).get('node')),
+                           lambda a: ((a.get('mission') or {}).get('type')), lambda a: a.get('expiry'), 6),
+            'arbitration': ({'k': arb.get('node', ''), 'n': arb.get('type', ''), 'left': human(arb.get('expiry'))} if arb else None),
+            'events': rows(w.get('events'), lambda e: str(e.get('description') or '').replace('\n', ' '),
+                           lambda e: ((e.get('node')) or ''), lambda e: e.get('expiry'), 5),
+            'deals': rows(w.get('dailyDeals'), lambda d: d.get('item'),
+                          lambda d: '-%s%%' % (d.get('discount') or 0), lambda d: d.get('expiry'), 5),
+            'vaultTrader': ({'left': human((w.get('vaultTrader') or {}).get('expiry'))} if w.get('vaultTrader') else None),
+            'invInventory': rows(vt.get('inventory'), lambda i: i.get('item'),
+                                 lambda i: '%s 杜卡德 + %s 星币' % (i.get('ducats', 0), i.get('credits', 0)), None, 12),
+            'steelPath': ({'a': ((w.get('steelPath') or {}).get('currentReward') or {}).get('name'),
+                           'c': human((w.get('steelPath') or {}).get('expiry'))} if w.get('steelPath') else None),
+            'news': rows(w.get('news'), lambda n: str(n.get('message') or '').replace('\n', ' '),
+                         lambda n: '', lambda n: n.get('date'), 5),
             'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
           }
           json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          json.dump({'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2]},
-                    open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
+          print('cycles=%d fissures=%d nw=%d inv=%d alerts=%d deals=%d' % (
+              len(data['cycles']), len(data['fissures']),
+              len((data.get('nightwave') or {}).get('rows') or []), len(data.get('invasions') or []),
+              len(data.get('alerts') or []), len(data.get('deals') or [])))
           PY
-      - name: Fetch item id → slug map
+      - name: Commit
         run: |
-          python3 - <<'PY'
-          import json, urllib.request
-          H = {'User-Agent': 'WarframeCNLookup/1.0 (static fan site; contact 974170618@qq.com)',
-               'Accept': 'application/json', 'Language': 'zh-hans', 'Platform': 'pc'}
-          req = urllib.request.Request('https://api.warframe.market/v2/items', headers=H)
-          d = json.loads(urllib.request.urlopen(req, timeout=90).read())
-          m = {i['id']: i['slug'] for i in (d.get('data') or []) if i.get('id') and i.get('slug')}
-          json.dump(m, open('item-ids.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-          print('item-ids: %d 条' % len(m))
-          PY
           git config user.name "worldstate-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add worldstate.json debug.json item-ids.json
+          git add worldstate.json
           git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
-          for i in 1 2 3 4; do
-            git pull --rebase --autostash origin main && git push && break
-            echo "push attempt $i failed, retrying..."; sleep 6
-          done
-          # 刷新 jsDelivr CDN（国内可达的镜像，网页优先读它）
-          for f in worldstate.json debug.json item-ids.json; do
-            curl -sS --max-time 20 "https://purge.jsdelivr.net/gh/kihjdhsd/warframe-cn-worldstate@main/$f" > /dev/null || true
-          done
-
-  # ---------- 价格（每日 / 手动）----------
-  prices:
-    if: github.event.schedule != '5 * * * *' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Fetch market prices
-        run: |
-          python3 - <<'PY'
-          import json, time, urllib.request, urllib.error, concurrent.futures
-          HEAD = {'User-Agent': 'WarframeCNLookup/1.0 (static fansite)',
-                  'Accept': 'application/json', 'Language': 'zh-hans', 'Platform': 'pc'}
-          slugs = json.load(open('price-targets.json', encoding='utf-8'))
-
-          def one(slug):
-              for attempt in range(3):
-                  try:
-                      req = urllib.request.Request(
-                          'https://api.warframe.market/v2/orders/item/%s/top' % slug, headers=HEAD)
-                      with urllib.request.urlopen(req, timeout=20) as r:
-                          d = (json.loads(r.read()) or {}).get('data') or {}
-                      sell = [o for o in (d.get('sell') or []) if o.get('visible', True)]
-                      buy = [o for o in (d.get('buy') or []) if o.get('visible', True)]
-                      if not sell and not buy:
-                          return slug, None
-                      return slug, {'s': min((o['platinum'] for o in sell), default=None),
-                                    'b': max((o['platinum'] for o in buy), default=None),
-                                    'c': len(sell) + len(buy)}
-                  except urllib.error.HTTPError as e:
-                      if e.code == 429:
-                          time.sleep(4 + attempt * 4); continue
-                      return slug, None
-                  except Exception:
-                      time.sleep(1 + attempt)
-              return slug, None
-
-          out, t0, fail = {}, time.time(), 0
-          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
-              for slug, res in ex.map(one, slugs):
-                  if res: out[slug] = res
-                  else: fail += 1
-          data = {'updated': time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime()),
-                  'count': len(out), 'failed': fail, 'prices': out}
-          json.dump(data, open('prices.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-          print('prices: %d/%d ok, %d failed, %.0fs' % (len(out), len(slugs), fail, time.time() - t0))
-          PY
-          git config user.name "worldstate-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add prices.json
-          git diff --staged --quiet || git commit -m "prices $(date -u +%FT%TZ)"
-          for i in 1 2 3 4; do
-            git pull --rebase --autostash origin main && git push && break
-            echo "push attempt $i failed, retrying..."; sleep 6
-          done
-          curl -sS --max-time 20 "https://purge.jsdelivr.net/gh/kihjdhsd/warframe-cn-worldstate@main/prices.json" > /dev/null || true
+          git push
