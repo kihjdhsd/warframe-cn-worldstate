@@ -1,15 +1,3 @@
-name: worldstate
-on:
-  schedule:
-    - cron: '5 * * * *'
-  workflow_dispatch:
-permissions:
-  contents: write
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
       - name: Fetch world state + bounties
         run: |
           for i in 1 2 3; do
@@ -110,85 +98,18 @@ jobs:
 
           s = w.get('sortie') or {}
           vt = w.get('voidTrader')
-          data = {
-            'cycles': cyc,
-            'trader': ({'k': '已抵达' if vt.get('active') else '前往中', 'n': vt.get('location', ''), 'left': human(vt.get('activation'))} if vt else None),
-            'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
-                        'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
-            'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
-            'bounties': bounties,
-            'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
-          }
-          json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          json.dump({'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2]},
-                    open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
-          PY
-      - name: Mirror into site repo
-        env:
-          SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
-        run: |
-          python3 - <<'PY2'
-          import base64, datetime, json, os, urllib.error, urllib.request
-          tok = os.environ.get('SITE_TOKEN', '')
-          if not tok:
-              print('skip mirror'); raise SystemExit(0)
-          R, P = 'kihjdhsd/warframe-cn', 'sites/data/worldstate.json'
-          body = open('worldstate.json', 'rb').read()
-          def a2(m, p, d=None):
-              b = json.dumps(d).encode() if d is not None else None
-              q = urllib.request.Request('https://api.github.com' + p, data=b, method=m)
-              q.add_header('Authorization', 'Bearer ' + tok)
-              q.add_header('User-Agent', 'wfcn')
-              q.add_header('Accept', 'application/vnd.github+json')
-              if b: q.add_header('Content-Type', 'application/json')
-              try:
-                  with urllib.request.urlopen(q, timeout=60) as rp:
-                      return json.loads(rp.read() or b'{}')
-              except urllib.error.HTTPError as e:
-                  return {'__err': e.code}
-          c2 = a2('GET', '/repos/%s/contents/%s' % (R, P))
-          pl = {'message': 'worldstate: %s' % datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'),
-                'content': base64.b64encode(body).decode(), 'branch': 'main'}
-          if c2.get('sha'): pl['sha'] = c2['sha']
-          print('mirror:', 'ok' if 'content' in a2('PUT', '/repos/%s/contents/%s' % (R, P), pl) else 'fail')
-          PY2
-      - name: Fetch and trim WFCD worldstate
-        run: |
-          curl -sS --max-time 60 -H 'User-Agent: warframe-cn-site' \
-            'https://api.warframestat.us/pc?language=zh' -o raw.json
-          python3 - <<'PY'
-          import json, datetime
-          w = json.load(open('raw.json', encoding='utf-8'))
-          def human(iso):
-              if not iso: return ''
-              try: t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
-              except Exception: return ''
-              d = (t - datetime.datetime.now(datetime.timezone.utc)).total_seconds()
-              if d <= 0: return '即将结束'
-              m = int(d // 60); h = m // 60; dd = h // 24
-              if dd > 0: return '%d 天 %d 小时' % (dd, h % 24)
-              if h > 0:  return '%d 小时 %d 分' % (h, m % 60)
-              return '%d 分钟' % m
-          cet = w.get('cetusCycle'); val = w.get('vallisCycle'); cam = w.get('cambionCycle')
-          cyc = []
-          if cet: cyc.append({'k': '地球', 's': '白天' if cet.get('isDay') else '夜晚', 'left': human(cet.get('expiry'))})
-          if val: cyc.append({'k': '金星', 's': '温暖' if val.get('isWarm') else '寒冷', 'left': human(val.get('expiry'))})
-          if cam: cyc.append({'k': '火卫二', 's': '法丝' if cam.get('active') == 'fass' else '沃姆', 'left': human(cam.get('expiry'))})
+          # ---- 扩展：扎里曼 / 双衍王境 周期 ----
           z = w.get('zarimanCycle')
           if z: cyc.append({'k': '扎里曼', 's': '科珀斯' if z.get('isCorpus') else '已净化', 'left': human(z.get('expiry'))})
           dv = w.get('duviriCycle')
           if dv: cyc.append({'k': '双衍王境', 's': str(dv.get('state') or ''), 'left': human(dv.get('expiry'))})
-          s = w.get('sortie') or {}
-          vt = w.get('voidTrader') or {}
 
-          def rows(items, fa, fb, fc=None, limit=8):
+          def srows(items, fa, fb, fc=None, limit=8):
               out = []
               for x in (items or [])[:limit]:
                   if not isinstance(x, dict): continue
-                  row = {'a': str(fa(x) or '')[:34], 'b': str(fb(x) or '')[:40]}
-                  row['c'] = human(fc(x)) if fc else ''
-                  out.append(row)
+                  out.append({'a': tr(str(fa(x) or ''))[:34], 'b': tr(str(fb(x) or ''))[:46],
+                              'c': human(fc(x)) if fc else ''})
               return out
 
           nw = w.get('nightwave') or {}
@@ -199,41 +120,36 @@ jobs:
             'sortie': ({'k': s.get('boss', ''), 'n': s.get('faction', ''), 'left': human(s.get('expiry')),
                         'rows': [{'a': v.get('missionType', ''), 'b': v.get('node', '')} for v in (s.get('variants') or [])]} if s else None),
             'fissures': [{'a': (f.get('tier', '') + ' ' + f.get('missionType', '')), 'b': f.get('node', ''), 'c': human(f.get('expiry'))} for f in (w.get('fissures') or [])[:8]],
+            'bounties': bounties,
+            # ---- 扩展板块（wf.wiki 那种"什么都有"）----
             'nightwave': ({'season': nw.get('season'), 'rows': [
-                {'a': str(c.get('title') or '')[:30], 'b': str(c.get('desc') or '')[:46],
+                {'a': tr(str(c.get('title') or ''))[:30], 'b': tr(str(c.get('desc') or ''))[:46],
                  'c': ('%s 声望' % c.get('reputation')) if c.get('reputation') else ''}
                 for c in (nw.get('activeChallenges') or [])[:10]]} if nw.get('activeChallenges') else None),
-            'invasions': rows([i for i in (w.get('invasions') or []) if not i.get('completed')],
-                              lambda i: i.get('node'), lambda i: '%s %s%% ／ %s %s%%' % (
-                                  (i.get('attacker') or {}).get('faction', ''), i.get('completion', 0),
-                                  (i.get('defender') or {}).get('faction', ''), 100 - (i.get('completion') or 0)),
-                              lambda i: i.get('expiry'), 8),
-            'alerts': rows(w.get('alerts'), lambda a: ((a.get('mission') or {}).get('node')),
-                           lambda a: ((a.get('mission') or {}).get('type')), lambda a: a.get('expiry'), 6),
+            'invasions': srows([i for i in (w.get('invasions') or []) if not i.get('completed')],
+                               lambda i: i.get('node'),
+                               lambda i: '%s %d%% ／ %s %d%%' % (
+                                   (i.get('attacker') or {}).get('faction', ''), round(i.get('completion') or 0),
+                                   (i.get('defender') or {}).get('faction', ''), round(100 - (i.get('completion') or 0))),
+                               lambda i: i.get('expiry'), 8),
+            'alerts': srows(w.get('alerts'), lambda a: (a.get('mission') or {}).get('node'),
+                            lambda a: (a.get('mission') or {}).get('type'), lambda a: a.get('expiry'), 6),
             'arbitration': ({'k': arb.get('node', ''), 'n': arb.get('type', ''), 'left': human(arb.get('expiry'))} if arb else None),
-            'events': rows(w.get('events'), lambda e: str(e.get('description') or '').replace('\n', ' '),
-                           lambda e: ((e.get('node')) or ''), lambda e: e.get('expiry'), 5),
-            'deals': rows(w.get('dailyDeals'), lambda d: d.get('item'),
-                          lambda d: '-%s%%' % (d.get('discount') or 0), lambda d: d.get('expiry'), 5),
-            'vaultTrader': ({'left': human((w.get('vaultTrader') or {}).get('expiry'))} if w.get('vaultTrader') else None),
-            'invInventory': rows(vt.get('inventory'), lambda i: i.get('item'),
-                                 lambda i: '%s 杜卡德 + %s 星币' % (i.get('ducats', 0), i.get('credits', 0)), None, 12),
+            'events': srows(w.get('events'), lambda e: str(e.get('description') or '').replace('\n', ' '),
+                            lambda e: e.get('node') or '', lambda e: e.get('expiry'), 5),
+            'deals': srows(w.get('dailyDeals'), lambda d: d.get('item'),
+                           lambda d: '-%s%%' % (d.get('discount') or 0), lambda d: d.get('expiry'), 5),
+            'invInventory': srows(vt.get('inventory') if vt else None, lambda i: i.get('item'),
+                                  lambda i: '%s 杜卡德 + %s 星币' % (i.get('ducats', 0), i.get('credits', 0)), None, 12),
             'steelPath': ({'a': ((w.get('steelPath') or {}).get('currentReward') or {}).get('name'),
-                           'c': human((w.get('steelPath') or {}).get('expiry'))} if w.get('steelPath') else None),
-            'news': rows(w.get('news'), lambda n: str(n.get('message') or '').replace('\n', ' '),
-                         lambda n: '', lambda n: n.get('date'), 5),
+                           'c': human((w.get('steelPath') or {}).get('expiry'))}
+                          if (w.get('steelPath') or {}).get('currentReward') else None),
+            'news': srows(w.get('news'), lambda n: str(n.get('message') or '').replace('\n', ' '),
+                          lambda n: '', lambda n: n.get('date'), 5),
             'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
           }
           json.dump(data, open('worldstate.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          print('cycles=%d fissures=%d nw=%d inv=%d alerts=%d deals=%d' % (
-              len(data['cycles']), len(data['fissures']),
-              len((data.get('nightwave') or {}).get('rows') or []), len(data.get('invasions') or []),
-              len(data.get('alerts') or []), len(data.get('deals') or [])))
+          json.dump({'syndicateMissions_sample': (w.get('syndicateMissions') or [])[:2]},
+                    open('debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print('cycles=%d fissures=%d bounties=%d' % (len(cyc), len(data['fissures']), len(bounties)))
           PY
-      - name: Commit
-        run: |
-          git config user.name "worldstate-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add worldstate.json
-          git diff --staged --quiet || git commit -m "worldstate $(date -u +%FT%TZ)"
-          git push
