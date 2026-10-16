@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "即将结束"
+   "left": "1 小时 1 分"
   },
   {
    "k": "金星",
-   "s": "寒冷",
+   "s": "温暖",
    "left": "即将结束"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "即将结束"
+   "left": "1 小时 1 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "5 小时 1 分"
+  "left": "4 小时 38 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "8 小时 1 分",
+  "left": "7 小时 38 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,100 +42,100 @@
  },
  "fissures": [
   {
-   "a": "Meso Interception",
-   "b": "Cinxia (Ceres)",
-   "c": "即将结束"
+   "a": "Neo Capture",
+   "b": "Hepit (Void)",
+   "c": "7 分钟"
+  },
+  {
+   "a": "Omnia Survival",
+   "b": "Yuvarium (Lua)",
+   "c": "13 分钟"
   },
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "即将结束"
+   "c": "2 分钟"
   },
   {
-   "a": "Meso Survival",
-   "b": "Draco (Ceres)",
-   "c": "即将结束"
+   "a": "Axi Spy",
+   "b": "Kelpie (Sedna)",
+   "c": "9 分钟"
   },
   {
-   "a": "Meso Sabotage",
-   "b": "Enceladus (Saturn)",
-   "c": "即将结束"
+   "a": "Omnia Survival",
+   "b": "Persto (Deimos)",
+   "c": "13 分钟"
   },
   {
    "a": "Meso Rescue",
-   "b": "Metis (Jupiter)",
-   "c": "即将结束"
+   "b": "Monolith (Phobos)",
+   "c": "29 分钟"
   },
   {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "即将结束"
+   "a": "Axi Mobile Defense",
+   "b": "Solium (Eris)",
+   "c": "35 分钟"
   },
   {
-   "a": "Omnia Void Cascade",
-   "b": "Tuvul Commons (Zariman)",
-   "c": "即将结束"
-  },
-  {
-   "a": "Omnia Alchemy",
-   "b": "Cambire (Deimos)",
-   "c": "即将结束"
+   "a": "Requiem Mobile Defense",
+   "b": "Rotuma (Kuva Fortress)",
+   "c": "33 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "即将结束",
+   "left": "1 小时 51 分",
    "jobs": [
     {
-     "t": "清剿敌军",
+     "t": "Capture the Grineer Agent",
      "lv": "5-15",
      "rp": [
-      "压迫点",
-      "100 永冻晶矿",
+      "生命力",
+      "200 生物质",
       "1,500 Credits Cache",
       "50 Endo",
-      "15 葛克度"
-     ]
-    },
-    {
-     "t": "俘获 Grineer 指挥官",
-     "lv": "10-30",
-     "rp": [
-      "能量转化",
-      "200 永冻晶矿",
-      "2,500 Credits Cache",
-      "100 Endo",
-      "Gara 系统蓝图",
-      "灵敏扳机"
-     ]
-    },
-    {
-     "t": "Capture the Grineer Agent",
-     "lv": "20-40",
-     "rp": [
-      "私法 军备",
-      "Vazarin 晶体",
-      "Unairu 晶体",
-      "200 Endo",
-      "Gara 头部神经光元蓝图",
-      "角斗士 威猛"
-     ]
-    },
-    {
-     "t": "俘获其首领",
-     "lv": "30-50",
-     "rp": [
-      "私法 活力",
-      "Zenurik 晶体",
-      "Vazarin 晶体",
-      "300 Endo",
-      "希图斯幽魂",
-      "角斗士 决心"
+      "15 尼蒐荚"
      ]
     },
     {
      "t": "破坏赏金",
+     "lv": "10-30",
+     "rp": [
+      "致命一击",
+      "300 电路",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "耐久强化"
+     ]
+    },
+    {
+     "t": "清剿敌军",
+     "lv": "20-40",
+     "rp": [
+      "预言 契约",
+      "Naramon 晶体",
+      "Zenurik 晶体",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "私法 热诚"
+     ]
+    },
+    {
+     "t": "夺回失窃圣物",
+     "lv": "30-50",
+     "rp": [
+      "预言 启示",
+      "100 赤毒",
+      "Naramon 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "私法 追踪"
+     ]
+    },
+    {
+     "t": "俘获新的 Grineer 指挥官",
      "lv": "40-60",
      "rp": [
       "5 夜灵之息",
@@ -146,7 +146,7 @@
      ]
     },
     {
-     "t": "搜索与救援",
+     "t": "Spy Catcher",
      "lv": "100-100",
      "rp": [
       "5 夜灵之息",
@@ -160,32 +160,32 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "即将结束",
+   "left": "1 小时 51 分",
    "jobs": [
     {
-     "t": "为了科学！",
+     "t": "Core Samples",
      "lv": "5-15",
      "rp": [
       "3 1,500 现金匣",
       "150 Endo",
-      "15X Pustulite",
+      "15X Lucent Teroglobe",
       "2 3,000 现金匣",
       "250 Endo"
      ]
     },
     {
-     "t": "Core Samples",
+     "t": "为了科学！",
      "lv": "15-25",
      "rp": [
       "600 Endo",
-      "Vazarin 晶体",
-      "Unairu 晶体",
-      "破片射击",
+      "Naramon 晶体",
+      "Zenurik 晶体",
+      "杀伤计数",
       "闪烁体"
      ]
     },
     {
-     "t": "露天开采（无尽）",
+     "t": "异常回收（无尽）",
      "lv": "25-30",
      "rp": [
       "阿耶檀识琥珀星",
@@ -202,12 +202,12 @@
       "750 Endo",
       "Unairu 晶体",
       "Madurai 晶体",
-      "液压准心",
-      "5X Fass Residue"
+      "重点防御",
+      "5X Vome Residue"
      ]
     },
     {
-     "t": "回收金属",
+     "t": "异常回收",
      "lv": "40-60",
      "rp": [
       "阿耶檀识琥珀星",
@@ -218,7 +218,7 @@
      ]
     },
     {
-     "t": "异常回收",
+     "t": "净化土地",
      "lv": "100-100",
      "rp": [
       "阿耶檀识琥珀星",
@@ -232,26 +232,26 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "即将结束",
+   "left": "1 小时 51 分",
    "jobs": [
     {
-     "t": "资源窃取",
+     "t": "Dog Boards",
      "lv": "5-15",
      "rp": [
-      "100 永冻晶矿",
+      "100 生物质",
       "1,500 Credits Cache",
       "50 Endo",
-      "5 热能软泥",
-      "2 培训债务债券",
+      "5X Gorgaricus Spore",
+      "培训债务债券",
       "Garuda 机体蓝图"
      ]
     },
     {
-     "t": "Courier Ambush",
+     "t": "Seems Legit",
      "lv": "10-30",
      "rp": [
-      "15 热能软泥",
-      "200 永冻晶矿",
+      "15X Gorgaricus Spore",
+      "200 纳米孢子",
       "2,500 Credits Cache",
       "100 Endo",
       "2X Shelter Debt-Bond",
@@ -259,30 +259,30 @@
      ]
     },
     {
-     "t": "软件诡计",
+     "t": "Protect the Innocent",
      "lv": "20-40",
      "rp": [
       "200 Endo",
-      "Unairu 晶体",
-      "300 生物质",
+      "Naramon 晶体",
+      "300 红化结晶",
       "2X Medical Debt-Bond",
       "Garuda 头部神经光元蓝图",
       "阿耶精华"
      ]
     },
     {
-     "t": "Financial Liberation",
+     "t": "Falling Star",
      "lv": "30-50",
      "rp": [
-      "Zenurik 晶体",
+      "200 赤毒",
       "300 Endo",
-      "2 爆燃喷射器",
+      "2 突变原聚合物",
       "2X Advances Debt-Bond",
       "阿耶精华"
      ]
     },
     {
-     "t": "Seems Legit",
+     "t": "Dirt Unit",
      "lv": "40-60",
      "rp": [
       "400 Endo",
@@ -293,7 +293,7 @@
      ]
     },
     {
-     "t": "生命证明",
+     "t": "软件诡计",
      "lv": "100-100",
      "rp": [
       "400 Endo",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 07:58 UTC"
+ "updated": "2026-10-16 08:21 UTC"
 }
