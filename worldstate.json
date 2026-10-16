@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "1 小时 1 分"
+   "left": "48 分钟"
   },
   {
    "k": "金星",
-   "s": "温暖",
-   "left": "即将结束"
+   "s": "寒冷",
+   "left": "6 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 1 分"
+   "left": "48 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "4 小时 38 分"
+  "left": "4 小时 25 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "7 小时 38 分",
+  "left": "7 小时 25 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Neo Capture",
-   "b": "Hepit (Void)",
-   "c": "7 分钟"
-  },
-  {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "13 分钟"
-  },
-  {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "2 分钟"
-  },
-  {
-   "a": "Axi Spy",
-   "b": "Kelpie (Sedna)",
-   "c": "9 分钟"
+   "c": "0 分钟"
   },
   {
    "a": "Omnia Survival",
    "b": "Persto (Deimos)",
-   "c": "13 分钟"
+   "c": "0 分钟"
   },
   {
    "a": "Meso Rescue",
    "b": "Monolith (Phobos)",
-   "c": "29 分钟"
+   "c": "16 分钟"
   },
   {
    "a": "Axi Mobile Defense",
    "b": "Solium (Eris)",
-   "c": "35 分钟"
+   "c": "23 分钟"
   },
   {
    "a": "Requiem Mobile Defense",
    "b": "Rotuma (Kuva Fortress)",
-   "c": "33 分钟"
+   "c": "20 分钟"
+  },
+  {
+   "a": "Requiem Disruption",
+   "b": "Tamu (Kuva Fortress)",
+   "c": "14 分钟"
+  },
+  {
+   "a": "Requiem Extermination",
+   "b": "Dakata (Kuva Fortress)",
+   "c": "29 分钟"
+  },
+  {
+   "a": "Lith Mobile Defense",
+   "b": "Aphrodite (Venus)",
+   "c": "4 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 51 分",
+   "left": "1 小时 39 分",
    "jobs": [
     {
      "t": "Capture the Grineer Agent",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 51 分",
+   "left": "1 小时 39 分",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 51 分",
+   "left": "1 小时 39 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 08:21 UTC"
+ "updated": "2026-10-16 08:34 UTC"
 }
