@@ -19,12 +19,12 @@
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "2 小时 40 分"
+  "left": "2 小时 26 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "5 小时 40 分",
+  "left": "5 小时 26 分",
   "rows": [
    {
     "a": "Extermination",
@@ -79,7 +79,7 @@
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "0 分钟"
+   "c": "即将结束"
   }
  ],
  "bounties": [
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 10:19 UTC"
+ "updated": "2026-10-16 10:33 UTC"
 }
