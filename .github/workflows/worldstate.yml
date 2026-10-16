@@ -20,6 +20,7 @@ jobs:
             echo "attempt $i failed, retrying..."; sleep 8
           done
           [ -s raw.json ] || { echo "upstream unavailable, keeping previous data"; exit 0; }
+          python3 -c "import json,sys; d=json.load(open('raw.json')); sys.exit(0 if ('cetusCycle' in d or 'fissures' in d) else 1)" || { echo "upstream invalid (rate limited?), keeping previous data"; exit 0; }
           python3 - <<'PY'
           import json, datetime, re
           w = json.load(open('raw.json', encoding='utf-8'))
