@@ -3,17 +3,17 @@
   {
    "k": "地球",
    "s": "夜晚",
-   "left": "37 分钟"
+   "left": "15 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "18 分钟"
+   "s": "温暖",
+   "left": "2 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "37 分钟"
+   "left": "15 分钟"
   }
  ],
  "trader": {
@@ -24,7 +24,7 @@
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "1 小时 24 分",
+  "left": "1 小时 2 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Lith Defense",
-   "b": "Spear (Mars)",
-   "c": "即将结束"
-  },
-  {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "24 分钟"
-  },
-  {
-   "a": "Axi Spy",
-   "b": "Oceanum (Pluto)",
-   "c": "5 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Neo Defense",
    "b": "Stephano (Uranus)",
-   "c": "47 分钟"
+   "c": "25 分钟"
   },
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "28 分钟"
+   "c": "6 分钟"
   },
   {
    "a": "Axi Survival",
    "b": "Ani (Void)",
-   "c": "40 分钟"
-  },
-  {
-   "a": "Axi Interception",
-   "b": "Xini (Eris)",
-   "c": "52 分钟"
+   "c": "18 分钟"
   },
   {
    "a": "Axi Spy",
    "b": "Kelpie (Sedna)",
-   "c": "24 分钟"
+   "c": "2 分钟"
+  },
+  {
+   "a": "Axi Interception",
+   "b": "Xini (Eris)",
+   "c": "30 分钟"
+  },
+  {
+   "a": "Requiem Extermination",
+   "b": "Dakata (Kuva Fortress)",
+   "c": "30 分钟"
+  },
+  {
+   "a": "Neo Survival",
+   "b": "Mot (Void)",
+   "c": "37 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "38 分钟",
+   "left": "16 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "38 分钟",
+   "left": "16 分钟",
    "jobs": [
     {
      "t": "Core Samples",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "38 分钟",
+   "left": "16 分钟",
    "jobs": [
     {
      "t": "Seems Legit",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 14:35 UTC"
+ "updated": "2026-10-16 14:57 UTC"
 }
