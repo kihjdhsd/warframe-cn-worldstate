@@ -158,6 +158,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Mirror into site repo
+        env:
+          SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
+        run: |
+          python3 - <<'PY2'
+          import base64, datetime, json, os, urllib.error, urllib.request
+          tok = os.environ.get('SITE_TOKEN', '')
+          if not tok:
+              print('no SITE_TOKEN, skip mirror'); raise SystemExit(0)
+          REPO, SPATH = 'kihjdhsd/warframe-cn', 'sites/data/worldstate.json'
+          body = open('worldstate.json', 'rb').read()
+          def api2(m, p, d=None):
+              b = json.dumps(d).encode() if d is not None else None
+              r = urllib.request.Request('https://api.github.com' + p, data=b, method=m)
+              r.add_header('Authorization', 'Bearer ' + tok)
+              r.add_header('User-Agent', 'wfcn-worldstate')
+              r.add_header('Accept', 'application/vnd.github+json')
+              if b: r.add_header('Content-Type', 'application/json')
+              try:
+                  with urllib.request.urlopen(r, timeout=60) as resp:
+                      return json.loads(resp.read() or b'{}')
+              except urllib.error.HTTPError as e:
+                  return {'__err': e.code}
+          c2 = api2('GET', '/repos/%s/contents/%s' % (REPO, SPATH))
+          payload = {'message': 'worldstate: %s' % datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'),
+                     'content': base64.b64encode(body).decode(), 'branch': 'main'}
+          if c2.get('sha'): payload['sha'] = c2['sha']
+          res = api2('PUT', '/repos/%s/contents/%s' % (REPO, SPATH), payload)
+          print('mirror:', 'ok' if 'content' in res else res)
+          PY2
       - name: Fetch market prices
         run: |
           python3 - <<'PY'
