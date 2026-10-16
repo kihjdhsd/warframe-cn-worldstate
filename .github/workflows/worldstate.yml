@@ -87,6 +87,37 @@ jobs:
               len((data.get('nightwave') or {}).get('rows') or []), len(data.get('invasions') or []),
               len(data.get('alerts') or []), len(data.get('deals') or [])))
           PY
+      - name: Mirror into site repo (让 Cloudflare Pages 每小时自动更新)
+        env:
+          SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import base64, datetime, json, os, urllib.error, urllib.request
+          tok = os.environ.get('SITE_TOKEN', '')
+          if not tok:
+              print('没有 SITE_TOKEN，跳过镜像（不影响 worldstate 仓库本身）')
+              raise SystemExit(0)
+          REPO, PATH = 'kihjdhsd/warframe-cn', 'sites/data/worldstate.json'
+          body = open('worldstate.json', 'rb').read()
+          def api(m, p, d=None):
+              b = json.dumps(d).encode() if d is not None else None
+              r = urllib.request.Request('https://api.github.com' + p, data=b, method=m)
+              r.add_header('Authorization', 'Bearer ' + tok)
+              r.add_header('User-Agent', 'wfcn-worldstate')
+              r.add_header('Accept', 'application/vnd.github+json')
+              if b: r.add_header('Content-Type', 'application/json')
+              try:
+                  with urllib.request.urlopen(r, timeout=60) as resp:
+                      return json.loads(resp.read() or b'{}')
+              except urllib.error.HTTPError as e:
+                  return {'__err': e.code, '__body': e.read()[:160].decode('utf-8', 'ignore')}
+          cur = api('GET', '/repos/%s/contents/%s' % (REPO, PATH))
+          payload = {'message': 'worldstate: %s' % datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'),
+                     'content': base64.b64encode(body).decode(), 'branch': 'main'}
+          if cur.get('sha'): payload['sha'] = cur['sha']
+          res = api('PUT', '/repos/%s/contents/%s' % (REPO, PATH), payload)
+          print('mirror:', 'ok' if 'content' in res else res)
+          PY
       - name: Commit
         run: |
           git config user.name "worldstate-bot"
