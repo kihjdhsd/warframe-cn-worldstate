@@ -3,28 +3,28 @@
   {
    "k": "地球",
    "s": "白天",
-   "left": "50 分钟"
+   "left": "20 分钟"
   },
   {
    "k": "金星",
    "s": "寒冷",
-   "left": "4 分钟"
+   "left": "0 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "50 分钟"
+   "left": "20 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Orcus Relay (Pluto)",
-  "left": "11 小时 57 分"
+  "left": "11 小时 27 分"
  },
  "sortie": {
   "k": "Kela De Thaym",
   "n": "Grineer",
-  "left": "14 小时 57 分",
+  "left": "14 小时 27 分",
   "rows": [
    {
     "a": "Extermination",
@@ -42,50 +42,50 @@
  },
  "fissures": [
   {
-   "a": "Requiem Survival",
-   "b": "Taveuni (Kuva Fortress)",
-   "c": "17 分钟"
-  },
-  {
-   "a": "Requiem Rescue",
-   "b": "Garus (Kuva Fortress)",
-   "c": "17 分钟"
-  },
-  {
    "a": "Lith Disruption",
    "b": "Olympus (Mars)",
-   "c": "41 分钟"
+   "c": "11 分钟"
   },
   {
    "a": "Lith Extermination",
    "b": "Mariana (Earth)",
-   "c": "33 分钟"
-  },
-  {
-   "a": "Neo Disruption",
-   "b": "Laomedeia (Neptune)",
-   "c": "5 分钟"
+   "c": "3 分钟"
   },
   {
    "a": "Neo Extermination",
    "b": "Baal (Europa)",
-   "c": "32 分钟"
+   "c": "2 分钟"
   },
   {
    "a": "Meso Interception",
    "b": "Callisto (Jupiter)",
-   "c": "1 小时 2 分"
+   "c": "32 分钟"
   },
   {
-   "a": "Meso Sabotage",
-   "b": "Thebe (Jupiter)",
-   "c": "26 分钟"
+   "a": "Meso Spy",
+   "b": "Dione (Saturn)",
+   "c": "37 分钟"
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Nimus (Eris)",
+   "c": "37 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Minthe (Pluto)",
+   "c": "20 分钟"
+  },
+  {
+   "a": "Axi Mobile Defense",
+   "b": "Charybdis (Sedna)",
+   "c": "20 分钟"
   }
  ],
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 41 分",
+   "left": "1 小时 11 分",
    "jobs": [
     {
      "t": "俘获 Grineer 指挥官",
@@ -160,7 +160,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 41 分",
+   "left": "1 小时 11 分",
    "jobs": [
     {
      "t": "回收金属",
@@ -232,7 +232,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 41 分",
+   "left": "1 小时 11 分",
    "jobs": [
     {
      "t": "Dog Boards",
@@ -306,5 +306,5 @@
    ]
   }
  ],
- "updated": "2026-10-16 01:02 UTC"
+ "updated": "2026-10-16 01:32 UTC"
 }
