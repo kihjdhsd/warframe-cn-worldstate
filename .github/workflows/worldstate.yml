@@ -197,6 +197,10 @@ jobs:
                 'content': base64.b64encode(body).decode(), 'branch': 'main'}
           if c2.get('sha'): pl['sha'] = c2['sha']
           print('mirror:', 'ok' if 'content' in a2('PUT', '/repos/%s/contents/%s' % (R, P), pl) else 'fail')
+          print('mirror:', 'ok' if 'content' in api2('PUT', '/repos/%s/contents/%s' % (REPO, SPATH), payload) else 'fail')
+          # 触发站点仓库的部署工作流（镜像提交不会自动触发，必须显式 dispatch）
+          d = api2('POST', '/repos/kihjdhsd/warframe-cn/actions/workflows/deploy.yml/dispatches', {'ref': 'main'})
+          print('dispatch deploy:', 'ok' if '__err' not in d else d)
           PY2
       - name: Commit
         run: |
