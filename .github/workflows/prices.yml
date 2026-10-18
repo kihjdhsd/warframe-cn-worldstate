@@ -16,31 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Pull script + target list from site repo
-        env:
-          SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
-        run: |
-          python3 - <<'PY'
-          import base64, json, os, urllib.request
-          tok = os.environ['SITE_TOKEN']
-          def get(path):
-              r = urllib.request.Request('https://api.github.com/repos/kihjdhsd/warframe-cn/contents/' + path)
-              r.add_header('Authorization', 'Bearer ' + tok)
-              r.add_header('User-Agent', 'wfcn')
-              r.add_header('Accept', 'application/vnd.github+json')
-              with urllib.request.urlopen(r, timeout=90) as resp:
-                  return base64.b64decode(json.loads(resp.read())['content'])
-          os.makedirs('tools', exist_ok=True)
-          os.makedirs('data/raw', exist_ok=True)
-          os.makedirs('sites/data', exist_ok=True)
-          open('tools/fetch_prices.py', 'wb').write(get('tools/fetch_prices.py'))
-          open('data/raw/price_targets.json', 'wb').write(get('data/raw/price_targets.json'))
-          print('pulled script + targets:', os.path.getsize('data/raw/price_targets.json'), 'bytes')
-          PY
-
       - name: Run price fetch (cloud IP passes warframe.market)
         run: |
-          sed -i "s|^PROJ = .*|PROJ = __import__('os').getcwd()|" tools/fetch_prices.py
+          mkdir -p sites/data
           python3 -u tools/fetch_prices.py
           ls -la sites/data/
 
@@ -49,7 +27,7 @@ jobs:
           SITE_TOKEN: ${{ secrets.SITE_TOKEN }}
         run: |
           python3 - <<'PY'
-          import base64, json, os, urllib.error, urllib.request
+          import base64, datetime, json, os, urllib.error, urllib.request
           tok = os.environ['SITE_TOKEN']
           def api(m, p, d=None):
               b = json.dumps(d).encode() if d is not None else None
@@ -59,23 +37,24 @@ jobs:
               r.add_header('Accept', 'application/vnd.github+json')
               if b: r.add_header('Content-Type', 'application/json')
               try:
-                  with urllib.request.urlopen(r, timeout=90) as resp:
+                  with urllib.request.urlopen(r, timeout=120) as resp:
                       raw = resp.read()
                       return json.loads(raw) if raw else {'__ok': True}
               except urllib.error.HTTPError as e:
                   return {'__err': e.code, '__body': e.read()[:160].decode('utf-8', 'ignore')}
-          import datetime
           stamp = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
           for name in ('prices.js', 'orders.js'):
               local = os.path.join('sites', 'data', name)
-              remote = 'sites/data/' + name
+              if not os.path.exists(local):
+                  print('missing', name); continue
               body = open(local, 'rb').read()
+              remote = 'sites/data/' + name
               cur = api('GET', '/repos/kihjdhsd/warframe-cn/contents/' + remote)
               pl = {'message': 'prices: %s (%s)' % (stamp, name),
                     'content': base64.b64encode(body).decode(), 'branch': 'main'}
-              if cur.get('sha'): pl['sha'] = cur['sha']
+              if isinstance(cur, dict) and cur.get('sha'): pl['sha'] = cur['sha']
               res = api('PUT', '/repos/kihjdhsd/warframe-cn/contents/' + remote, pl)
-              print(name, '→', 'ok' if 'content' in res else res)
+              print(name, '->', 'ok' if 'content' in res else res)
           d = api('POST', '/repos/kihjdhsd/warframe-cn/actions/workflows/deploy.yml/dispatches', {'ref': 'main'})
           print('dispatch deploy:', 'ok' if '__err' not in d else d)
           PY
