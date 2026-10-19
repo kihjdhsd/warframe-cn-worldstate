@@ -23,18 +23,18 @@
   {
    "k": "双衍王境",
    "s": "envy",
-   "left": "1 小时 19 分"
+   "left": "22 分钟"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Strata Relay (Earth)",
-  "left": "4 天 4 小时"
+  "left": "4 天 3 小时"
  },
  "sortie": {
   "k": "Jackal",
   "n": "Corpus",
-  "left": "7 小时 19 分",
+  "left": "6 小时 22 分",
   "rows": [
    {
     "a": "Interception",
@@ -126,7 +126,7 @@
   {
    "a": "Meso Rescue",
    "b": "Numa (Saturn)",
-   "c": "15 分钟",
+   "c": "即将结束",
    "x": "Rescue",
    "t": "Meso",
    "h": 0,
@@ -135,7 +135,7 @@
   {
    "a": "Meso Interception",
    "b": "Callisto (Jupiter)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Meso",
    "h": 0,
@@ -162,7 +162,7 @@
   {
    "a": "Axi Sabotage",
    "b": "Cypress (Pluto)",
-   "c": "28 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Axi",
    "h": 1,
@@ -171,7 +171,7 @@
   {
    "a": "Axi Rescue",
    "b": "Brugia (Eris)",
-   "c": "33 分钟",
+   "c": "即将结束",
    "x": "Rescue",
    "t": "Axi",
    "h": 1,
@@ -180,7 +180,7 @@
   {
    "a": "Axi Extermination",
    "b": "Teshub (Void)",
-   "c": "22 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 1,
@@ -189,7 +189,7 @@
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "19 分钟",
+   "c": "即将结束",
    "x": "Void Flood",
    "t": "Omnia",
    "h": 1,
@@ -198,7 +198,7 @@
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "7 分钟",
+   "c": "即将结束",
    "x": "Alchemy",
    "t": "Omnia",
    "h": 1,
@@ -207,7 +207,7 @@
   {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "26 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Omnia",
    "h": 1,
@@ -216,7 +216,7 @@
   {
    "a": "Meso Sabotage",
    "b": "Adrastea (Jupiter)",
-   "c": "25 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Meso",
    "h": 1,
@@ -225,7 +225,7 @@
   {
    "a": "Meso Survival",
    "b": "Stickney (Phobos)",
-   "c": "14 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Meso",
    "h": 1,
@@ -234,7 +234,7 @@
   {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "49 分钟",
+   "c": "即将结束",
    "x": "Void Cascade",
    "t": "Omnia",
    "h": 0,
@@ -243,7 +243,7 @@
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "1 小时 13 分",
+   "c": "16 分钟",
    "x": "Interception",
    "t": "Neo",
    "h": 1,
@@ -252,7 +252,7 @@
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "1 小时 20 分",
+   "c": "23 分钟",
    "x": "Assault",
    "t": "Requiem",
    "h": 0,
@@ -261,7 +261,7 @@
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "36 分钟",
+   "c": "即将结束",
    "x": "Rescue",
    "t": "Requiem",
    "h": 0,
@@ -270,7 +270,7 @@
   {
    "a": "Lith Skirmish",
    "b": "Ogal Cluster (Earth)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Lith",
    "h": 0,
@@ -279,7 +279,7 @@
   {
    "a": "Meso Skirmish",
    "b": "Vand Cluster (Saturn)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
@@ -288,7 +288,7 @@
   {
    "a": "Neo Extermination",
    "b": "Nu-gua Mines (Neptune)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Neo",
    "h": 0,
@@ -297,7 +297,7 @@
   {
    "a": "Axi Extermination",
    "b": "Seven Sirens (Pluto)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 0,
@@ -306,7 +306,7 @@
   {
    "a": "Lith Spy",
    "b": "Orvin-Haarc (Venus)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Lith",
    "h": 0,
@@ -315,7 +315,7 @@
   {
    "a": "Axi Skirmish",
    "b": "Flexa (Veil)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Axi",
    "h": 0,
@@ -547,7 +547,7 @@
   },
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 2 分",
+   "left": "1 小时 5 分",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -622,7 +622,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 2 分",
+   "left": "1 小时 5 分",
    "jobs": [
     {
      "t": "净化土地",
@@ -694,7 +694,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 2 分",
+   "left": "1 小时 5 分",
    "jobs": [
     {
      "t": "生命证明",
@@ -859,12 +859,12 @@
   {
    "a": "Brugia (Eris)",
    "b": "Hive",
-   "c": "19 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Saxis (Eris)",
    "b": "Survival",
-   "c": "49 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -876,35 +876,35 @@
   {
    "a": "Thermia Fractures",
    "b": "Orb Vallis (Venus)",
-   "c": "2 天 7 小时"
+   "c": "2 天 6 小时"
   },
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "14 天 7 小时"
+   "c": "14 天 6 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "14 天 7 小时"
+   "c": "14 天 6 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "29 天 7 小时"
+   "c": "29 天 6 小时"
   }
  ],
  "deals": [
   {
    "a": "Kestrel",
    "b": "-50%",
-   "c": "18 小时 19 分"
+   "c": "17 小时 22 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "30,000 Endo",
-  "c": "6 天 15 小时"
+  "c": "6 天 14 小时"
  },
  "news": [
   {
@@ -933,5 +933,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-19 08:40 UTC"
+ "updated": "2026-10-19 09:37 UTC"
 }
