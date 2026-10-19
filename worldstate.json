@@ -23,18 +23,18 @@
   {
    "k": "双衍王境",
    "s": "envy",
-   "left": "22 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Strata Relay (Earth)",
-  "left": "4 天 3 小时"
+  "left": "4 天 2 小时"
  },
  "sortie": {
   "k": "Jackal",
   "n": "Corpus",
-  "left": "6 小时 22 分",
+  "left": "5 小时 25 分",
   "rows": [
    {
     "a": "Interception",
@@ -243,7 +243,7 @@
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "16 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Neo",
    "h": 1,
@@ -252,7 +252,7 @@
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "23 分钟",
+   "c": "即将结束",
    "x": "Assault",
    "t": "Requiem",
    "h": 0,
@@ -547,7 +547,7 @@
   },
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 5 分",
+   "left": "8 分钟",
    "jobs": [
     {
      "t": "俘获其首领",
@@ -622,7 +622,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 5 分",
+   "left": "8 分钟",
    "jobs": [
     {
      "t": "净化土地",
@@ -694,7 +694,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 5 分",
+   "left": "8 分钟",
    "jobs": [
     {
      "t": "生命证明",
@@ -876,35 +876,35 @@
   {
    "a": "Thermia Fractures",
    "b": "Orb Vallis (Venus)",
-   "c": "2 天 6 小时"
+   "c": "2 天 5 小时"
   },
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "14 天 6 小时"
+   "c": "14 天 5 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "14 天 6 小时"
+   "c": "14 天 5 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "29 天 6 小时"
+   "c": "29 天 5 小时"
   }
  ],
  "deals": [
   {
    "a": "Kestrel",
    "b": "-50%",
-   "c": "17 小时 22 分"
+   "c": "16 小时 25 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "30,000 Endo",
-  "c": "6 天 14 小时"
+  "c": "6 天 13 小时"
  },
  "news": [
   {
@@ -933,5 +933,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-19 09:37 UTC"
+ "updated": "2026-10-19 10:34 UTC"
 }
