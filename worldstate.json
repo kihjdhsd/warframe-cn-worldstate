@@ -18,7 +18,7 @@
   {
    "k": "扎里曼",
    "s": "科珀斯",
-   "left": "32 分钟"
+   "left": "即将结束"
   },
   {
    "k": "双衍王境",
@@ -29,12 +29,12 @@
  "trader": {
   "k": "前往中",
   "n": "Strata Relay (Earth)",
-  "left": "6 小时 20 分"
+  "left": "5 小时 16 分"
  },
  "sortie": {
   "k": "Corrupted Vor",
   "n": "Corrupted",
-  "left": "9 小时 20 分",
+  "left": "8 小时 16 分",
   "rows": [
    {
     "a": "Extermination",
@@ -180,7 +180,7 @@
   {
    "a": "Lith Mobile Defense",
    "b": "Tharsis (Mars)",
-   "c": "28 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Lith",
    "h": 1,
@@ -189,7 +189,7 @@
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Alchemy",
    "t": "Omnia",
    "h": 0,
@@ -198,7 +198,7 @@
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "18 分钟",
+   "c": "即将结束",
    "x": "Disruption",
    "t": "Requiem",
    "h": 0,
@@ -216,7 +216,7 @@
   {
    "a": "Meso Spy",
    "b": "Shklovsky (Phobos)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Meso",
    "h": 0,
@@ -243,7 +243,7 @@
   {
    "a": "Axi Interception",
    "b": "Xini (Eris)",
-   "c": "55 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Axi",
    "h": 0,
@@ -252,7 +252,7 @@
   {
    "a": "Axi Sabotage",
    "b": "Rusalka (Sedna)",
-   "c": "1 小时 17 分",
+   "c": "13 分钟",
    "x": "Sabotage",
    "t": "Axi",
    "h": 0,
@@ -261,7 +261,7 @@
   {
    "a": "Axi Sabotage",
    "b": "Cypress (Pluto)",
-   "c": "1 小时 6 分",
+   "c": "2 分钟",
    "x": "Sabotage",
    "t": "Axi",
    "h": 0,
@@ -324,7 +324,7 @@
   {
    "a": "Lith Skirmish",
    "b": "Korm's Belt (Earth)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Lith",
    "h": 0,
@@ -333,7 +333,7 @@
   {
    "a": "Lith Extermination",
    "b": "Bifrost Echo (Venus)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Lith",
    "h": 0,
@@ -342,7 +342,7 @@
   {
    "a": "Axi Skirmish",
    "b": "R-9 Cloud (Veil)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Axi",
    "h": 0,
@@ -351,7 +351,7 @@
   {
    "a": "Meso Skirmish",
    "b": "Vand Cluster (Saturn)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
@@ -360,7 +360,7 @@
   {
    "a": "Neo Spy",
    "b": "Brom Cluster (Neptune)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Neo",
    "h": 0,
@@ -369,7 +369,7 @@
   {
    "a": "Axi Extermination",
    "b": "Seven Sirens (Pluto)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 0,
@@ -379,7 +379,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "32 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "破坏赏金",
@@ -454,7 +454,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "32 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "以力破局",
@@ -526,7 +526,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "32 分钟",
+   "left": "即将结束",
    "jobs": [
     {
      "t": "血之遗物",
@@ -691,12 +691,12 @@
   {
    "a": "Solium (Eris)",
    "b": "Survival",
-   "c": "20 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Naeglar (Eris)",
    "b": "Mobile Defense",
-   "c": "50 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -708,30 +708,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "10 天 9 小时"
+   "c": "10 天 8 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "10 天 9 小时"
+   "c": "10 天 8 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "25 天 9 小时"
+   "c": "25 天 8 小时"
   }
  ],
  "deals": [
   {
    "a": "高级 Madurai 晶体",
    "b": "-10%",
-   "c": "2 小时 20 分"
+   "c": "1 小时 16 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "30,000 Endo",
-  "c": "2 天 17 小时"
+  "c": "2 天 16 小时"
  },
  "news": [
   {
@@ -760,5 +760,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-23 06:39 UTC"
+ "updated": "2026-10-23 07:43 UTC"
 }
