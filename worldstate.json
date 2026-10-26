@@ -207,7 +207,7 @@
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Requiem",
    "h": 0,
@@ -216,7 +216,7 @@
   {
    "a": "Lith Capture",
    "b": "Mantle (Earth)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Capture",
    "t": "Lith",
    "h": 0,
@@ -732,5 +732,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-26 16:03 UTC"
+ "updated": "2026-10-26 16:47 UTC"
 }
