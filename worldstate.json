@@ -29,12 +29,12 @@
  "trader": {
   "k": "前往中",
   "n": "Larunda Relay (Mercury)",
-  "left": "3 天 6 小时"
+  "left": "3 天 5 小时"
  },
  "sortie": {
   "k": "Lephantis",
   "n": "Infestation",
-  "left": "9 小时 18 分",
+  "left": "8 小时 13 分",
   "rows": [
    {
     "a": "Extermination",
@@ -99,7 +99,7 @@
   {
    "a": "Axi Extermination",
    "b": "Narcissus (Pluto)",
-   "c": "17 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 0,
@@ -117,7 +117,7 @@
   {
    "a": "Axi Survival",
    "b": "Selkie (Sedna)",
-   "c": "2 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Axi",
    "h": 1,
@@ -135,7 +135,7 @@
   {
    "a": "Meso Spy",
    "b": "Amalthea (Jupiter)",
-   "c": "0 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Meso",
    "h": 1,
@@ -144,7 +144,7 @@
   {
    "a": "Meso Sabotage",
    "b": "Thebe (Jupiter)",
-   "c": "38 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Meso",
    "h": 0,
@@ -162,7 +162,7 @@
   {
    "a": "Lith Mobile Defense",
    "b": "Tharsis (Mars)",
-   "c": "21 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Lith",
    "h": 1,
@@ -180,7 +180,7 @@
   {
    "a": "Lith Survival",
    "b": "V Prime (Venus)",
-   "c": "42 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Lith",
    "h": 0,
@@ -189,7 +189,7 @@
   {
    "a": "Lith Interception",
    "b": "Gaia (Earth)",
-   "c": "7 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Lith",
    "h": 0,
@@ -198,7 +198,7 @@
   {
    "a": "Omnia Void Cascade",
    "b": "Tuvul Commons (Zariman)",
-   "c": "52 分钟",
+   "c": "即将结束",
    "x": "Void Cascade",
    "t": "Omnia",
    "h": 1,
@@ -261,7 +261,7 @@
   {
    "a": "Lith Skirmish",
    "b": "Ogal Cluster (Earth)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Lith",
    "h": 0,
@@ -270,7 +270,7 @@
   {
    "a": "Meso Skirmish",
    "b": "Mordo Cluster (Saturn)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
@@ -279,7 +279,7 @@
   {
    "a": "Neo Spy",
    "b": "Brom Cluster (Neptune)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Neo",
    "h": 0,
@@ -288,7 +288,7 @@
   {
    "a": "Axi Spy",
    "b": "Peregrine Axis (Pluto)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Axi",
    "h": 0,
@@ -297,7 +297,7 @@
   {
    "a": "Lith Survival",
    "b": "Luckless Expanse (Venus)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Lith",
    "h": 0,
@@ -306,7 +306,7 @@
   {
    "a": "Axi Skirmish",
    "b": "Nsu Grid (Veil)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Axi",
    "h": 0,
@@ -628,7 +628,7 @@
   {
    "a": "Brugia (Eris)",
    "b": "Survival",
-   "c": "18 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -640,30 +640,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "6 天 9 小时"
+   "c": "6 天 8 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "6 天 9 小时"
+   "c": "6 天 8 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "21 天 9 小时"
+   "c": "21 天 8 小时"
   }
  ],
  "deals": [
   {
    "a": "Dual Cleavers",
    "b": "-60%",
-   "c": "10 小时 18 分"
+   "c": "9 小时 13 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "5 天 17 小时"
+  "c": "5 天 16 小时"
  },
  "news": [
   {
@@ -692,5 +692,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-27 06:41 UTC"
+ "updated": "2026-10-27 07:46 UTC"
 }
