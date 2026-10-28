@@ -23,18 +23,18 @@
   {
    "k": "双衍王境",
    "s": "sorrow",
-   "left": "8 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Larunda Relay (Mercury)",
-  "left": "1 天 21 小时"
+  "left": "1 天 20 小时"
  },
  "sortie": {
   "k": "Captain Vor",
   "n": "Grineer",
-  "left": "8 分钟",
+  "left": "即将结束",
   "rows": [
    {
     "a": "Rescue",
@@ -135,7 +135,7 @@
   {
    "a": "Meso Sabotage",
    "b": "Enceladus (Saturn)",
-   "c": "9 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Meso",
    "h": 0,
@@ -171,7 +171,7 @@
   {
    "a": "Lith Spy",
    "b": "Cambria (Earth)",
-   "c": "8 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Lith",
    "h": 0,
@@ -198,7 +198,7 @@
   {
    "a": "Requiem Survival",
    "b": "Taveuni (Kuva Fortress)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Requiem",
    "h": 0,
@@ -207,7 +207,7 @@
   {
    "a": "Requiem Rescue",
    "b": "Garus (Kuva Fortress)",
-   "c": "19 分钟",
+   "c": "即将结束",
    "x": "Rescue",
    "t": "Requiem",
    "h": 0,
@@ -252,7 +252,7 @@
   {
    "a": "Omnia Alchemy",
    "b": "Cambire (Deimos)",
-   "c": "26 分钟",
+   "c": "即将结束",
    "x": "Alchemy",
    "t": "Omnia",
    "h": 1,
@@ -261,7 +261,7 @@
   {
    "a": "Meso Mobile Defense",
    "b": "Sharpless (Phobos)",
-   "c": "30 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Meso",
    "h": 1,
@@ -270,7 +270,7 @@
   {
    "a": "Meso Sabotage",
    "b": "Adrastea (Jupiter)",
-   "c": "23 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Meso",
    "h": 1,
@@ -610,7 +610,7 @@
   },
   {
    "syn": "地球 · 夜灵平野",
-   "left": "1 小时 20 分",
+   "left": "21 分钟",
    "jobs": [
     {
      "t": "俘获新的 Grineer 指挥官",
@@ -685,7 +685,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "1 小时 20 分",
+   "left": "21 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -757,7 +757,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "1 小时 20 分",
+   "left": "21 分钟",
    "jobs": [
     {
      "t": "作战情报",
@@ -922,7 +922,7 @@
   {
    "a": "Kala-azar (Eris)",
    "b": "Mobile Defense",
-   "c": "8 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -934,30 +934,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "5 天 0 小时"
+   "c": "4 天 23 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "5 天 0 小时"
+   "c": "4 天 23 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "20 天 0 小时"
+   "c": "19 天 23 小时"
   }
  ],
  "deals": [
   {
    "a": "Pandero",
    "b": "-40%",
-   "c": "3 小时 8 分"
+   "c": "2 小时 9 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "4 天 8 小时"
+  "c": "4 天 7 小时"
  },
  "news": [
   {
@@ -986,5 +986,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-28 15:51 UTC"
+ "updated": "2026-10-28 16:50 UTC"
 }
