@@ -23,18 +23,18 @@
   {
    "k": "双衍王境",
    "s": "fear",
-   "left": "14 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Larunda Relay (Mercury)",
-  "left": "1 天 9 小时"
+  "left": "1 天 8 小时"
  },
  "sortie": {
   "k": "Nef Anyo",
   "n": "Corpus",
-  "left": "12 小时 14 分",
+  "left": "11 小时 13 分",
   "rows": [
    {
     "a": "Survival",
@@ -189,7 +189,7 @@
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "7 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Requiem",
    "h": 1,
@@ -198,7 +198,7 @@
   {
    "a": "Requiem Assault",
    "b": "Koro (Kuva Fortress)",
-   "c": "36 分钟",
+   "c": "即将结束",
    "x": "Assault",
    "t": "Requiem",
    "h": 1,
@@ -207,7 +207,7 @@
   {
    "a": "Axi Extermination",
    "b": "Adaro (Sedna)",
-   "c": "18 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 1,
@@ -216,7 +216,7 @@
   {
    "a": "Meso Survival",
    "b": "Titan (Saturn)",
-   "c": "41 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Meso",
    "h": 1,
@@ -225,7 +225,7 @@
   {
    "a": "Meso Mobile Defense",
    "b": "Carme (Jupiter)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Meso",
    "h": 1,
@@ -288,7 +288,7 @@
   {
    "a": "Lith Survival",
    "b": "Luckless Expanse (Venus)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Lith",
    "h": 0,
@@ -297,7 +297,7 @@
   {
    "a": "Lith Skirmish",
    "b": "Korm's Belt (Earth)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Lith",
    "h": 0,
@@ -306,7 +306,7 @@
   {
    "a": "Neo Extermination",
    "b": "Nu-gua Mines (Neptune)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Neo",
    "h": 0,
@@ -315,7 +315,7 @@
   {
    "a": "Meso Skirmish",
    "b": "Mordo Cluster (Saturn)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
@@ -324,7 +324,7 @@
   {
    "a": "Axi Extermination",
    "b": "Seven Sirens (Pluto)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 0,
@@ -333,7 +333,7 @@
   {
    "a": "Axi Volatile",
    "b": "Numina (Veil)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Volatile",
    "t": "Axi",
    "h": 0,
@@ -655,7 +655,7 @@
   {
    "a": "Brugia (Eris)",
    "b": "Survival",
-   "c": "14 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -667,30 +667,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "4 天 12 小时"
+   "c": "4 天 11 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "4 天 12 小时"
+   "c": "4 天 11 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "19 天 12 小时"
+   "c": "19 天 11 小时"
   }
  ],
  "deals": [
   {
    "a": "Akbronco",
    "b": "-30%",
-   "c": "17 小时 14 分"
+   "c": "16 小时 13 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "3 天 20 小时"
+  "c": "3 天 19 小时"
  },
  "news": [
   {
@@ -719,5 +719,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-29 03:45 UTC"
+ "updated": "2026-10-29 04:46 UTC"
 }
