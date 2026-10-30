@@ -23,18 +23,18 @@
   {
    "k": "双衍王境",
    "s": "fear",
-   "left": "9 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Larunda Relay (Mercury)",
-  "left": "3 小时 9 分"
+  "left": "2 小时 14 分"
  },
  "sortie": {
   "k": "Phorid",
   "n": "Infestation",
-  "left": "6 小时 9 分",
+  "left": "5 小时 14 分",
   "rows": [
    {
     "a": "Disruption",
@@ -243,7 +243,7 @@
   {
    "a": "Neo Defense",
    "b": "Proteus (Neptune)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Defense",
    "t": "Neo",
    "h": 1,
@@ -687,7 +687,7 @@
   {
    "a": "Nimus (Eris)",
    "b": "Survival",
-   "c": "9 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -699,30 +699,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "3 天 6 小时"
+   "c": "3 天 5 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "3 天 6 小时"
+   "c": "3 天 5 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "18 天 6 小时"
+   "c": "18 天 5 小时"
   }
  ],
  "deals": [
   {
    "a": "Cestra",
    "b": "-30%",
-   "c": "13 小时 9 分"
+   "c": "12 小时 14 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "2 天 14 小时"
+  "c": "2 天 13 小时"
  },
  "news": [
   {
@@ -751,5 +751,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-10-30 09:50 UTC"
+ "updated": "2026-10-30 10:45 UTC"
 }
