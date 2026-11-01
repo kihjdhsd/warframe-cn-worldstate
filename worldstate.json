@@ -23,7 +23,7 @@
   {
    "k": "双衍王境",
    "s": "joy",
-   "left": "9 分钟"
+   "left": "即将结束"
   }
  ],
  "trader": {
@@ -34,7 +34,7 @@
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "13 小时 9 分",
+  "left": "12 小时 9 分",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -108,7 +108,7 @@
   {
    "a": "Lith Defense",
    "b": "Tessera (Venus)",
-   "c": "5 分钟",
+   "c": "即将结束",
    "x": "Defense",
    "t": "Lith",
    "h": 1,
@@ -126,7 +126,7 @@
   {
    "a": "Requiem Extermination",
    "b": "Dakata (Kuva Fortress)",
-   "c": "4 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Requiem",
    "h": 0,
@@ -144,7 +144,7 @@
   {
    "a": "Lith Defense",
    "b": "Spear (Mars)",
-   "c": "2 分钟",
+   "c": "即将结束",
    "x": "Defense",
    "t": "Lith",
    "h": 0,
@@ -153,7 +153,7 @@
   {
    "a": "Axi Spy",
    "b": "Oceanum (Pluto)",
-   "c": "10 分钟",
+   "c": "即将结束",
    "x": "Spy",
    "t": "Axi",
    "h": 0,
@@ -162,7 +162,7 @@
   {
    "a": "Requiem Defense",
    "b": "Nabuk (Kuva Fortress)",
-   "c": "42 分钟",
+   "c": "即将结束",
    "x": "Defense",
    "t": "Requiem",
    "h": 1,
@@ -189,7 +189,7 @@
   {
    "a": "Omnia Survival",
    "b": "Yuvarium (Lua)",
-   "c": "0 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Omnia",
    "h": 0,
@@ -198,7 +198,7 @@
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "28 分钟",
+   "c": "即将结束",
    "x": "Void Flood",
    "t": "Omnia",
    "h": 0,
@@ -207,7 +207,7 @@
   {
    "a": "Neo Survival",
    "b": "Ani (Void)",
-   "c": "22 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Neo",
    "h": 0,
@@ -216,7 +216,7 @@
   {
    "a": "Neo Interception",
    "b": "Umbriel (Uranus)",
-   "c": "14 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Neo",
    "h": 0,
@@ -225,7 +225,7 @@
   {
    "a": "Meso Mobile Defense",
    "b": "Kiste (Ceres)",
-   "c": "41 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Meso",
    "h": 1,
@@ -586,12 +586,12 @@
   {
    "a": "Oxomoco (Void)",
    "b": "Extermination",
-   "c": "1 天 16 小时"
+   "c": "1 天 15 小时"
   },
   {
    "a": "Palus (Pluto)",
    "b": "Survival",
-   "c": "1 天 16 小时"
+   "c": "1 天 15 小时"
   },
   {
    "a": "Saxis (Eris)",
@@ -601,12 +601,12 @@
   {
    "a": "Kala-azar (Eris)",
    "b": "Survival",
-   "c": "9 分钟"
+   "c": "即将结束"
   },
   {
    "a": "Xini (Eris)",
    "b": "Mobile Defense",
-   "c": "39 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -618,24 +618,24 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "1 天 12 小时"
+   "c": "1 天 11 小时"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "1 天 12 小时"
+   "c": "1 天 11 小时"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "16 天 12 小时"
+   "c": "16 天 11 小时"
   }
  ],
  "deals": [
   {
    "a": "Sibear",
    "b": "-20%",
-   "c": "23 小时 9 分"
+   "c": "22 小时 9 分"
   }
  ],
  "invInventory": [
@@ -702,7 +702,7 @@
  ],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "20 小时 9 分"
+  "c": "19 小时 9 分"
  },
  "news": [
   {
@@ -731,5 +731,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-11-01 03:50 UTC"
+ "updated": "2026-11-01 04:50 UTC"
 }
