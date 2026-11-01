@@ -29,12 +29,12 @@
  "trader": {
   "k": "前往中",
   "n": "Kronia Relay (Saturn)",
-  "left": "4 天 21 小时"
+  "left": "4 天 20 小时"
  },
  "sortie": {
   "k": "Ambulas",
   "n": "Corpus",
-  "left": "22 分钟",
+  "left": "即将结束",
   "rows": [
    {
     "a": "Mobile Defense",
@@ -117,7 +117,7 @@
   {
    "a": "Axi Sabotage",
    "b": "Stribog (Void)",
-   "c": "25 分钟",
+   "c": "即将结束",
    "x": "Sabotage",
    "t": "Axi",
    "h": 1,
@@ -126,7 +126,7 @@
   {
    "a": "Axi Rescue",
    "b": "Brugia (Eris)",
-   "c": "3 分钟",
+   "c": "即将结束",
    "x": "Rescue",
    "t": "Axi",
    "h": 1,
@@ -180,7 +180,7 @@
   {
    "a": "Axi Interception",
    "b": "Mithra (Void)",
-   "c": "16 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Axi",
    "h": 0,
@@ -189,7 +189,7 @@
   {
    "a": "Axi Defense",
    "b": "Hydron (Sedna)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Defense",
    "t": "Axi",
    "h": 0,
@@ -198,7 +198,7 @@
   {
    "a": "Requiem Disruption",
    "b": "Tamu (Kuva Fortress)",
-   "c": "39 分钟",
+   "c": "即将结束",
    "x": "Disruption",
    "t": "Requiem",
    "h": 1,
@@ -207,7 +207,7 @@
   {
    "a": "Lith Interception",
    "b": "Alator (Mars)",
-   "c": "52 分钟",
+   "c": "即将结束",
    "x": "Interception",
    "t": "Lith",
    "h": 0,
@@ -216,7 +216,7 @@
   {
    "a": "Lith Mobile Defense",
    "b": "Aphrodite (Venus)",
-   "c": "26 分钟",
+   "c": "即将结束",
    "x": "Mobile Defense",
    "t": "Lith",
    "h": 1,
@@ -279,7 +279,7 @@
   {
    "a": "Lith Skirmish",
    "b": "Ogal Cluster (Earth)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Lith",
    "h": 0,
@@ -288,7 +288,7 @@
   {
    "a": "Lith Extermination",
    "b": "Bifrost Echo (Venus)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Lith",
    "h": 0,
@@ -297,7 +297,7 @@
   {
    "a": "Meso Skirmish",
    "b": "Mordo Cluster (Saturn)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
@@ -306,7 +306,7 @@
   {
    "a": "Neo Volatile",
    "b": "Sovereign Grasp (Neptune)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Volatile",
    "t": "Neo",
    "h": 0,
@@ -315,7 +315,7 @@
   {
    "a": "Axi Extermination",
    "b": "Seven Sirens (Pluto)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Extermination",
    "t": "Axi",
    "h": 0,
@@ -324,7 +324,7 @@
   {
    "a": "Axi Survival",
    "b": "Lu-yan (Veil)",
-   "c": "12 分钟",
+   "c": "即将结束",
    "x": "Survival",
    "t": "Axi",
    "h": 0,
@@ -641,12 +641,12 @@
   {
    "a": "Oxomoco (Void)",
    "b": "Extermination",
-   "c": "1 天 3 小时"
+   "c": "1 天 2 小时"
   },
   {
    "a": "Palus (Pluto)",
    "b": "Survival",
-   "c": "1 天 3 小时"
+   "c": "1 天 2 小时"
   },
   {
    "a": "Nimus (Eris)",
@@ -661,7 +661,7 @@
   {
    "a": "Isos (Eris)",
    "b": "Survival",
-   "c": "22 分钟"
+   "c": "即将结束"
   }
  ],
  "arbitration": {
@@ -673,30 +673,30 @@
   {
    "a": "Hallowed Nightmares Tactical Alert",
    "b": "Earth",
-   "c": "23 小时 22 分"
+   "c": "22 小时 25 分"
   },
   {
    "a": "Nights of Naberus",
    "b": "Necralisk (Deimos)",
-   "c": "23 小时 22 分"
+   "c": "22 小时 25 分"
   },
   {
    "a": "Road To Tau Event Name",
    "b": "",
-   "c": "15 天 23 小时"
+   "c": "15 天 22 小时"
   }
  ],
  "deals": [
   {
    "a": "Sibear",
    "b": "-20%",
-   "c": "10 小时 22 分"
+   "c": "9 小时 25 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Rifle Riven Mod",
-  "c": "7 小时 22 分"
+  "c": "6 小时 25 分"
  },
  "news": [
   {
@@ -725,5 +725,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-11-01 16:37 UTC"
+ "updated": "2026-11-01 17:34 UTC"
 }
