@@ -2,39 +2,39 @@
  "cycles": [
   {
    "k": "地球",
-   "s": "白天",
-   "left": "1 小时 13 分"
+   "s": "夜晚",
+   "left": "12 分钟"
   },
   {
    "k": "金星",
-   "s": "寒冷",
-   "left": "1 分钟"
+   "s": "温暖",
+   "left": "3 分钟"
   },
   {
    "k": "火卫二",
    "s": "沃姆",
-   "left": "1 小时 13 分"
+   "left": "12 分钟"
   },
   {
    "k": "扎里曼",
    "s": "科珀斯",
-   "left": "2 小时 3 分"
+   "left": "12 分钟"
   },
   {
    "k": "双衍王境",
-   "s": "sorrow",
-   "left": "54 分钟"
+   "s": "fear",
+   "left": "1 小时 3 分"
   }
  ],
  "trader": {
   "k": "前往中",
   "n": "Kronia Relay (Saturn)",
-  "left": "1 天 0 小时"
+  "left": "23 小时 3 分"
  },
  "sortie": {
   "k": "Lech Kril",
   "n": "Grineer",
-  "left": "3 小时 54 分",
+  "left": "2 小时 3 分",
   "rows": [
    {
     "a": "Rescue",
@@ -52,245 +52,290 @@
  },
  "fissures": [
   {
-   "a": "Axi Capture",
-   "b": "Isos (Eris)",
-   "c": "3 分钟",
-   "x": "Capture",
-   "t": "Axi",
-   "h": 0,
-   "s": 0
-  },
-  {
-   "a": "Requiem Disruption",
-   "b": "Tamu (Kuva Fortress)",
-   "c": "13 分钟",
-   "x": "Disruption",
-   "t": "Requiem",
-   "h": 0,
-   "s": 0
-  },
-  {
-   "a": "Lith Extermination",
-   "b": "E Prime (Earth)",
+   "a": "Axi Defense",
+   "b": "Kala-azar (Eris)",
    "c": "1 分钟",
-   "x": "Extermination",
-   "t": "Lith",
-   "h": 0,
-   "s": 0
-  },
-  {
-   "a": "Axi Mobile Defense",
-   "b": "Minthe (Pluto)",
-   "c": "16 分钟",
-   "x": "Mobile Defense",
-   "t": "Axi",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Axi Sabotage",
-   "b": "Stribog (Void)",
-   "c": "即将结束",
-   "x": "Sabotage",
-   "t": "Axi",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Requiem Defense",
-   "b": "Nabuk (Kuva Fortress)",
-   "c": "9 分钟",
    "x": "Defense",
-   "t": "Requiem",
+   "t": "Axi",
    "h": 1,
    "s": 0
   },
   {
-   "a": "Requiem Spy",
-   "b": "Pago (Kuva Fortress)",
-   "c": "46 分钟",
+   "a": "Axi Spy",
+   "b": "Oceanum (Pluto)",
+   "c": "4 分钟",
    "x": "Spy",
-   "t": "Requiem",
+   "t": "Axi",
    "h": 1,
    "s": 0
   },
   {
-   "a": "Omnia Survival",
-   "b": "Yuvarium (Lua)",
-   "c": "21 分钟",
-   "x": "Survival",
-   "t": "Omnia",
-   "h": 0,
-   "s": 0
-  },
-  {
-   "a": "Neo Rescue",
-   "b": "Orias (Europa)",
-   "c": "19 分钟",
-   "x": "Rescue",
-   "t": "Neo",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Neo Defense",
-   "b": "Stephano (Uranus)",
-   "c": "59 分钟",
-   "x": "Defense",
-   "t": "Neo",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Lith Defense",
-   "b": "Tessera (Venus)",
-   "c": "25 分钟",
-   "x": "Defense",
-   "t": "Lith",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Lith Defense",
-   "b": "Lith (Earth)",
-   "c": "24 分钟",
-   "x": "Defense",
+   "a": "Lith Spy",
+   "b": "Cambria (Earth)",
+   "c": "20 分钟",
+   "x": "Spy",
    "t": "Lith",
    "h": 1,
    "s": 0
   },
   {
    "a": "Meso Sabotage",
-   "b": "Thebe (Jupiter)",
-   "c": "40 分钟",
+   "b": "Ker (Ceres)",
+   "c": "36 分钟",
    "x": "Sabotage",
    "t": "Meso",
    "h": 0,
    "s": 0
   },
   {
+   "a": "Meso Mobile Defense",
+   "b": "Carme (Jupiter)",
+   "c": "37 分钟",
+   "x": "Mobile Defense",
+   "t": "Meso",
+   "h": 0,
+   "s": 0
+  },
+  {
+   "a": "Requiem Assault",
+   "b": "Koro (Kuva Fortress)",
+   "c": "23 分钟",
+   "x": "Assault",
+   "t": "Requiem",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Requiem Mobile Defense",
+   "b": "Rotuma (Kuva Fortress)",
+   "c": "26 分钟",
+   "x": "Mobile Defense",
+   "t": "Requiem",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Neo Defense",
+   "b": "Proteus (Neptune)",
+   "c": "36 分钟",
+   "x": "Defense",
+   "t": "Neo",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Amalthea (Jupiter)",
+   "c": "1 小时 4 分",
+   "x": "Spy",
+   "t": "Meso",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Meso Extermination",
+   "b": "Roche (Phobos)",
+   "c": "44 分钟",
+   "x": "Extermination",
+   "t": "Meso",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Meso Spy",
+   "b": "Bode (Ceres)",
+   "c": "58 分钟",
+   "x": "Spy",
+   "t": "Meso",
+   "h": 1,
+   "s": 0
+  },
+  {
+   "a": "Omnia Void Cascade",
+   "b": "Tuvul Commons (Zariman)",
+   "c": "40 分钟",
+   "x": "Void Cascade",
+   "t": "Omnia",
+   "h": 0,
+   "s": 0
+  },
+  {
    "a": "Omnia Survival",
    "b": "Circulus (Lua)",
-   "c": "1 小时 8 分",
+   "c": "47 分钟",
    "x": "Survival",
    "t": "Omnia",
-   "h": 1,
+   "h": 0,
+   "s": 0
+  },
+  {
+   "a": "Neo Spy",
+   "b": "Nereid (Neptune)",
+   "c": "1 小时 11 分",
+   "x": "Spy",
+   "t": "Neo",
+   "h": 0,
    "s": 0
   },
   {
    "a": "Omnia Void Flood",
    "b": "Everview Arc (Zariman)",
-   "c": "1 小时 8 分",
+   "c": "1 小时 24 分",
    "x": "Void Flood",
    "t": "Omnia",
    "h": 1,
    "s": 0
   },
   {
-   "a": "Omnia Survival",
-   "b": "Persto (Deimos)",
-   "c": "1 小时 27 分",
-   "x": "Survival",
-   "t": "Omnia",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Neo Extermination",
-   "b": "Oxomoco (Void)",
-   "c": "1 小时 23 分",
-   "x": "Extermination",
-   "t": "Neo",
+   "a": "Axi Sabotage",
+   "b": "Cypress (Pluto)",
+   "c": "1 小时 16 分",
+   "x": "Sabotage",
+   "t": "Axi",
    "h": 0,
    "s": 0
   },
   {
-   "a": "Neo Interception",
-   "b": "Umbriel (Uranus)",
-   "c": "54 分钟",
-   "x": "Interception",
-   "t": "Neo",
-   "h": 0,
-   "s": 0
-  },
-  {
-   "a": "Meso Interception",
-   "b": "Cinxia (Ceres)",
-   "c": "1 小时 11 分",
-   "x": "Interception",
-   "t": "Meso",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Meso Defense",
-   "b": "Helene (Saturn)",
-   "c": "1 小时 5 分",
-   "x": "Defense",
-   "t": "Meso",
-   "h": 1,
-   "s": 0
-  },
-  {
-   "a": "Lith Capture",
-   "b": "Ara (Mars)",
-   "c": "1 小时 37 分",
+   "a": "Axi Capture",
+   "b": "Isos (Eris)",
+   "c": "1 小时 0 分",
    "x": "Capture",
+   "t": "Axi",
+   "h": 0,
+   "s": 0
+  },
+  {
+   "a": "Axi Rescue",
+   "b": "Naga (Sedna)",
+   "c": "54 分钟",
+   "x": "Rescue",
+   "t": "Axi",
+   "h": 0,
+   "s": 0
+  },
+  {
+   "a": "Lith Excavation",
+   "b": "Everest (Earth)",
+   "c": "1 小时 17 分",
+   "x": "Excavation",
    "t": "Lith",
    "h": 0,
    "s": 0
   },
   {
-   "a": "Lith Skirmish",
-   "b": "Korm's Belt (Earth)",
-   "c": "44 分钟",
-   "x": "Skirmish",
-   "t": "Lith",
+   "a": "Requiem Spy",
+   "b": "Pago (Kuva Fortress)",
+   "c": "58 分钟",
+   "x": "Spy",
+   "t": "Requiem",
+   "h": 0,
+   "s": 0
+  },
+  {
+   "a": "Neo Spy",
+   "b": "Brom Cluster (Neptune)",
+   "c": "即将结束",
+   "x": "Spy",
+   "t": "Neo",
    "h": 0,
    "s": 1
   },
   {
    "a": "Meso Skirmish",
-   "b": "Vand Cluster (Saturn)",
-   "c": "44 分钟",
+   "b": "Mordo Cluster (Saturn)",
+   "c": "即将结束",
    "x": "Skirmish",
    "t": "Meso",
    "h": 0,
    "s": 1
   },
   {
-   "a": "Neo Volatile",
-   "b": "Sovereign Grasp (Neptune)",
-   "c": "44 分钟",
-   "x": "Volatile",
-   "t": "Neo",
+   "a": "Axi Skirmish",
+   "b": "Flexa (Veil)",
+   "c": "即将结束",
+   "x": "Skirmish",
+   "t": "Axi",
    "h": 0,
    "s": 1
   },
   {
-   "a": "Lith Survival",
-   "b": "Luckless Expanse (Venus)",
-   "c": "44 分钟",
-   "x": "Survival",
+   "a": "Axi Volatile",
+   "b": "Profit Margin (Pluto)",
+   "c": "即将结束",
+   "x": "Volatile",
+   "t": "Axi",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Lith Skirmish",
+   "b": "Ogal Cluster (Earth)",
+   "c": "即将结束",
+   "x": "Skirmish",
+   "t": "Lith",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Lith Spy",
+   "b": "Orvin-Haarc (Venus)",
+   "c": "即将结束",
+   "x": "Spy",
    "t": "Lith",
    "h": 0,
    "s": 1
   },
   {
    "a": "Axi Skirmish",
-   "b": "H-2 Cloud (Veil)",
-   "c": "44 分钟",
+   "b": "Nsu Grid (Veil)",
+   "c": "53 分钟",
    "x": "Skirmish",
    "t": "Axi",
    "h": 0,
    "s": 1
   },
   {
-   "a": "Axi Spy",
-   "b": "Peregrine Axis (Pluto)",
-   "c": "44 分钟",
-   "x": "Spy",
+   "a": "Lith Skirmish",
+   "b": "Iota Temple (Earth)",
+   "c": "53 分钟",
+   "x": "Skirmish",
+   "t": "Lith",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Axi Survival",
+   "b": "Fenton's Field (Pluto)",
+   "c": "53 分钟",
+   "x": "Survival",
    "t": "Axi",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Lith Extermination",
+   "b": "Bifrost Echo (Venus)",
+   "c": "53 分钟",
+   "x": "Extermination",
+   "t": "Lith",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Neo Extermination",
+   "b": "Nu-gua Mines (Neptune)",
+   "c": "53 分钟",
+   "x": "Extermination",
+   "t": "Neo",
+   "h": 0,
+   "s": 1
+  },
+  {
+   "a": "Meso Skirmish",
+   "b": "Lupal Pass (Saturn)",
+   "c": "53 分钟",
+   "x": "Skirmish",
+   "t": "Meso",
    "h": 0,
    "s": 1
   }
@@ -298,7 +343,7 @@
  "bounties": [
   {
    "syn": "地球 · 夜灵平野",
-   "left": "2 小时 4 分",
+   "left": "13 分钟",
    "jobs": [
     {
      "t": "清剿敌军",
@@ -373,7 +418,7 @@
   },
   {
    "syn": "火卫二 · 魔胎之境",
-   "left": "2 小时 4 分",
+   "left": "13 分钟",
    "jobs": [
     {
      "t": "以力破局",
@@ -445,7 +490,7 @@
   },
   {
    "syn": "金星 · 奥布山谷",
-   "left": "2 小时 4 分",
+   "left": "13 分钟",
    "jobs": [
     {
      "t": "Falling Star",
@@ -517,6 +562,228 @@
      ]
     }
    ]
+  },
+  {
+   "syn": "地球 · 夜灵平野",
+   "left": "2 小时 43 分",
+   "jobs": [
+    {
+     "t": "Find the Hidden Artifact",
+     "lv": "5-15",
+     "rp": [
+      "压迫点",
+      "100 永冻晶矿",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "15 葛克度"
+     ]
+    },
+    {
+     "t": "夺回失窃圣物",
+     "lv": "10-30",
+     "rp": [
+      "能量转化",
+      "200 永冻晶矿",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "Gara 系统蓝图",
+      "灵敏扳机"
+     ]
+    },
+    {
+     "t": "清剿敌军",
+     "lv": "20-40",
+     "rp": [
+      "私法 军备",
+      "Vazarin 晶体",
+      "Unairu 晶体",
+      "200 Endo",
+      "Gara 头部神经光元蓝图",
+      "角斗士 威猛"
+     ]
+    },
+    {
+     "t": "搜索与救援",
+     "lv": "30-50",
+     "rp": [
+      "私法 活力",
+      "Zenurik 晶体",
+      "Vazarin 晶体",
+      "300 Endo",
+      "希图斯幽魂",
+      "角斗士 决心"
+     ]
+    },
+    {
+     "t": "Sabotage the Enemy Supply Lines",
+     "lv": "40-60",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "削弱 Grineer 据点",
+     "lv": "100-100",
+     "rp": [
+      "5 夜灵之息",
+      "400 Endo",
+      "2 希图斯幽魂",
+      "300 赤毒",
+      "阿耶精华"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "火卫二 · 魔胎之境",
+   "left": "2 小时 43 分",
+   "jobs": [
+    {
+     "t": "Core Samples",
+     "lv": "5-15",
+     "rp": [
+      "3 1,500 现金匣",
+      "150 Endo",
+      "15X Pustulite",
+      "2 3,000 现金匣",
+      "250 Endo"
+     ]
+    },
+    {
+     "t": "异常回收",
+     "lv": "15-25",
+     "rp": [
+      "600 Endo",
+      "Vazarin 晶体",
+      "Unairu 晶体",
+      "破片射击",
+      "闪烁体"
+     ]
+    },
+    {
+     "t": "露天开采（无尽）",
+     "lv": "25-30",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "250 Endo",
+      "肉碾虫 巨颚",
+      "喉骨刃者 倒刺",
+      "重岩者 胸腔"
+     ]
+    },
+    {
+     "t": "净化土地",
+     "lv": "30-40",
+     "rp": [
+      "750 Endo",
+      "Unairu 晶体",
+      "Madurai 晶体",
+      "液压准心",
+      "5X Fass Residue"
+     ]
+    },
+    {
+     "t": "回收金属",
+     "lv": "40-60",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    },
+    {
+     "t": "为了科学！",
+     "lv": "100-100",
+     "rp": [
+      "阿耶檀识琥珀星",
+      "1000 Endo",
+      "750 赤毒",
+      "阿耶精华",
+      "Xaku 机体蓝图"
+     ]
+    }
+   ]
+  },
+  {
+   "syn": "金星 · 奥布山谷",
+   "left": "2 小时 43 分",
+   "jobs": [
+    {
+     "t": "生命证明",
+     "lv": "5-15",
+     "rp": [
+      "100 永冻晶矿",
+      "1,500 Credits Cache",
+      "50 Endo",
+      "5 热能软泥",
+      "2 培训债务债券",
+      "Garuda 机体蓝图"
+     ]
+    },
+    {
+     "t": "Tax the Taxmen",
+     "lv": "10-30",
+     "rp": [
+      "15 热能软泥",
+      "200 永冻晶矿",
+      "2,500 Credits Cache",
+      "100 Endo",
+      "2X Shelter Debt-Bond",
+      "Garuda 系统蓝图"
+     ]
+    },
+    {
+     "t": "Protect the Innocent",
+     "lv": "20-40",
+     "rp": [
+      "200 Endo",
+      "Unairu 晶体",
+      "300 生物质",
+      "2X Medical Debt-Bond",
+      "Garuda 头部神经光元蓝图",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "血之遗物",
+     "lv": "30-50",
+     "rp": [
+      "Zenurik 晶体",
+      "300 Endo",
+      "2 爆燃喷射器",
+      "2X Advances Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Seems Legit",
+     "lv": "40-60",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    },
+    {
+     "t": "Dog Boards",
+     "lv": "100-100",
+     "rp": [
+      "400 Endo",
+      "神经元",
+      "奥罗金电池",
+      "2X Familial Debt-Bond",
+      "阿耶精华"
+     ]
+    }
+   ]
   }
  ],
  "nightwave": {
@@ -577,32 +844,27 @@
  "invasions": [
   {
    "a": "Triton (Neptune)",
-   "b": "Grineer 28% ／ Corpus 72%",
+   "b": "Grineer 24% ／ Corpus 76%",
    "c": ""
   },
   {
    "a": "Hades (Pluto)",
-   "b": "Infested 9% ／ Corpus 91%",
+   "b": "Infested 3% ／ Corpus 97%",
    "c": ""
   },
   {
    "a": "Helene (Saturn)",
-   "b": "Corpus 63% ／ Grineer 37%",
-   "c": ""
-  },
-  {
-   "a": "Cinxia (Ceres)",
-   "b": "Infested 12% ／ Grineer 88%",
+   "b": "Corpus 66% ／ Grineer 34%",
    "c": ""
   },
   {
    "a": "Exta (Ceres)",
-   "b": "Infested 85% ／ Grineer 15%",
+   "b": "Infested 78% ／ Grineer 22%",
    "c": ""
   },
   {
    "a": "Kiste (Ceres)",
-   "b": "Infested 62% ／ Grineer 38%",
+   "b": "Infested 15% ／ Grineer 85%",
    "c": ""
   }
  ],
@@ -610,22 +872,27 @@
   {
    "a": "Stephano (Uranus)",
    "b": "Defense",
-   "c": "11 天 5 小时"
+   "c": "11 天 4 小时"
   },
   {
-   "a": "Saxis (Eris)",
+   "a": "Solium (Eris)",
    "b": "Extermination",
-   "c": "24 分钟"
+   "c": "3 分钟"
   },
   {
-   "a": "Isos (Eris)",
+   "a": "Brugia (Eris)",
    "b": "Survival",
-   "c": "54 分钟"
+   "c": "33 分钟"
   },
   {
-   "a": "Nimus (Eris)",
+   "a": "Naeglar (Eris)",
    "b": "Mobile Defense",
-   "c": "1 小时 24 分"
+   "c": "1 小时 3 分"
+  },
+  {
+   "a": "Xini (Eris)",
+   "b": "Extermination",
+   "c": "1 小时 33 分"
   }
  ],
  "arbitration": {
@@ -637,20 +904,20 @@
   {
    "a": "Epoch Operation: Taubound",
    "b": "",
-   "c": "12 天 2 小时"
+   "c": "12 天 1 小时"
   }
  ],
  "deals": [
   {
    "a": "Bolto",
    "b": "-50%",
-   "c": "21 小时 54 分"
+   "c": "20 小时 3 分"
   }
  ],
  "invInventory": [],
  "steelPath": {
   "a": "Shotgun Riven Mod",
-  "c": "3 天 10 小时"
+  "c": "3 天 9 小时"
  },
  "news": [
   {
@@ -679,5 +946,5 @@
    "c": "即将结束"
   }
  ],
- "updated": "2026-11-05 13:05 UTC"
+ "updated": "2026-11-05 14:56 UTC"
 }
